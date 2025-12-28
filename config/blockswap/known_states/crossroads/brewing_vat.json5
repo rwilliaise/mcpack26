@@ -1,0 +1,324 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "0"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "1"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "2"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "true",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "true",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "true",
+			"slot_filled_0": "false",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "true",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"slot_filled_2": "false",
+			"slot_filled_1": "false",
+			"slot_filled_0": "false",
+			"power_level": "3"
+		},
+		"Name": "crossroads:brewing_vat"
+	}
+]

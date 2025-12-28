@@ -1,0 +1,13 @@
+name = "Clockwork"
+filename = "clockwork-1.20.1-0.5.2-forge-80cc2f326c.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/84USeAvk/versions/7fGJGTcJ/clockwork-1.20.1-0.5.2-forge-80cc2f326c.jar"
+hash-format = "sha512"
+hash = "31515cc4835cb4474bf41d994b486385a01dab438b739a1e2f7d3dc21ade4e6d03c936fb59fe9b390c5de7cbb86a1a8241d32b3e2c58a2e84cea9c2ec9a5d925"
+
+[update]
+[update.modrinth]
+mod-id = "84USeAvk"
+version = "7fGJGTcJ"

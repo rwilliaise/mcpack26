@@ -1,0 +1,13 @@
+name = "VS Safe and Sound"
+filename = "vsafe-forge-1201-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7vKnSQkd/versions/JhF8jxan/vsafe-forge-1201-1.1.1.jar"
+hash-format = "sha512"
+hash = "b711b5bd1ab39114022ba3b3d51c38d06aa63bf7c8dff3844f9fef14aacccc8dfe0d5c4a357f4dc268a4d9b04d4cd5664a468c70bf12de62c9ca87932f26b343"
+
+[update]
+[update.modrinth]
+mod-id = "7vKnSQkd"
+version = "JhF8jxan"

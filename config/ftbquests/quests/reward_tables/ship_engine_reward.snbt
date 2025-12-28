@@ -1,0 +1,10 @@
+{
+	id: "57E6D2A6BD0C4C01"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 64, item: "minecraft:coal" }
+		{ item: "minecraft:lava_bucket" }
+	]
+	title: "ship_engine_reward"
+}

@@ -1,0 +1,10 @@
+{
+	id: "571F3DCB325363C9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 32, item: "minecraft:white_wool" }
+		{ count: 64, item: "minecraft:glass" }
+	]
+	title: "ship_helm_choice_reward"
+}

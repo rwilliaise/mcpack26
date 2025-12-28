@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "OneLoneTurnip",
+      "uniqueId": "44e80443-a0f5-48ab-9343-262dfe4e161d"
+    },
+    "time": 1766735961815,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZXuIiZfFt8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "OneLoneTurnip",
+      "uniqueId": "44e80443-a0f5-48ab-9343-262dfe4e161d"
+    },
+    "time": 1765488543783,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/5z2f4hgVc8"
+    }
+  }
+]

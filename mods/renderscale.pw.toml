@@ -1,0 +1,13 @@
+name = "RenderScale"
+filename = "RenderScale-forge-1.20.1-1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Va8PJBFX/versions/wzrQQ6Z9/RenderScale-forge-1.20.1-1.0.jar"
+hash-format = "sha512"
+hash = "665524b033d2deb3f4d06f83c96cf1531099d2ec26474dd5a0b472c7051ae7ea32c294668fcd11a5b46567709d2f3506cbbc93726b24acb10dfeacca122dd09f"
+
+[update]
+[update.modrinth]
+mod-id = "Va8PJBFX"
+version = "wzrQQ6Z9"

@@ -1,0 +1,355 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "true"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "true",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "true",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "true",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "true",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west_b": "false",
+			"south_b": "false",
+			"north_b": "false",
+			"east_b": "false",
+			"active": "false"
+		},
+		"Name": "crossroads:crystal_reagent_pump"
+	}
+]

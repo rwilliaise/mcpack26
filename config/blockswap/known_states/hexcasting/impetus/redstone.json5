@@ -1,0 +1,221 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "north",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "north",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "east",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "east",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "south",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "south",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "west",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "west",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "up",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "up",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "down",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "down",
+			"energized": "true"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "north",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "east",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "east",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "south",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "south",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "west",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "west",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "up",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "up",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "true",
+			"facing": "down",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"powered": "false",
+			"facing": "down",
+			"energized": "false"
+		},
+		"Name": "hexcasting:impetus/redstone"
+	}
+]

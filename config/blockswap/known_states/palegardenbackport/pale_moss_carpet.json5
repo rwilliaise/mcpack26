@@ -1,0 +1,1785 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "true"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "none",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "low",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "none",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "low",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "none",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "low",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "none",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "low",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"west": "tall",
+			"south": "tall",
+			"north": "tall",
+			"east": "tall",
+			"bottom": "false"
+		},
+		"Name": "palegardenbackport:pale_moss_carpet"
+	}
+]

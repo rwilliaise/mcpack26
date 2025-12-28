@@ -1,0 +1,9 @@
+
+# temp files
+config/spark/tmp/
+
+# infra
+README.md
+
+# nixos
+shell.nix

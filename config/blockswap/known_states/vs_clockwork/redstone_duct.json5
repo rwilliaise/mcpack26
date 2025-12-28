@@ -1,0 +1,390 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"axis": "x"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"axis": "y"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "0",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "1",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "2",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "3",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "4",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "5",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "6",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "7",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "8",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "9",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "10",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "11",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "12",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "13",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "14",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"power": "15",
+			"axis": "z"
+		},
+		"Name": "vs_clockwork:redstone_duct"
+	}
+]

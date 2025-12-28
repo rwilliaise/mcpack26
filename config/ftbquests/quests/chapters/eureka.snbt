@@ -1,0 +1,146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "eureka"
+	group: ""
+	icon: "vs_eureka:anchor"
+	id: "2000000000000001"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"So you want to float, on water or air? Well first things first you'll need a boat. Then, you must craft a ship helm--this will turn your boat into a physics entity."
+				"{@pagebreak}"
+				"&cMake sure your ship is not connected to the ground, because assembling the world does not go well.&r"
+			]
+			icon: "minecraft:oak_boat"
+			id: "2000000000000002"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7762D8FA8AF78414"
+				table_id: 6277804348509742025L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5CB9974C5A9F6C4E"
+				item: "vs_eureka:oak_ship_helm"
+				type: "item"
+			}]
+			title: "N SCI 302"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: ["Balloons require Canvas (from Farmer's Delight) and String. Tack a few of them onto a craft, and you'll be able to float it upward. Go down, you ask? Check your keybinds, but it should be the \"V\" key."]
+			id: "2000000000000005"
+			rewards: [{
+				count: 8
+				id: "2000000000000006"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "2000000000000007"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			title: "Knock The Wind Out Of Ya'"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2000000000000005"]
+			description: ["Craft your first Balloon. These provide lift for your ship."]
+			id: "2000000000000008"
+			rewards: [{
+				count: 2
+				id: "2000000000000009"
+				item: "vs_eureka:white_balloon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D39EA7EFC73F39D"
+				item: "vs_eureka:balloon"
+				type: "item"
+			}]
+			title: "Big n Round"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: ["Floaters act as a very buoyant block when unpowered (each one can lift 6062kg), but they can be powered with redstone to control the buoyancy: the higher the signal, the less buoyant it is."]
+			id: "200000000000000B"
+			rewards: [
+				{
+					id: "5B3EFAD46F4CFC87"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "5BE9F14D41E67BED"
+					item: "minecraft:lectern"
+					type: "item"
+				}
+				{
+					id: "175186F69E9E55A1"
+					item: "minecraft:writable_book"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "200000000000000C"
+				item: "vs_eureka:floater"
+				type: "item"
+			}]
+			title: "What Goes Down Must Come Up"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2000000000000008"
+				"200000000000000B"
+			]
+			description: ["You may have noticed that your boat (or balloon) is not winning any races. You need engines for that. Ship engines turn furnace fuel into faster speed. And yes, they are stackable."]
+			id: "2000000000000010"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C91F233A9F60D64"
+				table_id: 6333981539521285121L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "2000000000000012"
+				item: "vs_eureka:engine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2000000000000010"]
+			description: ["Assemble your first ship! Shift-Right Click the Ship Assembler with an empty hand to create the ship from connected blocks."]
+			id: "2000000000000013"
+			rewards: [{
+				count: 16
+				id: "21015F2ED7B00354"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2000000000000015"
+				title: "Aye aye, captain."
+				type: "checkmark"
+			}]
+			title: "Set The Controls For The Heart Of The Buttnoggin"
+			x: 7.0d
+			y: 0.0d
+		}
+	]
+	title: "Boats \\& Balloons"
+}

@@ -1,0 +1,18 @@
+{
+  "rolesPermissions" : {
+    "default" : [ "Allow SensorMode", "Allow VEntityChanger", "Allow RopeMode", "Allow ScaleMode", "Allow StripMode", "Allow SchemMode", "Allow GravChangerMode", "Allow MassChangerMode", "Allow ShipRemoverMode", "Allow Command Usage", "Allow ConnectionMode", "Allow HydraulicsMode", "Allow ThrusterMode", "Allow DisableCollisionsMode" ]
+  },
+  "playersRoles" : {
+    "44e80443-a0f5-48ab-9343-262dfe4e161d" : {
+      "uuid" : "44e80443-a0f5-48ab-9343-262dfe4e161d",
+      "nickname" : "OneLoneTurnip",
+      "role" : "default"
+    },
+    "8fe1acd5-e911-470a-b1f5-96701f5c7835" : {
+      "uuid" : "8fe1acd5-e911-470a-b1f5-96701f5c7835",
+      "nickname" : "TokenStealer",
+      "role" : "default"
+    }
+  },
+  "allRoles" : [ "default" ]
+}
