@@ -15737,6 +15737,10 @@ file = "kubejs/server_scripts/create.js"
 
 [[files]]
 file = "kubejs/startup_scripts/create.js"
+<<<<<<< HEAD
+=======
+hash = "dce42e40c9a268cea23704c382f3373951013df2283205d7db4cc14dd58b4463"
+>>>>>>> origin/main
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -15796,6 +15800,10 @@ metafile = true
 
 [[files]]
 file = "mods/bettergrassify.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "ccd718340ef692d4e4c013813f72c5498c31b033d7ace29dadf098d1cb905614"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -15844,10 +15852,18 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "1cedd5c5aecdcb6fa8d54797306234ac002a5c729337082beafc716dab8aa981"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
 file = "mods/chloride.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "0abde31e60bd157a14f0a9617887c7ba9eb667d225aae51a22eec2e75a108214"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -15860,6 +15876,10 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "a8a173910046907b21a1ed9ec4c698fa1d91327e194f565de706a00f243de982"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -15944,10 +15964,18 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "c7cb1dec43352acf2d59c286553dfb09a5f7e276d6f7cbb61692bef26c6fddb4"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "d6e3ac7a748b54d711705affd3d0851d0234820172b45adcff659f208f1bd247"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -15972,9 +16000,14 @@ metafile = true
 
 [[files]]
 file = "mods/eureka-forge-1201-1.6.0-beta.1+87ebda3bf6.jar"
+<<<<<<< HEAD
+=======
+hash = "f9246941e42e1c0be54a41c7236b123f3021d5cb25881ad6a661bb219bdac0fe"
+>>>>>>> origin/main
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
+hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
 metafile = true
 
 [[files]]
@@ -16071,6 +16104,10 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "33a3412efe2b8941a0895e3c2e959dea52850f919031b49058f3e6b45a392539"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -16151,10 +16188,18 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "a8490c2e35cf77f1da179934254618329829f2075f77f3d407b46598cfc8b452"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
 file = "mods/ok-zoomer.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "667dacb1193a887bc068a3c819839e06c82959d2ba61c85736296420ed334579"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -16195,6 +16240,10 @@ metafile = true
 
 [[files]]
 file = "mods/renderscale.pw.toml"
+<<<<<<< HEAD
+=======
+hash = "551af969b3d3dfd1e876f406f6d62b948146fbdc520af0672db47c09f60700cb"
+>>>>>>> origin/main
 metafile = true
 
 [[files]]
@@ -16295,6 +16344,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
+hash = "d51c317ce1c22c238638b678910a6e2a505f3613f8fbc4a57dddb1ab633999fe"
 metafile = true
 
 [[files]]
@@ -16311,6 +16361,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmod.pw.toml"
+hash = "16df875d4c8a6e2394556ab78ae8fa932078e32713d3d948861e7245adc98db7"
 metafile = true
 
 [[files]]
