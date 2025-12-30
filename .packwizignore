@@ -4,6 +4,6 @@ config/spark/tmp/
 
 # infra
 README.md
-
-# nixos
+.github
 shell.nix
+
