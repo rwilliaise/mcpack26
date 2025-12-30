@@ -3,6 +3,7 @@
  */
 
 const ANDESITE_MACHINE = 'kubejs:andesite_machine'
+const BRASS_MACHINE = 'kubejs:brass_machine'
 
 ServerEvents.recipes(event => {
   /* andesite machine recipe */
@@ -16,6 +17,21 @@ ServerEvents.recipes(event => {
       C: 'create:cogwheel',
       S: 'create:shaft',
       A: 'create:andesite_casing',
+    }
+  )
+
+  /* brass machine recipe */
+  event.shaped(
+    Item.of(BRASS_MACHINE, 4),
+    [
+      'PT',
+      'BC'
+    ],
+    {
+      P: 'create:precision_mechanism',
+      C: 'create:cogwheel',
+      T: 'create:electron_tube',
+      B: 'create:brass_casing',
     }
   )
 
@@ -109,6 +125,46 @@ ServerEvents.recipes(event => {
       ANDESITE_MACHINE,
       'create:brass_hand',
       'create:electron_tube'
+    ]
+  )
+
+  /* brass-level machinery recipes */
+  event.remove({ output: 'create:smart_chute' })
+  event.stonecutting('2x create:smart_chute', BRASS_MACHINE)
+
+  event.remove({ output: 'create:brass_tunnel' })
+  event.stonecutting('2x create:brass_tunnel', BRASS_MACHINE)
+
+  event.remove({ output: 'create:brass_funnel' })
+  event.stonecutting('2x create:brass_funnel', BRASS_MACHINE)
+
+  event.remove({ output: 'create:stockpile_switch' })
+  event.stonecutting('create:stockpile_switch', BRASS_MACHINE)
+
+  event.remove({ output: 'create:mechanical_arm' })
+  event.stonecutting('create:mechanical_arm', BRASS_MACHINE)
+
+  event.remove({ output: 'create:rotation_speed_controller' })
+  event.stonecutting('create:rotation_speed_controller', BRASS_MACHINE)
+
+  event.remove({ output: 'create:mechanical_crafter' })
+  event.stonecutting('3x create:mechanical_crafter', BRASS_MACHINE)
+
+  event.remove({ output: 'create:content_observer' })
+  event.shapeless(
+    Item.of('create:content_observer'),
+    [
+      BRASS_MACHINE,
+      'minecraft:observer'
+    ]
+  )
+
+  event.remove({ output: 'create:factory_gauge' })
+  event.shapeless(
+    Item.of('create:factory_gauge', 4),
+    [
+      BRASS_MACHINE,
+      'create:transmitter'
     ]
   )
 

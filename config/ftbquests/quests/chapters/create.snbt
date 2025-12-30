@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Machinery from Create starts and ends with andesite alloy."]
+			description: ["Machinery from Create begins and ends with Andesite Alloy."]
 			id: "4B10CFD7BFDC465E"
 			tasks: [{
 				id: "195528C7D4B3F282"
@@ -25,9 +25,10 @@
 			description: [
 				"The first tier of Create machinery can be crafted by making Andesite Machines."
 				""
-				"Andesite Machines are crafting components that can be stonecut into actual components."
+				"Andesite Machines are crafting components that can be further crafted into actual machinery."
 			]
 			id: "4B169B5A9D5A514C"
+			size: 1.5d
 			tasks: [{
 				id: "54C142DD33DABAC1"
 				item: "kubejs:andesite_machine"
@@ -37,6 +38,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4B169B5A9D5A514C"]
 			id: "269FF8824BBF4E14"
 			tasks: [{
 				count: 3L
@@ -44,10 +46,11 @@
 				item: { Count: 3, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["4B169B5A9D5A514C"]
 			id: "1957510B01628A47"
 			tasks: [{
 				count: 3L
@@ -56,17 +59,236 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 2.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["4B169B5A9D5A514C"]
 			id: "57A0F04CDBE14355"
 			tasks: [{
 				id: "1ECBCD3D6559DA9F"
 				item: "create:millstone"
 				type: "item"
 			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "3FF8110A47655001"
+			tasks: [{
+				id: "2A5BE5A7326D309C"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "16BA99CA5A238F6C"
+			tasks: [{
+				id: "0BB494197C018380"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
 			x: 2.5d
-			y: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "6AA245B4A2FFA3D5"
+			tasks: [{
+				id: "4E52578A03EC3AA8"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "5BB684890F4BDF20"
+			tasks: [{
+				id: "31AA7A6235417024"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "7D03F3498A8D5D65"
+			tasks: [{
+				id: "2248F9059EF692C7"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "5D7ECB23FB1F6DA5"
+			tasks: [{
+				id: "5BAF24C0744B273E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3FF8110A47655001"
+				"4B10CFD7BFDC465E"
+				"3D59A8E73D02AEE4"
+			]
+			id: "0DDCC75DE74222AC"
+			tasks: [{
+				id: "5A66F78B4A06109D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DDCC75DE74222AC"]
+			id: "0F8A0D9F1B750705"
+			size: 1.5d
+			tasks: [{
+				id: "6E3717D3139F8333"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4B10CFD7BFDC465E"]
+			description: ["To capture a Blaze for use in a Blaze Burner, right click a Blaze with an Empty Blaze Burner in hand."]
+			icon: "create:blaze_burner"
+			id: "3D59A8E73D02AEE4"
+			tasks: [
+				{
+					id: "20EC37F0488FB2EE"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "266404EE3BAE16FC"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Capturing a Blaze"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "4F848643B5284EAA"
+			tasks: [{
+				id: "6E8D0056FDAC1D30"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "14427A5BC8F5D1D2"
+			tasks: [{
+				id: "3F19CF6141DA793F"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "7D7A5DC79F29F7C8"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "613BD4722B884636"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "26754CDC4CDBB6FC"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "5DF872234E1FF2A5"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "4ACCAE5DEC3123D7"
+			tasks: [{
+				id: "2FBA68D74392DE69"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "328EE16C7922CCCC"
+			tasks: [{
+				id: "7F7EB6DEF856391D"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "56EEA3E85CB3BF7C"
+			tasks: [{
+				count: 3L
+				id: "07B55E1B78148407"
+				item: { Count: 3, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "50207C8E3AD9C752"
+			tasks: [{
+				id: "705CCE216B8ADCDE"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "512F435975B6596A"
+			tasks: [{
+				id: "6E02E124F1353174"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["A brief tutorial"]

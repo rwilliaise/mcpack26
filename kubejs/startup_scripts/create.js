@@ -3,23 +3,19 @@
  * such as adding a new item or block.
  */
 
-Platform.mods.kubejs.name = 'GRC'
+/** Creates a machine block (simple crafting component) */
+function create_machine(event, id) {
+  event.create(id)
+    .hardness(2)
+    .resistance(600)
+    .woodSoundType()
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:mineable/axe')
+}
 
-/* block registry */
+/* Block registry */
 StartupEvents.registry('block', event => {
-  /**
-   * Andesite machine block.
-   */
-  event.create('andesite_machine')
-    .tagBlock('minecraft:mineable/pickaxe')
-    .tagBlock('minecraft:mineable/axe')
-    .textureAll('kubejs:block/andesite_machine')
-
-  /**
-   * Brass machine block.
-   */
-  event.create('brass_machine')
-    .tagBlock('minecraft:mineable/pickaxe')
-    .tagBlock('minecraft:mineable/axe')
-    .textureAll('kubejs:block/brass_machine')
+  /* Machine blocks */
+  create_machine(event, 'andesite_machine')
+  create_machine(event, 'brass_machine')
 })
