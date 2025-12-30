@@ -23,6 +23,9 @@ jobs:
         run: packwiz refresh --build
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages
+          path: .
   deploy:
     needs: build
     runs-on: ubuntu-latest
