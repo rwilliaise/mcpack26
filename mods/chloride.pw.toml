@@ -4,7 +4,7 @@ side = "client"
 
 [option]
 optional = true
-default = false
+default = true
 description = """
 A bunch of performance optimizations, also adds borderless fullscreen, a zoom key (you'll want to unbind this if you also use Ok Zoomer), and a bunch of other little handy features.
 """
