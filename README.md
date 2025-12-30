@@ -34,8 +34,7 @@ The overall gist is that you have the `packwiz-installer-bootstrap.jar` in the
 `.minecraft/` folder of your MMC-compatible instance, and then you should set
 the pre-launch command to something along these lines:
 ```
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar
-http://localhost:8080/pack.toml
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar http://localhost:8080/pack.toml
 ```
 
 Then, you can do `packwiz serve` to run a local instance of packwiz to test the
