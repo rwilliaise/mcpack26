@@ -5,7 +5,6 @@
 const ANDESITE_MACHINE = 'kubejs:andesite_machine'
 
 ServerEvents.recipes(event => {
-
   /* andesite machine recipe */
   event.shaped(
     Item.of(ANDESITE_MACHINE, 2),
@@ -20,7 +19,7 @@ ServerEvents.recipes(event => {
     }
   )
 
-  /* andesite machine recipes */
+  /* andesite-level machinery recipes */
   event.remove({ output: 'create:mechanical_harvester' })
   event.stonecutting('3x create:mechanical_harvester', ANDESITE_MACHINE)
 
@@ -32,6 +31,12 @@ ServerEvents.recipes(event => {
 
   event.remove({ output: 'create:encased_chain_drive' })
   event.stonecutting('2x create:encased_chain_drive', ANDESITE_MACHINE)
+
+  event.remove({ output: 'create:andesite_tunnel' })
+  event.stonecutting('2x create:andesite_tunnel', ANDESITE_MACHINE)
+
+  event.remove({ output: 'create:andesite_funnel' })
+  event.stonecutting('2x create:andesite_funnel', ANDESITE_MACHINE)
 
   event.remove({ output: 'create:millstone' })
   event.shapeless(
@@ -96,7 +101,17 @@ ServerEvents.recipes(event => {
       'create:crushing_wheel'
     ]
   )
-  
+
+  event.remove({ output: 'create:deployer' })
+  event.shapeless(
+    Item.of('create:deployer'),
+    [
+      ANDESITE_MACHINE,
+      'create:brass_hand',
+      'create:electron_tube'
+    ]
+  )
+
   /* micro-crafting simplifications */
   event.remove({ output: 'create:propeller' })
   event.shapeless(
@@ -126,5 +141,41 @@ ServerEvents.recipes(event => {
       'minecraft:barrel',
       'create:iron_sheet'
     ]
+  )
+
+  event.remove({ output: 'create:rose_quartz' })
+  event.shapeless(
+    Item.of('create:rose_quartz', 2),
+    [
+      'minecraft:quartz',
+      'minecraft:redstone',
+      'minecraft:redstone',
+      'minecraft:redstone'
+    ]
+  )
+
+  event.remove({ output: 'create:brass_hand' })
+  event.shapeless(
+    Item.of('create:brass_hand', 2),
+    [
+      'create:andesite_alloy',
+      'create:brass_sheet',
+      'create:brass_sheet'
+    ]
+  )
+
+  event.remove({ output: 'create:transmitter' })
+  event.shaped(
+    Item.of('create:transmitter', 4),
+    [
+      ' R ',
+      'SSS',
+      ' D ',
+    ],
+    {
+      R: 'minecraft:lightning_rod',
+      S: 'create:copper_sheet',
+      D: 'minecraft:redstone',
+    }
   )
 })
