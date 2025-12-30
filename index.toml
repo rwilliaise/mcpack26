@@ -21259,6 +21259,10 @@ file = "mods/fabric-language-kotlin-1.13.8+kotlin.2.3.0.jar"
 hash = "760953d8d3d1fa32a353593d744e2917d8a91ca8923ae9518b5ef2676a631002"
 
 [[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fallingleavesforge.pw.toml"
 hash = "0d5c9de1982da135c5a256caf1faafb10a75f22afdb3cca2d754cd0b6d19f5a8"
 metafile = true
@@ -21655,7 +21659,6 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "ab8a43aa3756e02b4d8e997f1117554ccca2d3dd427a07b09f101087b8a1c391"
 metafile = true
 
 [[files]]
@@ -21671,6 +21674,10 @@ metafile = true
 [[files]]
 file = "mods/vlib.pw.toml"
 hash = "bf329320b5ba7fd501bc27a9973f86a4c44f85903e29cdc5e0e914cb158e1fa2"
+metafile = true
+
+[[files]]
+file = "mods/vmod.pw.toml"
 metafile = true
 
 [[files]]
