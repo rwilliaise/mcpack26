@@ -7,7 +7,68 @@
 	id: "32AC83D00BF982B4"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Machinery from Create starts and ends with andesite alloy."]
+			id: "4B10CFD7BFDC465E"
+			tasks: [{
+				id: "195528C7D4B3F282"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "A Humble Beginning"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B10CFD7BFDC465E"]
+			description: [
+				"The first tier of Create machinery can be crafted by making Andesite Machines."
+				""
+				"Andesite Machines are crafting components that can be stonecut into actual components."
+			]
+			id: "4B169B5A9D5A514C"
+			tasks: [{
+				id: "54C142DD33DABAC1"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "269FF8824BBF4E14"
+			tasks: [{
+				count: 3L
+				id: "1ADF7B1B60C4E79D"
+				item: { Count: 3, id: "create:mechanical_harvester" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			id: "1957510B01628A47"
+			tasks: [{
+				count: 3L
+				id: "5F7FE1061FE24281"
+				item: { Count: 3, id: "create:mechanical_plough" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			id: "57A0F04CDBE14355"
+			tasks: [{
+				id: "1ECBCD3D6559DA9F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+	]
 	subtitle: ["A brief tutorial"]
 	tags: ["mod"]
 	title: "Create"
