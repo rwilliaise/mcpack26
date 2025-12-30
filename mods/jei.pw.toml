@@ -7,6 +7,7 @@ optional = true
 default = true
 description = """
 Adds an interface to your inventory to quickly search up crafting recipes.
+GUS DISABLE THIS ONE
 """
 
 [download]

@@ -2,13 +2,6 @@ name = "BetterGrassify"
 filename = "BetterGrassify-1.4.4+forge.1.20.1.jar"
 side = "client"
 
-[option]
-optional = true
-default = true
-description = """
-Makes grass look nicer on landscapes (opinionated). Disable if you're Gus.
-"""
-
 [download]
 url = "https://cdn.modrinth.com/data/m5T5xmUy/versions/9bgIBvnQ/BetterGrassify-1.4.4%2Bforge.1.20.1.jar"
 hash-format = "sha512"
