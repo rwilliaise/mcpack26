@@ -2,6 +2,13 @@ name = "Client Sort"
 filename = "clientsort-forge-2.1.5+1.20.1.jar"
 side = "both"
 
+[option]
+optional = true
+default = true
+description = """
+Adds a button to easily sort inventories and chests.
+"""
+
 [download]
 url = "https://cdn.modrinth.com/data/K0AkAin6/versions/d8vwxP2F/clientsort-forge-2.1.5%2B1.20.1.jar"
 hash-format = "sha512"

@@ -6,8 +6,7 @@ side = "client"
 optional = true
 default = true
 description = """
-Allows for using shaders. Recommended to disable if your game is exceedingly
-unstable, even if disabling other mods.
+A port of Iris to Forge which adds OptiFine shader support. If you're not using shaders, or experience crashes/instability with this, disable it.
 """
 
 [download]

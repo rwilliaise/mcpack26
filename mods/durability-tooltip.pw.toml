@@ -2,6 +2,13 @@ name = "Durability Tooltip"
 filename = "durabilitytooltip-1.1.6-forge-mc1.20.jar"
 side = "client"
 
+[option]
+optional = true
+default = true
+description = """
+Shows the durability of your tools in their tooltip.
+"""
+
 [download]
 url = "https://cdn.modrinth.com/data/smUP7V3r/versions/f6rQqHhW/durabilitytooltip-1.1.6-forge-mc1.20.jar"
 hash-format = "sha512"

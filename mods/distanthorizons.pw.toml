@@ -4,10 +4,9 @@ side = "both"
 
 [option]
 optional = true
-default = false
+default = true
 description = """
-Expands the default render distance by using rendering tricks. Enable if your
-game can handle a performance hit.
+Uses LODs to expand your render distance to ridiculous levels with a humble performance impact. Crashes on Mac or if you have outdated OpenGL drivers.
 """
 
 [download]
