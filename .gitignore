@@ -1,4 +1,6 @@
 
+.DS_Store
+
 # files that aren't needed for modpack export but change often anyway
 config/spark/tmp/
 config/oculus.properties
