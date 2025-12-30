@@ -21093,7 +21093,7 @@ metafile = true
 
 [[files]]
 file = "mods/chloride.pw.toml"
-hash = "0abde31e60bd157a14f0a9617887c7ba9eb667d225aae51a22eec2e75a108214"
+hash = "a4df1f4cab8d44dc73623f8d4c72318345d67f0728549ed3fed7d833b0d6593b"
 metafile = true
 
 [[files]]
@@ -21184,6 +21184,10 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
+metafile = true
+
+[[files]]
+file = "mods/custom-starter-gear.pw.toml"
 metafile = true
 
 [[files]]
