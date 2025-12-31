@@ -43,15 +43,6 @@ file = "config/bettergrass.json5"
 file = "config/biome_replacer.properties"
 
 [[files]]
-file = "config/blockswap/known_states/kubejs/andesite_machine.json5"
-
-[[files]]
-file = "config/blockswap/known_states/kubejs/brass_machine.json5"
-
-[[files]]
-file = "config/blockswap/known_states/valkyrienskies/test_antigrav.json5"
-
-[[files]]
 file = "config/blueprint-common.toml"
 
 [[files]]
