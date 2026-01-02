@@ -12,8 +12,13 @@ clientsort.json
 
 *-client.toml
 !computercraft-client.toml
-!upgrade_aquatic-client.toml
 !sodiumdynamiclights-client.toml
+!supplementaries-client.toml
+!upgrade_aquatic-client.toml
+!valkyrienskies/clockwork/client.toml
+!valkyrienskies/valkyrienskies-client.toml
+!visualworkbench-client.toml
+!vsch-client.toml
 
 kiwi-client.yaml
 MouseTweaks.cfg
