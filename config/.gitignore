@@ -1,4 +1,5 @@
 
+chunky/
 crash_assistant/
 spark/
 inline/
@@ -7,8 +8,6 @@ jamlib/
 jei/
 konkrete/
 ok_zoomer/
-chat_heads.json5
-clientsort.json
 
 *-client.toml
 !computercraft-client.toml
@@ -20,6 +19,8 @@ clientsort.json
 !visualworkbench-client.toml
 !vsch-client.toml
 
+chat_heads.json5
+clientsort.json
 kiwi-client.yaml
 MouseTweaks.cfg
 particle_effects.json5

@@ -1,0 +1,348 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "computercraft"
+	group: "193B1B38B5EE7330"
+	icon: "computercraft:computer_normal"
+	id: "46C1F3360E78AC26"
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Computers from ComputerCraft are versatile machines that run on Lua and can interface with the world through &operipherals&r."
+				""
+				"A very useful resource for conquering ComputerCraft is the documentation: tweaked.cc"
+			]
+			id: "1FC3FA9978CF7EC0"
+			subtitle: "The information age"
+			tasks: [{
+				id: "1CD981A3C9B4E616"
+				item: "computercraft:computer_normal"
+				type: "item"
+			}]
+			title: "Make a computer"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: [
+				"One of the peripherals that computers can interface with are &oMonitors&r. "
+				""
+				"These blocks can display any text that a terminal screen can, on a larger scale."
+			]
+			id: "09AC840D4D1B8A3D"
+			subtitle: "Display ..."
+			tasks: [{
+				id: "3E8AD480DB71FA11"
+				item: "computercraft:monitor_normal"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: [
+				"The &oPrinter&r is a peripheral that can create &oPrinted Pages&r and &oPrinted Book&rs. "
+				""
+				"Using different dyes, you can print many colors on one page."
+			]
+			id: "18D9FE601A298B98"
+			subtitle: "... and disseminate"
+			tasks: [{
+				id: "1A278972E8E49F0E"
+				item: "computercraft:printer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["09AC840D4D1B8A3D"]
+			description: [
+				"&oAdvanced Monitor&rs can display colors, unlike their non-advanced counterpart."
+				""
+				"They do &onot&r need an advanced computer to display color."
+			]
+			id: "490943766520CCD1"
+			subtitle: "Display in color"
+			tasks: [{
+				id: "6C064A2675F2A7CB"
+				item: "computercraft:monitor_advanced"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: ["An &oAdvanced Computer&r can display color on its terminal."]
+			id: "75F70DAF0AEF747E"
+			subtitle: "Life in color"
+			tasks: [{
+				id: "0BF5A73A731939E2"
+				item: "computercraft:computer_advanced"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: ["A &oTurtle&r is a mobile computer that can interact with and move around the world."]
+			id: "298AE1B0823ADEA9"
+			subtitle: "Conquer the world"
+			tasks: [{
+				id: "04782B5EBCDE691D"
+				item: "computercraft:turtle_normal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["298AE1B0823ADEA9"]
+			description: ["An &oAdvanced Turtle&r can display color on its terminal."]
+			id: "653E2B374BC345CB"
+			subtitle: "Conquer in color"
+			tasks: [{
+				id: "2ED6E2E0D7E05AFA"
+				item: "computercraft:turtle_advanced"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: ["When a Turtle is holding a Diamond Pickaxe, the Turtle gains the ability to mine blocks with &7turtle.dig()&r."]
+			id: "7C0B329ED11CE428"
+			tasks: [{
+				id: "0767E1D06DD8E1F0"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: ["When equipped with a &oDiamond Shovel&r, a &oTurtle&r can dig dirt blocks and other soils using &7turtle.dig()&r."]
+			id: "72BDCA77A42409C8"
+			tasks: [{
+				id: "19B77B4DFA413134"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["298AE1B0823ADEA9"]
+			description: [
+				"When equipped with the right tools, a &oTurtle&r can be a versatile way to automate world interactions."
+				""
+				"Importantly, &oTurtle&rs do not use durability on tools."
+			]
+			icon: "advancedperipherals:computer_tool"
+			id: "274471B467597D47"
+			subtitle: "Build and destroy"
+			tasks: [{
+				id: "4992D1A037B38BFD"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Tools"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: ["When equipped with a &oDiamond Hoe&r, a &oTurtle&r can mine certain blocks (crops, pumpkins, cacti, etc.) with &7turtle.dig()&r. On dirt, &7turtle.dig()&r will instead till the dirt, turning it into farmland."]
+			id: "3428613457F907DE"
+			tasks: [{
+				id: "076D2CB2A61FBEAB"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: [
+				"When a &oTurtle&r is holding a &oDiamond Axe&r, the &oTurtle&r gains the ability to mine blocks with &7turtle.dig()&r. "
+				""
+				"Note that this includes the same blocks that can be mined when the &oTurtle&r has a &oDiamond Pickaxe&r. The &oTurtle&r also does &l6x&r damage."
+			]
+			id: "05207C7945BA61FB"
+			tasks: [{
+				id: "036A48A84E008910"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: ["When equipped with a &oCrafting Table&r, a &oTurtle&r can craft items using &7turtle.craft()&r."]
+			id: "6E00958837242695"
+			tasks: [{
+				id: "7D95AA73F953A7CB"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["274471B467597D47"]
+			description: ["When equipped with a &oDiamond Sword&r, the damage of a &oTurtle&r when using &7turtle.attack()&r is multiplied by &l9x&r. The &oTurtle&r can also break wool and cobwebs."]
+			id: "1F61F5F44228D4D2"
+			tasks: [{
+				id: "6852C06DADE1871F"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: ["The &oSpeaker&r is a peripheral that can play audio using &7.playAudio()&r. The audio is given in the simple, compact DFPWM (Dynamic Filter Pulse Width Modulation) format."]
+			id: "189D5A3D29919EAC"
+			subtitle: "... broadcast ..."
+			tasks: [{
+				id: "333055F8202DBB78"
+				item: "computercraft:speaker"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: [
+				"A &oWired Modem&r can be used to connect computers to each other on a physical connection, using &oNetworking Cable&r. "
+				""
+				"It can also be used to connect additional peripherals to a computer."
+			]
+			icon: "computercraft:wired_modem_full"
+			id: "43A68362F884ACBF"
+			subtitle: "Connect computers"
+			tasks: [
+				{
+					id: "431CB8D477E55BAB"
+					item: "computercraft:wired_modem_full"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "24FB2489A47BD2DC"
+					item: { Count: 6, id: "computercraft:cable" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Wired Modems"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: [
+				"A &oWireless Modem&r can be used to connect and send messages between computers wirelessly."
+				""
+				"The range of a &oWireless Modem&r is limited: only 64 blocks at y-levels below 96, and up to 384 blocks at world build height."
+			]
+			id: "4B38176CB47315A6"
+			subtitle: "Connect computers, wirelessly"
+			tasks: [{
+				id: "5537F58CC823EA79"
+				item: "computercraft:wireless_modem_normal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B38176CB47315A6"]
+			description: ["An &oEnder Modem&r is quite similar to a wireless modem, however, do not have a distance limit, and can send messages between dimensions."]
+			id: "4657C1B6155E3FE7"
+			subtitle: "Connect computers, anywhere"
+			tasks: [{
+				id: "034833D06F3174FB"
+				item: "computercraft:wireless_modem_advanced"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: [
+				"Computers can already interface with redstone connections using the built-in &7redstone&r API."
+				""
+				"The &oRedstone Relay&r allows reading and writing redstone signals from a peripheral, which can be useful when used in tandem with a &oWired Modem&r."
+			]
+			id: "1FC17EF7CA310DB5"
+			subtitle: "More redstone connections"
+			tasks: [{
+				id: "411CA22CA3A12BD9"
+				item: "computercraft:redstone_relay"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FC3FA9978CF7EC0"]
+			description: ["The &oDisk Drive&r is a peripheral that allows you to read and write files to &oFloppy Disk&rs, as well as other computers/turtles. It can also play records."]
+			id: "6B4B7BCDFB13F6A2"
+			subtitle: "Store everything"
+			tasks: [{
+				id: "076742ADB20A3EDB"
+				item: "computercraft:disk_drive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Automate with code"]
+	title: "ComputerCraft"
+}
