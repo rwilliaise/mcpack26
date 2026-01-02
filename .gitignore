@@ -1,11 +1,3 @@
 
 .DS_Store
 
-# files that aren't needed for modpack export but change often anyway
-config/spark/tmp/
-config/oculus.properties
-config/packetfixer.properties
-config/xaerominimap_entities.json
-config/fabric/indigo-renderer.properties
-config/jei/world/
-
