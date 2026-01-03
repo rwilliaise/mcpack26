@@ -1,6 +1,7 @@
 {
 	// Allow the creation of backups automatically
-	"enabled": true,
+	// Disabled because we want to generate a huge world
+	"enabled": false,
 	// Permission level to use the /backup command
 	"command_permission_level": 3,
 	// Only send backup status to server ops
