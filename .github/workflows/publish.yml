@@ -20,7 +20,9 @@ jobs:
         shell: bash
         run: while read -r entry;do rm -rf ${entry}; done < .packwizignore
       - name: Refresh index
-        run: packwiz refresh --build
+        run: |
+          touch index.toml
+          packwiz refresh --build
       - name: Upload pages
         uses: actions/upload-pages-artifact@v3
         with:

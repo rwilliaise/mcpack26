@@ -15,6 +15,9 @@ When deploying, use `packwiz refresh --build` to add the hashes into
 `index.toml` -- be sure, however, to not commit these to the repo. Running
 `packwiz refresh` (no `--build`) will remove the hashes for you.
 
+You may need to `touch index.toml` initially to make sure packwiz can generate
+the index.
+
 ### Soft-linking `config/`
 You can soft-link the `config/` folder from this repo into your
 `packwiz-installer` instance to edit config from in-game and have it update the
