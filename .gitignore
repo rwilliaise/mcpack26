@@ -1,3 +1,6 @@
 
 .DS_Store
 
+# for simplicity, we ignore index.toml
+index.toml
+
