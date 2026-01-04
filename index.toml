@@ -273,6 +273,10 @@ file = "config/ftbquests/quests/chapters/create.snbt"
 hash = "a78e97c96d199809012caa5df3dfeecf8a1cc428f4d8a2a622bb01074c908826"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/crossroads.snbt"
+hash = "fcf67515c116db997215e48bdfd07ebdabb7f0259f30c4ab5c79eb5b430d950a"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
 hash = "5faa852713fb4f7bb6ea265fe9f1244c5d85cb5fdd9772437033a058fb13f836"
 
@@ -283,6 +287,14 @@ hash = "0e0bd17d9d9f1bb7d6a94cbbf1a47a4bafe77351035ce6d89ecdb4ecaf14ec19"
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "e2920756e7d1378bd4e9febf28abb0b0084d4ed4f7e84f6f852f7857dbb46bc3"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/crossroads_omnimeter_choice_reward.snbt"
+hash = "33069ff9e4fc4269664a8ae09be6ac1ec32fa2a1830a45bfe1df646248a07e9e"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/crossroads_smelter_choice_reward.snbt"
+hash = "dfcebb1c8b3cf080c149c4d308b8a7aeda00599519ea766b326b91668cab1866"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cuisine_choice_reward.snbt"
@@ -534,7 +546,7 @@ hash = "b410746ddef0f7dd5f1d860ef3fcd6ad29c10988abbf6281181cb9c3acb628ca"
 
 [[files]]
 file = "config/xaerominimap.txt"
-hash = "8bfacb072b85270879556ae61d300927ca994ce0677aab404bbedd2273a5abe0"
+hash = "44e64c860fd43c3323f454df27c29c064a5484dd5f49a875ee52d65d882d80c5"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
@@ -550,7 +562,7 @@ hash = "ab09b6171d1f5f9c15d3ea653be739b53bca6f88db1ec38ae80575143c4c68cd"
 
 [[files]]
 file = "config/xaeroworldmap.txt"
-hash = "6cae8c6c64eeebf4dd15076b8f172a440bf1ece460aef63d3abe206e2d45fe8f"
+hash = "7bcaa909613c955d99e6982018a780622dfc91c6dd462791f5e67c17599d5a3f"
 
 [[files]]
 file = "config/yacl.json5"
@@ -809,6 +821,10 @@ hash = "b9b97be64d4b4d1fdc07c496308b8359890cba4baf53f35cfa718af8503c4da2"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
@@ -831,6 +847,10 @@ metafile = true
 [[files]]
 file = "mods/cupboard.pw.toml"
 hash = "2eb26b157c4159bfeff6a00147afa35284397d558f84b55367d1a41064d7456a"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
 metafile = true
 
 [[files]]
@@ -871,6 +891,10 @@ metafile = true
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "d6e3ac7a748b54d711705affd3d0851d0234820172b45adcff659f208f1bd247"
+metafile = true
+
+[[files]]
+file = "mods/easy-crafttweaker.pw.toml"
 metafile = true
 
 [[files]]
@@ -1138,6 +1162,10 @@ hash = "e6de05ff93544874f2e8a8f6646def228e877aad97396d14e43b9996849a4eab"
 metafile = true
 
 [[files]]
+file = "mods/octo-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/oculus.pw.toml"
 hash = "a8490c2e35cf77f1da179934254618329829f2075f77f3d407b46598cfc8b452"
 metafile = true
@@ -1185,6 +1213,10 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
+metafile = true
+
+[[files]]
+file = "mods/relics-mod.pw.toml"
 metafile = true
 
 [[files]]
@@ -1305,6 +1337,10 @@ metafile = true
 [[files]]
 file = "mods/tipthescales.pw.toml"
 hash = "5e38896bef914cf05ae45212046c3d58de94a5af176c8130224d5701f843d44c"
+metafile = true
+
+[[files]]
+file = "mods/trackwork.pw.toml"
 metafile = true
 
 [[files]]
