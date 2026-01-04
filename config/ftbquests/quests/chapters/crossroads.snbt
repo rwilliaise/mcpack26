@@ -1,0 +1,629 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "crossroads"
+	group: ""
+	icon: {
+		Count: 1
+		id: "crossroads:gear_base"
+		tag: {
+			material: "copper"
+		}
+	}
+	id: "2749D121507CE373"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["These are your most important tools. The omnimeter reads temperature, speed, energy, and beam alignment. The wrench lets you configure heat cables and fluid tubes."]
+			id: "35CDD85BAB44C1B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02DB61B90CEDBC66"
+				table_id: 1170749464453758482L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "1D70420FD0BB35C2"
+					item: "crossroads:omnimeter"
+					type: "item"
+				}
+				{
+					id: "08196213189F6E12"
+					item: "essentials:wrench"
+					type: "item"
+				}
+			]
+			title: "Get The Juices Flowing"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35CDD85BAB44C1B8"]
+			description: ["The Firebox burns fuel to generate Heat. Cables can move the heat. &4If cables get too hot, they melt. Monitor them with the Omnimeter!&r"]
+			icon: "crossroads:firebox"
+			id: "1EB01D0137962279"
+			rewards: [
+				{
+					count: 12
+					id: "0002F40F7265DCAA"
+					item: "crossroads:heat_cable_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B8BC8EE3E8DEC0F"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0589A87580E0BD55"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "crossroads:heat_cable_wool"
+								}
+								{
+									Count: 1b
+									id: "crossroads:heat_cable_obsidian"
+								}
+								{
+									Count: 1b
+									id: "crossroads:heat_cable_ceramic"
+								}
+							]
+						}
+					}
+					title: "Insulated Heat Cable"
+					type: "item"
+				}
+				{
+					id: "5DAE7A91FA7862CC"
+					item: "crossroads:firebox"
+					type: "item"
+				}
+			]
+			title: "Woowie Things Are Getting Toasty"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EB01D0137962279"]
+			description: ["Connect to heat source via Heat Cables. This little guy smelts faster than a vanilla furnace but draws heat continuously."]
+			id: "0DB1BBBA5FBC6453"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A65700F5A163E70"
+				table_id: 2274068924807940178L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					id: "24582370EF6A74FE"
+					item: "crossroads:heating_chamber"
+					type: "item"
+				}
+				{
+					id: "74104E4AE6F0DF8A"
+					item: "crossroads:fluid_tube"
+					type: "item"
+				}
+				{
+					id: "2EDA1FCED679C155"
+					item: {
+						Count: 1
+						id: "crossroads:fluid_tank"
+						tag: {
+							BlockEntityTag: { }
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Smelter? I Hardly Know Her"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DB1BBBA5FBC6453"]
+			description: [
+				"Well I imagine you probably have all the things you need for ore doubling now."
+				""
+				"One would imagine that if there were an inbalance in the energy to heat vs. cool something, that there would be potential for an infinite heat machine."
+			]
+			id: "4FC2EF9238BAB33A"
+			rewards: [{
+				count: 6
+				id: "1C1DFC4FC4F003D9"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6C64C64D5C40C86D"
+					item: "crossroads:fluid_cooling_chamber"
+					type: "item"
+				}
+				{
+					id: "51BB895726439FB5"
+					item: "crossroads:heat_sink"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "What Heats Up Must Cool Down"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["35CDD85BAB44C1B8"]
+			description: [
+				"Every gear network MUST have exactly one Master Axis to function. If you look at the Master Axis block, there is a hole on one face. You should place an axle coming out of that hole for the gears to function."
+				"{@pagebreak}"
+				"The different gears all have different \"I\" values, or moments of inertia. These define how quickly the gear will stop and start, and how much kinetic energy a spinning gear holds."
+			]
+			id: "4639BE115DDEC612"
+			rewards: [{
+				count: 8
+				id: "145BFAB43F969075"
+				item: "crossroads:heat_cable_ceramic"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "16E38A6A11B173EC"
+					item: "crossroads:master_axis"
+					type: "item"
+				}
+				{
+					id: "577B276EB658DE04"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "iron"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "copper"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "tin"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "gold"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "bronze"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:gear_base"
+									tag: {
+										material: "copshowium"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F71F4307395BFE9"
+					item: "crossroads:hand_crank"
+					type: "item"
+				}
+				{
+					id: "4380BAEB74CD074B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "gold"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "tin"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "copper"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "iron"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "bronze"
+									}
+								}
+								{
+									Count: 1b
+									id: "crossroads:axle"
+									tag: {
+										material: "copshowium"
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Heart Of The Buttnoggin"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1EB01D0137962279"]
+			description: ["This is the opposite of a firebox. Place cold things in it, and it will output a cold temperature."]
+			id: "2D390E5AE117FD51"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2E1D9B0B972A9F2E"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "544DB84211D9283B"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [
+				{
+					id: "16C94AE5CA343F34"
+					item: "crossroads:icebox"
+					type: "item"
+				}
+				{
+					id: "2B5F4365A1D3EB3E"
+					item: "crossroads:heat_cable_ice"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Heating In Reverse"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4639BE115DDEC612"]
+			description: ["The clutch behaves the same as an axle except it only connects when it receives redstone power."]
+			id: "20A194D2C9D031FA"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6811E94A612AE5B6"
+				item: "crossroads:ingot_tin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C5CDFEBC1E0D941"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "gold"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "tin"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "copper"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "iron"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "bronze"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:clutch"
+								tag: {
+									material: "copshowium"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "More Complicated Axle"
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4639BE115DDEC612"]
+			description: ["If you're following the top questline, you'll soon learn how to double raw ore into smelted ingots. With some rotary power, you can now double your ore into raw metal, AND double your raw metal into metal dust."]
+			id: "0574B344DA8A5BC5"
+			rewards: [{
+				count: 4
+				id: "7EF60DA26CF6CDF7"
+				item: "crossroads:ore_tin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AADAE43878DB303"
+				item: "crossroads:millstone"
+				type: "item"
+			}]
+			title: "Ore Doubling Doubling Doubling"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0574B344DA8A5BC5"]
+			description: ["What a delightfully easy way to generate rotational energy! Not the greatest, but it'll do for now."]
+			id: "143C1CB46167EF5E"
+			rewards: [{
+				count: 16
+				id: "7E4F34311E2F4742"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D8E4A3F026B2E20"
+				item: "crossroads:wind_turbine"
+				type: "item"
+			}]
+			title: "The Windmill Conundrum"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4639BE115DDEC612"]
+			description: ["Purely decorative, these axle mounts are sure to spice up your sex life."]
+			id: "6437B8C7B59A524A"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "24A5DB154AD8C5D7"
+					item: {
+						Count: 1
+						id: "crossroads:axle_mount"
+						tag: {
+							material: "copshowium"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E12E3E8AAF00649"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "6C1D07B2EF1BEF0C"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "iron"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "bronze"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "gold"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "copshowium"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "tin"
+								}
+							}
+							{
+								Count: 1b
+								id: "crossroads:axle_mount"
+								tag: {
+									material: "copper"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Axle Decorations"
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4FC2EF9238BAB33A"]
+			description: [
+				"This little guy has more thermal mass than a bigger guy with a lot of thermal mass."
+				""
+				"It'll even keep its temperature if you break and replace it!"
+			]
+			id: "400D745AD83F5125"
+			rewards: [{
+				count: 6
+				id: "1E07B51CCC6DB2DE"
+				item: "crossroads:heat_cable_ceramic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F8974F8791BF205"
+				item: "crossroads:heat_reservoir"
+				type: "item"
+			}]
+			title: "Soooo Hottt"
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4FC2EF9238BAB33A"]
+			description: [
+				"Everyone had a time when they would go outside and burn little bits of wood and things with a magnifying glass. This is that, but in a block."
+				"{@pagebreak}"
+				"You can stack these and they will transfer heat to each other (e.g. you don't need heat cables between them). Good renewable energy source."
+			]
+			id: "1745EC73CC7C255E"
+			optional: true
+			rewards: [{
+				id: "5175EAADB121E6DC"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "6974AE80E3856B0D"
+				item: "crossroads:solar_heater"
+				type: "item"
+			}]
+			title: "Childhood In A Block"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: ["You can melt all kinds of things with this guy. You'll want plenty of heat. &oCheck what it can be used for with JEI by pressing \"u\" while hovering over the item.&r"]
+			id: "00A7C151C26ED4D6"
+			rewards: [{
+				count: 6
+				id: "07269027E922EFCE"
+				item: "minecraft:cooked_chicken"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EEF21B8DC05B21A"
+				item: "crossroads:heating_crucible"
+				type: "item"
+			}]
+			title: "Precursor To Steve's Lava Chicken"
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FC2EF9238BAB33A"
+				"581FC5104D1AE8BF"
+			]
+			description: ["The salt reactor allows you to cool things down using the dissociation of...salt! You can even get to absolute zero if you try hard enough."]
+			id: "2EB7AAFDD08EB518"
+			rewards: [{
+				id: "21917A2E38F4F2A4"
+				type: "xp"
+				xp: 75
+			}]
+			subtitle: "Remember when you froze ice cream by shaking a bag with salted ice?"
+			tasks: [{
+				id: "0C2D53790E4B98CF"
+				item: "crossroads:salt_reactor"
+				type: "item"
+			}]
+			title: "Elementary Ice Cream"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["143C1CB46167EF5E"]
+			description: ["Spin water so fast it separates into distilled water and salt!"]
+			id: "581FC5104D1AE8BF"
+			tasks: [{
+				id: "0751241FE9425749"
+				item: "crossroads:water_centrifuge"
+				type: "item"
+			}]
+			title: "Centrifugal Salt"
+			x: -3.0d
+			y: 0.5d
+		}
+	]
+	title: "Crossroads"
+}
