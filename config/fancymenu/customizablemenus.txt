@@ -12,3 +12,9 @@ net.minecraft.client.gui.screens.ReceivingLevelScreen {
 net.minecraft.client.gui.screens.GenericDirtMessageScreen {
 }
 
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
+}
+

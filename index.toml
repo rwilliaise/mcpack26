@@ -172,6 +172,9 @@ file = "config/fabric/indigo-renderer.properties"
 file = "config/fallingleaves-client.toml"
 
 [[files]]
+file = "config/fancymenu/assets/hamster.png"
+
+[[files]]
 file = "config/fancymenu/assets/pim.png"
 
 [[files]]
@@ -190,7 +193,16 @@ file = "config/fancymenu/customizablemenus.txt"
 file = "config/fancymenu/customization/generic_dirt_message_screen_layout.txt"
 
 [[files]]
+file = "config/fancymenu/customization/hamster_layout.txt"
+
+[[files]]
+file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+
+[[files]]
 file = "config/fancymenu/customization/level_loading_screen_layout.txt"
+
+[[files]]
+file = "config/fancymenu/customization/options_screen_layout.txt"
 
 [[files]]
 file = "config/fancymenu/customization/receiving_level_screen_layout.txt"
@@ -316,7 +328,13 @@ file = "config/jade/sort-order.json"
 file = "config/jamlib/known_suspicious_jars.txt"
 
 [[files]]
+file = "config/jei/blacklist.cfg"
+
+[[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
 
 [[files]]
 file = "config/jei/jei-client.ini"
@@ -329,6 +347,12 @@ file = "config/jei/jei-debug.ini"
 
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+
+[[files]]
+file = "config/jei/world/local/New_World/lookupHistory.ini"
 
 [[files]]
 file = "config/jei/world/local/Test_World/bookmarks.ini"
