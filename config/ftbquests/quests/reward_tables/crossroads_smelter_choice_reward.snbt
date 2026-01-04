@@ -1,0 +1,11 @@
+{
+	id: "1F8F1DA379EE8852"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 16, item: "minecraft:obsidian" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 8, item: "minecraft:iron_ingot" }
+	]
+	title: "crossroads_smelter_choice_reward"
+}

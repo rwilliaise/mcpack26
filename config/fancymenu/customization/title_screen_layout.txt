@@ -185,7 +185,7 @@ element {
 
 element {
   interactable = true
-  source = {"placeholder":"loadedmods"} mods loaded%n%Minecraft {"placeholder":"mcversion"}
+  source = {"placeholder":"loadedmods"} mods loaded%n%Minecraft {"placeholder":"mcversion"} (GRC __VERSION__)
   source_mode = direct
   shadow = true
   scale = 1.0
