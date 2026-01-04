@@ -1,7 +1,8 @@
 name: Deploy modpack
 on:
   push:
-    branches: [main] # todo: change to tag publishing
+    tags:
+      - 'v*'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,6 +17,13 @@ jobs:
             chmod +x packwiz && \
             sudo mv packwiz /usr/local/bin/ && \
             rm packwiz.zip
+      - name: Find and replace versions
+        shell: bash
+        env:
+          tag: ${{ github.ref_name }}
+        run: |
+          sed -e "s/__VERSION__/$tag/" \
+            config/fancymenu/customization/title_screen_layout.txt > config/fancymenu/customization/title_screen_layout.txt
       - name: Remove ignored files
         shell: bash
         run: while read -r entry;do rm -rf ${entry}; done < .packwizignore

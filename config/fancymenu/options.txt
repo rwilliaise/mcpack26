@@ -42,7 +42,7 @@ B:show_singleplayer_screen_world_icons = 'true';
 
 ##[layout_editor]
 
-B:layout_editor_grid_snapping = 'true';
+B:layout_editor_grid_snapping = 'false';
 B:anchor_overlay_change_anchor_on_area_hover = 'true';
 B:show_layout_editor_grid = 'true';
 S:anchor_overlay_color_base_override = '';
@@ -53,7 +53,7 @@ D:anchor_overlay_hover_charging_time_seconds = '2.0';
 B:anchor_overlay_change_anchor_on_element_hover = 'true';
 S:anchor_overlay_visibility_mode = 'dragging';
 B:anchor_overlay_show_all_connection_lines = 'false';
-F:layout_editor_grid_snapping_strength = '1.0';
+F:layout_editor_grid_snapping_strength = '0.5';
 I:layout_editor_grid_size = '10';
 B:invert_anchor_overlay_color = 'false';
 B:enable_buddy = 'true';
