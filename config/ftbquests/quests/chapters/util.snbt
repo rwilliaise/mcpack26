@@ -1,0 +1,36 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "util"
+	group: ""
+	icon: "minecraft:redstone_block"
+	id: "1A21FF4E36235F53"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "5246F7081CD456DB"
+		rewards: [{
+			auto: "invisible"
+			command: "/clear @p"
+			elevate_perms: true
+			id: "0D37AD81C19ADE25"
+			silent: true
+			type: "command"
+		}]
+		tasks: [{
+			id: "65BDA4E88F0D1EE9"
+			item: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "hexcasting:thehexbook"
+				}
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Util"
+}

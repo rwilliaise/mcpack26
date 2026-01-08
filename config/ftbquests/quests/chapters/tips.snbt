@@ -3,13 +3,17 @@
 	default_quest_shape: "circle"
 	filename: "tips"
 	group: ""
-	icon: "waystones:waystone"
+	icon: "supplementaries:turn_table"
 	id: "5000000000000001"
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["In this pack, you're not being spoonfed pre-prepared meals. You gotta COOK. At least, if you want good food early game. You'll want a skillet, a spatula, and some plates."]
+			description: [
+				"In this pack, you're not being spoonfed pre-prepared meals. You gotta COOK. At least, if you want good food early game."
+				""
+				"Vanilla foods also work just fine, GUS."
+			]
 			id: "5000000000000002"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -17,32 +21,11 @@
 				table_id: 7913486459012886434L
 				type: "choice"
 			}]
-			tasks: [
-				{
-					disable_toast: true
-					id: "5000000000000004"
-					item: {
-						Count: 1
-						id: "cuisinedelight:cuisine_skillet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "16FE3D5E4AC1D134"
-					item: "cuisinedelight:spatula"
-					type: "item"
-				}
-				{
-					disable_toast: true
-					id: "777B31A1D7A85333"
-					item: "cuisinedelight:plate"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "10A9695E49C09CFE"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
 			title: "ITS FUCKING RAW"
 			x: 0.0d
 			y: 0.0d

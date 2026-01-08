@@ -522,7 +522,7 @@ hash = "8555234cb06a79bcea18b5258658c44be0caa24c3ed56248ab0d5cdb69777705"
 
 [[files]]
 file = "config/valkyrienskies/vs_eureka_server.json"
-hash = "bc46d644a4e21ff3d09c4f9eb8a5334b31ae24aea5d7cc24ffdbff82448fd9e3"
+hash = "4e77b4e1af2b48dc6966debae77e4a7af1a3ee14f38265cab6e9da4a16a2a714"
 
 [[files]]
 file = "config/valkyrienskies/vs_server.json"
@@ -543,14 +543,6 @@ hash = "090cf77a65d58c12bc3e95d79f04a1f81f8859dd46cc66b82e92fcf2e2a995f1"
 [[files]]
 file = "config/vmod-CLIENT.toml"
 hash = "2bdc2299cfa9ae0644f58db649bb6a9631afa0740c2301db11e1055f4c4db915"
-
-[[files]]
-file = "config/vsch-client.toml"
-hash = "461237fc27798e837050b86b362efa4bcc1749d2edf48523accad7efcef4435a"
-
-[[files]]
-file = "config/vsch-common.toml"
-hash = "9336b0f343c52c6a16eb888ce3161f5e03ba449a0bc047fac403a93eb73ce5a1"
 
 [[files]]
 file = "config/xaerominimap-common.txt"
@@ -900,6 +892,7 @@ metafile = true
 
 [[files]]
 file = "mods/drive-by-wire.pw.toml"
+hash = "0660a4f8e5ea24c70144aec20b47e8f39e9340b6576421650cc71ddcdee0cf4c"
 metafile = true
 
 [[files]]
@@ -1393,6 +1386,7 @@ metafile = true
 
 [[files]]
 file = "mods/vmod.pw.toml"
+hash = "16df875d4c8a6e2394556ab78ae8fa932078e32713d3d948861e7245adc98db7"
 metafile = true
 
 [[files]]
