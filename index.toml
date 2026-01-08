@@ -856,11 +856,6 @@ hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
 metafile = true
 
 [[files]]
-file = "mods/custom-starter-gear.pw.toml"
-hash = "0769f6c97785ad495c2b0e88b1d50060d1ff635b5648f3bb915eb46977591208"
-metafile = true
-
-[[files]]
 file = "mods/cut-through.pw.toml"
 hash = "b64e0bcd7299d5f773d7e7937d141c1c55803a3077de6f242db972853b11990b"
 metafile = true
