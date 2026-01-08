@@ -3,9 +3,9 @@
 	loot_size: 1
 	order_index: 0
 	rewards: [
-		{ count: 32, item: "farmersdelight:rice" }
-		{ count: 32, item: "farmersdelight:onion" }
-		{ count: 32, item: "minecraft:carrot" }
+		{ count: 8, item: "farmersdelight:rice" }
+		{ count: 8, item: "farmersdelight:onion" }
+		{ count: 8, item: "minecraft:carrot" }
 		{ count: 8, item: "minecraft:beef" }
 		{ count: 8, item: "minecraft:porkchop" }
 	]
