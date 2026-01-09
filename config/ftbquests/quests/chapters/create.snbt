@@ -44,7 +44,7 @@
 			tasks: [{
 				count: 3L
 				id: "1ADF7B1B60C4E79D"
-				item: { Count: 3, id: "create:mechanical_harvester" }
+				item: "create:mechanical_harvester"
 				type: "item"
 			}]
 			x: 1.5d
@@ -56,7 +56,7 @@
 			tasks: [{
 				count: 3L
 				id: "5F7FE1061FE24281"
-				item: { Count: 3, id: "create:mechanical_plough" }
+				item: "create:mechanical_plough"
 				type: "item"
 			}]
 			x: 2.5d
@@ -272,7 +272,7 @@
 			tasks: [{
 				count: 3L
 				id: "07B55E1B78148407"
-				item: { Count: 3, id: "create:mechanical_crafter" }
+				item: "create:mechanical_crafter"
 				type: "item"
 			}]
 			x: 3.5d

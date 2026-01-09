@@ -15,7 +15,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["366136A12DFE2AA4"]
 			description: ["These are your most important tools. The omnimeter reads temperature, speed, energy, and beam alignment. The wrench lets you configure heat cables and fluid tubes."]
+			icon: "essentials:wrench"
 			id: "35CDD85BAB44C1B8"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -23,18 +25,11 @@
 				table_id: 1170749464453758482L
 				type: "choice"
 			}]
-			tasks: [
-				{
-					id: "1D70420FD0BB35C2"
-					item: "crossroads:omnimeter"
-					type: "item"
-				}
-				{
-					id: "08196213189F6E12"
-					item: "essentials:wrench"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "08196213189F6E12"
+				item: "essentials:wrench"
+				type: "item"
+			}]
 			title: "Get The Juices Flowing"
 			x: -9.0d
 			y: -0.5d
@@ -97,6 +92,7 @@
 		{
 			dependencies: ["1EB01D0137962279"]
 			description: ["Connect to heat source via Heat Cables. This little guy smelts faster than a vanilla furnace but draws heat continuously."]
+			icon: "crossroads:heating_chamber"
 			id: "0DB1BBBA5FBC6453"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -139,6 +135,7 @@
 				""
 				"One would imagine that if there were an inbalance in the energy to heat vs. cool something, that there would be potential for an infinite heat machine."
 			]
+			icon: "crossroads:fluid_cooling_chamber"
 			id: "4FC2EF9238BAB33A"
 			rewards: [{
 				count: 6
@@ -304,6 +301,7 @@
 		{
 			dependencies: ["1EB01D0137962279"]
 			description: ["This is the opposite of a firebox. Place cold things in it, and it will output a cold temperature."]
+			icon: "crossroads:heat_cable_ice"
 			id: "2D390E5AE117FD51"
 			optional: true
 			rewards: [
@@ -420,7 +418,7 @@
 				item: "crossroads:millstone"
 				type: "item"
 			}]
-			title: "Ore Doubling Doubling Doubling"
+			title: "Ore Doubling...Again"
 			x: -6.0d
 			y: 0.5d
 		}
@@ -596,6 +594,7 @@
 			]
 			description: ["The salt reactor allows you to cool things down using the dissociation of...salt! You can even get to absolute zero if you try hard enough."]
 			id: "2EB7AAFDD08EB518"
+			optional: true
 			rewards: [{
 				id: "21917A2E38F4F2A4"
 				type: "xp"
@@ -608,7 +607,7 @@
 				type: "item"
 			}]
 			title: "Elementary Ice Cream"
-			x: -1.5d
+			x: -3.0d
 			y: -0.5d
 		}
 		{
@@ -623,6 +622,239 @@
 			title: "Centrifugal Salt"
 			x: -3.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["4FC2EF9238BAB33A"]
+			description: ["Heat, steam, and water are kinda like one big triangle."]
+			icon: "crossroads:steam_boiler"
+			id: "2885269188B7A137"
+			rewards: [{
+				id: "1DDD47E4AF25AAA4"
+				item: "crossroads:distilled_water_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2338C74D70524367"
+					item: "crossroads:steam_boiler"
+					type: "item"
+				}
+				{
+					id: "050817872100FBA5"
+					item: "crossroads:radiator"
+					type: "item"
+				}
+			]
+			title: "Move Yo Liquids"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["143C1CB46167EF5E"]
+			description: ["Need FE? Look to the dynamo! These work in tanden with tesla coils, which you can link with the linking tool to transmit energy. You may also put a Leyden jar inside of one to charge it. I wonder if you could power a car with that thing."]
+			icon: "crossroads:tesla_coil_top_normal"
+			id: "66716A08428B5998"
+			rewards: [{
+				id: "57031B740601C656"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6016CB0F1B5AB265"
+					item: "crossroads:dynamo"
+					type: "item"
+				}
+				{
+					id: "76D97B55784BCAF5"
+					item: "crossroads:leyden_jar"
+					type: "item"
+				}
+				{
+					id: "75A6DE1F6A4518F9"
+					item: "crossroads:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "6B8B42B7527AAB5A"
+					item: "crossroads:tesla_coil_top_normal"
+					type: "item"
+				}
+				{
+					id: "701DF3C526A06421"
+					item: "essentials:linking_tool"
+					type: "item"
+				}
+			]
+			title: "Iron? Nah."
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["581FC5104D1AE8BF"]
+			description: ["You can use rotary energy to wind up various portable devices!"]
+			icon: {
+				Count: 1
+				id: "crossroads:whirligig"
+				tag: { }
+			}
+			id: "1346A210CF9D3E53"
+			rewards: [{
+				id: "3BB77DC921E48AA1"
+				item: {
+					Count: 1
+					id: "crossroads:gear_base_large"
+					tag: {
+						material: "iron"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "07AA1D5D10975C38"
+					item: "crossroads:winding_table"
+					type: "item"
+				}
+				{
+					id: "0889547B996B15F6"
+					item: {
+						Count: 1
+						id: "crossroads:whirligig"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Unwind With Some Relaxing Flight"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Welcome to Crossroads! You're going to be making complicated machines in no time, but to start you'll want this Omnimeter. It'll tell you everything about everything."]
+			id: "366136A12DFE2AA4"
+			rewards: [{
+				id: "63A6BD1F3F43B7B8"
+				item: "crossroads:omnimeter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4EE35D3968BD90"
+				title: "Oh, This Is The Greatest Show"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1346A210CF9D3E53"]
+			description: [
+				"Ore doubling? Get ready for ore tripling. The stamp mill lets you turn ore into grit which can be smelted directly for a not-quite 3x yield, OR you can run it through the industrial blast furnace to product 3x yield and slag."
+				"{@pagebreak}"
+				"When an ore is placed in it, two progress bars appear: a time progress bar and a gear progress bar. The time bar ticks regardless of power and will spit out the ore after a certain time, which could be before processing is complete if your rotary power isn't spinning fast enough."
+				"{@pagebreak}"
+				"The gear bar progresses when the machine is powered and spinning. For the stamp mill to successfully process an ore into grit, the gear progress bar must complete before the time bar runs out. To process an ore in a single pass, the stamp mill needs to operate above eight radians per second. If the processing is not complete before the time bar runs out, the ore will be spit out, BUT its progress will be retained, so you can re-feed it into the system to complete."
+			]
+			id: "236C34423C4FACC3"
+			rewards: [{
+				id: "2DF52AE3FFD1FDA6"
+				item: "essentials:sorting_hopper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D11F8E897FFEE03"
+				item: "crossroads:stamp_mill"
+				type: "item"
+			}]
+			title: "Ore You Ready For More Ore"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["236C34423C4FACC3"]
+			description: ["This will produce molten ore from ore grit at a rate of 1 ingot per grit. Finally true ore tripling. As a side effect, it produces a hefty amount of slag."]
+			id: "18E8B601B42AB9CC"
+			tasks: [{
+				id: "72E35BB15EF6C7E1"
+				item: "crossroads:blast_furnace"
+				type: "item"
+			}]
+			title: "Cranking The Hog"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18E8B601B42AB9CC"]
+			description: ["Want less slag? The ore cleanser will produce ore clumps and dirty water from ore grit. The clumps still smelt for one ingot, and the dirty water can be processed in a water centrifuge for...stuff."]
+			id: "3A136D4809B306D6"
+			rewards: [{
+				count: 8
+				id: "5899CB0B001C0DF5"
+				item: {
+					Count: 1
+					id: "crossroads:ore_gravel"
+					tag: {
+						material: "iron"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2950C564D5B45700"
+				item: "crossroads:ore_cleanser"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["581FC5104D1AE8BF"]
+			description: ["Move water, lava, gas, any liquid that can exist in the world. Pumps function like pumps, so make sure you are putting rotary in the right direction."]
+			id: "2057C1FA72FC1877"
+			rewards: [{
+				id: "6D250997CF0E51DB"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6751A2EFF857F209"
+				item: "crossroads:rotary_pump"
+				type: "item"
+			}]
+			title: "In Case You Ain't Wet Enough Yet"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4FC2EF9238BAB33A"]
+			description: ["Wall-E looks at you in horror for getting so big and round. I look at you in horror for breeding pigs using fat from pigs."]
+			icon: "crossroads:fat_congealer"
+			id: "019EAD5CAAEE91B1"
+			rewards: [{
+				id: "5BDC2EF1F7ABDBC4"
+				item: "crossroads:liquid_fat_bucket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "77CBAD92C95E7B52"
+					item: "crossroads:fat_collector"
+					type: "item"
+				}
+				{
+					id: "6F49F9B28D4F40AF"
+					item: "crossroads:fat_congealer"
+					type: "item"
+				}
+				{
+					id: "25C34247A1E86EBE"
+					item: "crossroads:fat_feeder"
+					type: "item"
+				}
+			]
+			title: "mmph..im so full"
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 	title: "Crossroads"

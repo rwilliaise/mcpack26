@@ -52,6 +52,35 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			description: ["This guy lets you send items around more conveniently. Might be useful for the stamp mill, if you're into Crossroads things."]
+			id: "0D9C7786FC818025"
+			tasks: [
+				{
+					id: "69B46652C0D6196C"
+					item: "essentials:item_shifter"
+					type: "item"
+				}
+				{
+					id: "5CB3177787222314"
+					item: "essentials:sorting_hopper"
+					type: "item"
+				}
+				{
+					id: "0DC992A9548FBFEB"
+					item: "essentials:speed_hopper"
+					type: "item"
+				}
+				{
+					id: "2CB154B7B9D5F22B"
+					item: "essentials:hopper_filter"
+					type: "item"
+				}
+			]
+			title: "Hoppers"
+			x: 1.0d
+			y: -1.0d
+		}
 	]
 	title: "Tips n Tricks"
 }

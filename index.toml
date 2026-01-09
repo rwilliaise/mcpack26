@@ -298,7 +298,11 @@ hash = "5faa852713fb4f7bb6ea265fe9f1244c5d85cb5fdd9772437033a058fb13f836"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "0e0bd17d9d9f1bb7d6a94cbbf1a47a4bafe77351035ce6d89ecdb4ecaf14ec19"
+hash = "a3d5d0d4e55266af566cdc7c3d809aa3b3d4233c3f2c2a894df6110741ab2a5f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/util.snbt"
+hash = "0c74a373d6a709300405a02ca4c9e128db1db045704a688da72c1472a4044507"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -314,7 +318,7 @@ hash = "dfcebb1c8b3cf080c149c4d308b8a7aeda00599519ea766b326b91668cab1866"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cuisine_choice_reward.snbt"
-hash = "a43d042a7977e468667c3eff0c55b6e5cf022d4490d97ebb2ceff9bf222cb26c"
+hash = "f7ee7f1347d332da5c4d7dda404808fa6a90ab7643b72c2d80daaffbd0c7c552"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/ship_engine_reward.snbt"
@@ -832,6 +836,7 @@ metafile = true
 
 [[files]]
 file = "mods/createaddition.pw.toml"
+hash = "e6d1f36e9e0193fe410d136e0cda8a7f6dbbc809c0644f06a601bddf5b38a395"
 metafile = true
 
 [[files]]
@@ -1386,11 +1391,6 @@ metafile = true
 [[files]]
 file = "mods/vs-safe-and-sound.pw.toml"
 hash = "a7e4a12322f3efd6207b36ae207a656ef1b78d4d61f1520ef185a4d0a4265c16"
-metafile = true
-
-[[files]]
-file = "mods/when-dungeons-arise.pw.toml"
-hash = "de4b3b898a16ed4d615cfce18ac872e6a963605d52072d290b495cdff160a34c"
 metafile = true
 
 [[files]]
