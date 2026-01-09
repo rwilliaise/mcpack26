@@ -815,6 +815,10 @@ hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
 metafile = true
 
 [[files]]
+file = "mods/crafttweaker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/crash-assistant.pw.toml"
 hash = "5c54e5306fa641958d698ca8fbb616d173a206e56eba625d7e109f0c8fa11231"
 metafile = true
