@@ -1,0 +1,31 @@
+# THIS IS TO RUN A SERVER WITH THE PACK
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: grc-packwiz-dev
+    restart: unless-stopped
+    ports:
+      - "25565:25565"
+    stdin_open: true
+    tty: true
+    environment:
+      EULA: "TRUE"
+      TYPE: "FORGE"
+      VERSION: "1.20.1"
+      FORGE_LOADER_VERSION: "47.4.13"
+      MEMORY: "18G"
+
+      MOTD: "Now with Cubic Chunks!"
+
+      WHITELIST: "OneLoneTurnip, heck_yeah_, TokenStealer"
+      OPS: "OneLoneTurnip, heck_yeah_, TokenStealer"
+      DIFFICULTY: "hard"
+      MAX_TICK_TIME: -1
+
+      # Tailscale!!
+      PACKWIZ_URL: "http://100.119.104.94:8080/pack.toml"
+
+      USE_MEOWICE_FLAGS: true
+      USE_MEOWICE_GRAALVM_FLAGS: true
+    volumes:
+      - ./data:/data

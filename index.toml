@@ -446,7 +446,7 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
 file = "config/structurify.json"
-hash = "aff0c0fb276e59b437bc6cfde09bc0ee7299882726ded8631e473d1915c459bf"
+hash = "6ff5ed1e1863156e62d198ba9c9a979ab53f0564bf5d2f4299495b39410d5c6a"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -577,8 +577,84 @@ file = "config/zeta-common.toml"
 hash = "5c73a54972b8af35be5d6b6fff49f46501d6ff37ddef60867221f5c1486f83d1"
 
 [[files]]
+file = "ct_dumps/attribute.txt"
+hash = "c994ffbaffe9813ac76e3ed677017a7d61c973cfa112b0ddf69e84c57994e103"
+
+[[files]]
+file = "ct_dumps/block.txt"
+hash = "2e6aa087695f75b63942abb93ef993ce03fb700265ba07683c1cdd0b0a7d12aa"
+
+[[files]]
+file = "ct_dumps/constant.txt"
+hash = "294ef17037379eef30fb810b9dd7aaeb228811f0710c47e6b45857ba82807304"
+
+[[files]]
+file = "ct_dumps/create_items.txt"
+hash = "8d7136b7fdfc1f8816fba92e5eeaff937d4fe2a6fe9c723509a883ba0bd953f1"
+
+[[files]]
+file = "ct_dumps/enchantment.txt"
+hash = "1bd7343194ea0ee5e80e907e4f437b03b042b7c897b9078f8bd24ce0ac4daaf7"
+
+[[files]]
+file = "ct_dumps/entitytype.txt"
+hash = "b56e7371c76f53d1e79043d44e4f1fe63b0453fb7dc635adafec2315109b5b3b"
+
+[[files]]
+file = "ct_dumps/fluid.txt"
+hash = "7948a7232f4ab19767b7b6928f248ba6f24a1509b8ad04a8dce591871a09e08a"
+
+[[files]]
+file = "ct_dumps/item.txt"
+hash = "7534b7aafccbcb682a72b5fd4493d571672379ad8477f7437bb26f26dece265f"
+
+[[files]]
+file = "ct_dumps/mobeffect.txt"
+hash = "419d4ec0b03779391defb02c6b0c76f207456591cd8e1d66b9fa3302bc5a604d"
+
+[[files]]
+file = "ct_dumps/potion.txt"
+hash = "26b8611800995fa7289624d4b209ce87ecdc499eeb4340f05c96748f4823e574"
+
+[[files]]
+file = "ct_dumps/profession.txt"
+hash = "4e38162cdbbac923642fae146e7d685e1825120ff47f4df3ebbd4a525525dd56"
+
+[[files]]
+file = "ct_dumps/recipecomponent.txt"
+hash = "911b9b9a25156458a5d45e2c8cdffc4704a2e73eeb00c683954bbbd6e2e4f5f8"
+
+[[files]]
+file = "ct_dumps/recipetype.txt"
+hash = "1e25e7cb9b26a447c2f5f0dd4690c2afc847f8790b176d1e14f31b06808b107c"
+
+[[files]]
+file = "ct_dumps/soundevent.txt"
+hash = "e947acb33dd467bb773c427029ee5523194b4df627567054c729f808bfc1ef0e"
+
+[[files]]
+file = "ct_dumps/tag.txt"
+hash = "acaee5f09ea6caf37f6774ced40afa485e1525315f35f8954e1b6c05421e9b0f"
+
+[[files]]
+file = "ct_dumps/tagmanager.txt"
+hash = "59a142cb685afe92768f135f19302f0cdf9203e59c9b6a38ff4818e5084834d3"
+
+[[files]]
+file = "ct_dumps/targetingstrategy.txt"
+hash = "85805d08e25a1e97bfa962ceae7b227c8e4852f1e35254d712985eacee89ed44"
+
+[[files]]
+file = "ct_dumps/toolaction.txt"
+hash = "466e5ecbdfcd528ea15219552a7f47a4a93dc656837c0cfc07599ab09ceacefa"
+
+[[files]]
 file = "defaultconfigs/computercraft-server.toml"
 hash = "50de33f2e12902aef9ae11358ab5c4f9d5be3abe3c88dacb9a1a8389db6eaac3"
+
+[[files]]
+file = "docker-compose.yml"
+hash = "9e95db0d8d9e23042f6fce7c88f61716e92f904850806510f2a81538426e3a02"
 
 [[files]]
 file = "kubejs/README.txt"
@@ -815,7 +891,13 @@ hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
 metafile = true
 
 [[files]]
+file = "mods/crafting-recipe-exporter.pw.toml"
+hash = "71b1eea89da1666ba8ea6ca8785cd1196a998a72466edbdcb2f64292ddaf6915"
+metafile = true
+
+[[files]]
 file = "mods/crafttweaker.pw.toml"
+hash = "5b39d18c3cc2ba014e309a688aea1c6acbb6650b5885a349af0127990fd06824"
 metafile = true
 
 [[files]]
@@ -906,11 +988,6 @@ metafile = true
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "d6e3ac7a748b54d711705affd3d0851d0234820172b45adcff659f208f1bd247"
-metafile = true
-
-[[files]]
-file = "mods/easy-crafttweaker.pw.toml"
-hash = "c9ac7ade4f0f88550c9d6d9f79304463650e4b47b7f0e3889753ad1dd7ae2427"
 metafile = true
 
 [[files]]
