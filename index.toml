@@ -286,11 +286,11 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "a78e97c96d199809012caa5df3dfeecf8a1cc428f4d8a2a622bb01074c908826"
+hash = "2a0b662582671c018ffb4d93b2d2859a441572fdfae377994174ef615e3d7127"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crossroads.snbt"
-hash = "fcf67515c116db997215e48bdfd07ebdabb7f0259f30c4ab5c79eb5b430d950a"
+hash = "50cf11460faf2079d8eac94cb6b5cc38f48b1fc9457e4fee673cf973cfe3dcf3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
@@ -298,7 +298,7 @@ hash = "5faa852713fb4f7bb6ea265fe9f1244c5d85cb5fdd9772437033a058fb13f836"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "a3d5d0d4e55266af566cdc7c3d809aa3b3d4233c3f2c2a894df6110741ab2a5f"
+hash = "8e35a2bd609344fcd9af12ce07b663787fcebf840c313c5d606be6c5451298f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -646,7 +646,12 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "5e9edd1fd2395f14a0c8a4acbdbdd61e1047be1f0033deb3140d2ce0d093e9d8"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/artifacts.pw.toml"
+hash = "a41a3cf3204c48e0a0b48acbad66ff4dbd71a94942cb4955973a7059b686aa05"
 metafile = true
 
 [[files]]
@@ -807,11 +812,6 @@ metafile = true
 [[files]]
 file = "mods/corpse.pw.toml"
 hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
-metafile = true
-
-[[files]]
-file = "mods/crafttweaker.pw.toml"
-hash = "5b39d18c3cc2ba014e309a688aea1c6acbb6650b5885a349af0127990fd06824"
 metafile = true
 
 [[files]]
@@ -1229,6 +1229,11 @@ hash = "8df897c0f7831e919aa528c3c1e5239f39439c123d99761230ab2357132bad98"
 metafile = true
 
 [[files]]
+file = "mods/rar-compat.pw.toml"
+hash = "663af87b8dfbd194e5319202b7b0a48effdfbc1caf9f9a758e7299da66ef4b89"
+metafile = true
+
+[[files]]
 file = "mods/relics-mod.pw.toml"
 hash = "071431afe4ae064387606fac09482058c41c0d3875b23140205597e4eea55d35"
 metafile = true
@@ -1391,6 +1396,11 @@ metafile = true
 [[files]]
 file = "mods/vs-safe-and-sound.pw.toml"
 hash = "a7e4a12322f3efd6207b36ae207a656ef1b78d4d61f1520ef185a4d0a4265c16"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "de4b3b898a16ed4d615cfce18ac872e6a963605d52072d290b495cdff160a34c"
 metafile = true
 
 [[files]]
