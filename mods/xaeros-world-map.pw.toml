@@ -1,21 +1,18 @@
 name = "Xaero's World Map"
-filename = "XaerosWorldMap_1.39.12_Forge_1.20.jar"
+filename = "xaeroworldmap-forge-1.20.1-1.40.6.jar"
 side = "both"
 
-[option]
-optional = true
-default = true
-description = """
-Adds a fullscreen worldmap, showing where you have explored in the world. This
-is separate from the mini-map, and, importantly, does not show on the HUD.
-"""
-
 [download]
-url = "https://cdn.modrinth.com/data/NcUtCpym/versions/ATTRzxT3/XaerosWorldMap_1.39.12_Forge_1.20.jar"
+url = "https://cdn.modrinth.com/data/NcUtCpym/versions/LYdIykWO/xaeroworldmap-forge-1.20.1-1.40.6.jar"
 hash-format = "sha512"
-hash = "06d68367ec0a3eed9c13a6c02ce4a93d9375c6b32cb8c3e77a7c62f3e3ea6bfadbfae70d0e5f115e2b353d4b186e6cf80bcc73df5b13362d5d18f25fb2a9d6d1"
+hash = "0867694b97f81649c2378c47e27081fdcef7b4580a499090c1f68faf8cb52634727d83f54a2580cd74e63e7ed0c959328e15bb17e3084e0daf921b35d49d02d1"
 
 [update]
 [update.modrinth]
 mod-id = "NcUtCpym"
-version = "ATTRzxT3"
+version = "LYdIykWO"
+
+[option]
+optional = true
+description = "Adds a fullscreen worldmap, showing where you have explored in the world. This\nis separate from the mini-map, and, importantly, does not show on the HUD.\n"
+default = true

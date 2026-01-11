@@ -289,12 +289,24 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/alchemy.snbt"
+hash = "084fd9984b0cabd965d57a651dc1f7d02757aacbddcb0529093e30e09dd5bd33"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/bioengineering.snbt"
+hash = "d1937b953d5035d616bcbf6bd10c90d5670fb66401f4116a507a39a7fddd75d4"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/crossroads.snbt"
-hash = "78862661aff793d695b946d40af66e66bd9dac0c0b409ac6d08430af0372254b"
+hash = "53ba9c642d8743f01a187083dd35a0b0e6aa16b29c94117ff4e23cc2a131ab0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
 hash = "5f0ba2dd2fa80c8adf5c49d3e6a63c579828288b0fc0e02497ebef10543dba33"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/technomancy.snbt"
+hash = "153888da125534f2edacccd5d5a46f746aea0a5790cc31444e4ffcfdfb651d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
@@ -302,7 +314,7 @@ hash = "f758f4dc542f3cea94d51c9ebb108fb8fbdce26110a26fa83225d21d40cd4d33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
-hash = "3ddd975b7acaa36f3d54d76a8017a8a98154d98c5f12f0fdc4183d9545068b45"
+hash = "88ef15943297b868bf32d8612229bb30d07c3878405740ec1a1cef8119400e64"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -593,8 +605,20 @@ file = "kubejs/assets/kubejs/textures/block/compressed_end_stone.png"
 hash = "14432df7d88301d99830446510bed04ca7a2901b2e3d38e7d9840beea9294511"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/brass_dust.png"
+hash = "3b09067caa1f16477e3a462ca20e144cc31a5ffff5ba4388e59e9f4d9f1abc86"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/bronze_dust.png"
+hash = "2ab783c37a95052645cba7afac6570c8bde90e5b787a09addc3f75007643c112"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/petroleum_jelly.png"
+hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
@@ -603,10 +627,6 @@ hash = "00f04ea1d78636c5f0810a0dffdb224d22a581f44cd62a4028db0448037b0607"
 [[files]]
 file = "kubejs/client_scripts/jei_hider.js"
 hash = "28d5fb4d0ccb0cefcbb7db0e99588fd7dfdc2716f60e3fb619bcb69ed4f9d5b8"
-
-[[files]]
-file = "kubejs/client_scripts/nbt_shower.js"
-hash = "d74b9cd821e22135ec6a2ec593d28952c7ebf182a2db0578f68ceaede9b10479"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -622,7 +642,7 @@ hash = "c1e8140d3cf6f1961663cdce016ab9f18bb442a930a5a4f0a679b0f65d989068"
 
 [[files]]
 file = "kubejs/server_scripts/crossroads_ore_replacement.js"
-hash = "e57fc6616c06e63eff617ae7025dbde209b2305cce9d6fb2179607a0ead20627"
+hash = "06c9219a4c8f05f96e1270e19baacf2cca9261464447b5b361d35555455c0507"
 
 [[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
@@ -630,19 +650,23 @@ hash = "868fc11b67cfb09e578d8768a4ee8e09b970530a98ff5c7c4cae5e427e78924d"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "02114b2d9c50ffc113d85b9861090f9fe6a86d3e7fcc6d6612085c429e28fc8c"
-
-[[files]]
-file = "kubejs/server_scripts/nuke_create.js"
-hash = "e49b53ad53a96ec2f44dcc8e70b11e5f58836e7483f692d2049f860edae1ef4b"
+hash = "486a4c02f3ab66b3c3035a48e5f4c5a3b1c538cb9758c1ce485dc8f8224196f1"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
 hash = "a07014bf99224b81b4b34893de400c02db51020344a94f45dc1ba01e5d402452"
 
 [[files]]
+file = "kubejs/startup_scripts/create_compat.js"
+hash = "316bbd294341737fb9083d2d43fe9a4df899324f016b755895753bf026d10c96"
+
+[[files]]
 file = "kubejs/startup_scripts/main.js"
 hash = "0a5c4fc82e81d18b3ee3e4c7e5ffc4f9999282a3d15bba51e212d4442e802e74"
+
+[[files]]
+file = "kubejs/startup_scripts/resin_copshowium.js"
+hash = "1122748e8670e14e596fdf2df3ddec4a1290dc965371f753d62df7c18bc541e8"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -701,7 +725,6 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
 metafile = true
 
 [[files]]
@@ -796,7 +819,6 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
-hash = "a8a173910046907b21a1ed9ec4c698fa1d91327e194f565de706a00f243de982"
 metafile = true
 
 [[files]]
@@ -851,7 +873,6 @@ metafile = true
 
 [[files]]
 file = "mods/create-clockwork.pw.toml"
-hash = "b9b97be64d4b4d1fdc07c496308b8359890cba4baf53f35cfa718af8503c4da2"
 metafile = true
 
 [[files]]
@@ -962,6 +983,10 @@ metafile = true
 [[files]]
 file = "mods/eureka-forge-1201-1.6.0-beta.1+87ebda3bf6.jar"
 hash = "f9246941e42e1c0be54a41c7236b123f3021d5cb25881ad6a661bb219bdac0fe"
+
+[[files]]
+file = "mods/eureka.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
@@ -1095,7 +1120,6 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "33a3412efe2b8941a0895e3c2e959dea52850f919031b49058f3e6b45a392539"
 metafile = true
 
 [[files]]
@@ -1175,7 +1199,6 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "c00cfcd4274f3055ddf910c8c1bbf6a5807ac05e8a42583c26cdbd839bacbe23"
 metafile = true
 
 [[files]]
@@ -1345,7 +1368,6 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "3848bc11aa2acabef74eb85ca74b8ca8e23733b7fcbc77293165c5c7161e3288"
 metafile = true
 
 [[files]]
@@ -1385,7 +1407,6 @@ metafile = true
 
 [[files]]
 file = "mods/trackwork.pw.toml"
-hash = "70fd63c64e9d2e530ee5dc87f71c1bef0253299848515e8ad4057e715cc3ffea"
 metafile = true
 
 [[files]]
@@ -1400,7 +1421,6 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "d51c317ce1c22c238638b678910a6e2a505f3613f8fbc4a57dddb1ab633999fe"
 metafile = true
 
 [[files]]
@@ -1435,12 +1455,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "ceb3f89a37a5a98a270a2499e6dd7abcde685ba9b1735fe9a6581cf2622f9156"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "00f68a039166eeca81412cbe4bcd37b3310ebc6a822711435ee1d1ade780c81c"
 metafile = true
 
 [[files]]

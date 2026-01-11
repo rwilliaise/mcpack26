@@ -1,20 +1,18 @@
 name = "Xaero's Minimap"
-filename = "Xaeros_Minimap_25.2.10_Forge_1.20.jar"
+filename = "xaerominimap-forge-1.20.1-25.3.5.jar"
 side = "both"
 
-[option]
-optional = true
-default = true
-description = """
-Adds a mini-map of the world onto the HUD.
-"""
-
 [download]
-url = "https://cdn.modrinth.com/data/1bokaNcj/versions/VfhlV9am/Xaeros_Minimap_25.2.10_Forge_1.20.jar"
+url = "https://cdn.modrinth.com/data/1bokaNcj/versions/8SbF22u3/xaerominimap-forge-1.20.1-25.3.5.jar"
 hash-format = "sha512"
-hash = "936d2608d74c9a4d702efce51e0197f19f947997af768cb558f4cc5323ea4c5f12ee11b519df4071bdbc8c2aca8caa1baa18f702ef32c24bc4ea78fdbac483b2"
+hash = "0811f254ad5c764e3d9f1a00c3eb2840ed470dc3919f345bfefe6dc3f327c909ca07b847979c22e2ffba3a5d62712a4cbe8619e7b3a1695a1b67e4ae2a1fb148"
 
 [update]
 [update.modrinth]
 mod-id = "1bokaNcj"
-version = "VfhlV9am"
+version = "8SbF22u3"
+
+[option]
+optional = true
+description = "Adds a mini-map of the world onto the HUD.\n"
+default = true
