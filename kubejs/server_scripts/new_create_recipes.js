@@ -234,20 +234,6 @@ ServerEvents.recipes(event => {
     G: 'minecraft:iron_sheet'
   });
 
-  // Wanderlite Crystals are no longer generated in the world so they must be craftable
-  event.shaped(
-    Item.of('vs_clockwork:wanderlite_crystal', 4),
-    [
-      ' A ',
-      'ABA',
-      ' A '
-    ],
-    {
-      A: 'minecraft:phantom_membrane',
-      B: 'crossroads:lens_array'
-    }
-  );
-
   // Physgun (like a better Gravitron)
   event.shaped('the_vmod:physgun', [
     ' A ',
@@ -255,12 +241,21 @@ ServerEvents.recipes(event => {
     ' I '
   ], {
     A: 'create:andesite_alloy',
-    E: 'vs_clockwork:wanderlite_crystal',
+    E: 'crossroads:lens_array',
     C: 'create:brass_casing',
     I: 'minecraft:iron_block'
   });
 
+  // Interchangeable Lens & Wanderlite Crystal
+  event.shapeless('vs_clockwork:wanderlite_crystal', ['crossroads:lens_array']);
+  event.shapeless('crossroads:lens_array', ['vs_clockwork:wanderlite_crystal']);
+
   // World Interactions
+
+  // Block of andesite from stone
+  event.remove({ id: "crossroads:beam_transmute/fusion_stone" }); // Stone -> Stone bricks
+  beamTransmute("fusion", 1, "#forge:stone", "minecraft:andesite", false);
+  beamTransmute("fusion", 1, "minecraft:andesite", "minecraft:stone", true);
 
   // Netherrack from Cobble
   beamTransmute("rift", 8, "#forge:cobblestone", "minecraft:netherrack", false);
