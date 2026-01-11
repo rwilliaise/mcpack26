@@ -17,3 +17,9 @@ JEIEvents.hideItems(event => {
     event.hide(item);
   });
 });
+
+ItemEvents.tooltip(event => {
+  thingsToHide.forEach(item => {
+    event.add(item, Text.red('Item is Disabled!').bold())
+  });
+});
