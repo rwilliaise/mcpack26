@@ -11,4 +11,14 @@ ServerEvents.recipes(event => {
       A: 'farmersdelight:canvas'
     }
   );
+
+  event.custom({
+    type: 'crossroads:beam_extract',
+    input: {
+      tag: '#forge:storage_blocks/redstone'
+    },
+    energy: 18,
+    potential: 24,
+    duration: 4
+  });
 });

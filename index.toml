@@ -310,7 +310,7 @@ hash = "153888da125534f2edacccd5d5a46f746aea0a5790cc31444e4ffcfdfb651d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "f758f4dc542f3cea94d51c9ebb108fb8fbdce26110a26fa83225d21d40cd4d33"
+hash = "acff3f695eaaa8dfb40d2c53672891cc2763b94af02d68ff34569df17937e0ec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -622,7 +622,7 @@ hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
-hash = "00f04ea1d78636c5f0810a0dffdb224d22a581f44cd62a4028db0448037b0607"
+hash = "d60298986136a363a5017f0d7f954106e0dad8a941ae640b3c30579590939933"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hider.js"
@@ -650,7 +650,7 @@ hash = "868fc11b67cfb09e578d8768a4ee8e09b970530a98ff5c7c4cae5e427e78924d"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "486a4c02f3ab66b3c3035a48e5f4c5a3b1c538cb9758c1ce485dc8f8224196f1"
+hash = "6ddd05e2ffd977551784da4a7ca5ecb322901ab0fa04d88f3ac2182901507991"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
