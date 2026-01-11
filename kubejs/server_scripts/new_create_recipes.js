@@ -12,12 +12,14 @@ ServerEvents.recipes(event => {
     'create:pressing',
     'create:cutting',
     'create:deploying',
+    'create:item_application',
     'create:sequenced_assembly',
     'create:sandpaper_polishing',
     'createdieselgenerators:distillation',
     'create:mechanical_crafting',
     'createdieselgenerators:compression_molding',
-    'createdieselgenerators:casting'
+    'createdieselgenerators:casting',
+    'createaddition:rolling',
   ];
 
   createTypes.forEach(type => {
@@ -176,7 +178,8 @@ ServerEvents.recipes(event => {
     { ingot: 'minecraft:copper_ingot', plate: 'create:copper_sheet' },
     { ingot: 'create:brass_ingot', plate: 'create:brass_sheet' },
     { ingot: 'create:zinc_ingot', plate: 'createaddition:zinc_sheet' },
-    { ingot: 'createaddition:electrum_ingot', plate: 'createaddition:electrum_sheet' }
+    { ingot: 'createaddition:electrum_ingot', plate: 'createaddition:electrum_sheet' },
+    { ingot: 'create:copper_sheet', plate: 'createaddition:copper_wire' }
   ];
 
   plates.forEach(p => {
@@ -256,6 +259,15 @@ ServerEvents.recipes(event => {
   event.remove({ id: "crossroads:beam_transmute/fusion_stone" }); // Stone -> Stone bricks
   beamTransmute("fusion", 1, "#forge:stone", "minecraft:andesite", false);
   beamTransmute("fusion", 1, "minecraft:andesite", "minecraft:stone", true);
+
+  beamTransmute("fusion", 16, '#minecraft:logs', 'create:andesite_casing', false);
+  beamTransmute("fusion", 8, 'create:andesite_casing', 'minecraft:oak_log', true);
+
+  beamTransmute("fusion", 32, "create:andesite_casing", "create:brass_casing", false);
+  beamTransmute("fusion", 16, "create:brass_casing", "create:andesite_casing", true);
+
+  event.shapeless('create:brass_casing', ['create:andesite_casing', 'create:brass_ingot']);
+  event.shapeless('create:andesite_casing', ['#minecraft:logs', 'create:andesite_alloy']);
 
   // Netherrack from Cobble
   beamTransmute("rift", 8, "#forge:cobblestone", "minecraft:netherrack", false);

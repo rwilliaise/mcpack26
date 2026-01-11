@@ -1119,8 +1119,11 @@ hash = "97c5e1b61bfd1a812718baa7657ccf20691697ef8a1be47972a230c209c4077c"
 metafile = true
 
 [[files]]
+file = "mods/jei-integration.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
-hash = "f1364a9ab516d4aa12a98365203a828cc1afdd45913935158909516e585527cf"
 metafile = true
 
 [[files]]

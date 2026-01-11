@@ -21,4 +21,13 @@ ServerEvents.recipes(event => {
     potential: 24,
     duration: 4
   });
+
+  event.remove({ output: "createaddition:connector" })
+  event.shapeless(
+    Item.of('createaddition:connector', 2),
+    [
+      'create:andesite_alloy',
+      'createaddition:copper_rod'
+    ]
+  );
 });
