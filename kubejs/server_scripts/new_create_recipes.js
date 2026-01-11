@@ -129,6 +129,7 @@ ServerEvents.recipes(event => {
   }
 
   // Ore processing
+  event.remove({ id: "crossroads:mill/stone" });
   stampMill('create:crushed_raw_zinc', 2, { tag: 'forge:ores/zinc' });
   beamTransmute('fusion', 8, 'forge:storage_blocks/zinc', 'crossroads:block_tin', false);
   beamTransmute('fusion', 8, '#forge:ores/iron', 'create:zinc_ore', false);
