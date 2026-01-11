@@ -2,7 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "crossroads"
-	group: ""
+	group: "7DA2C9124CBC0DEA"
+	hide_quest_details_until_startable: true
 	icon: {
 		Count: 1
 		id: "crossroads:gear_base"
@@ -11,7 +12,7 @@
 		}
 	}
 	id: "2749D121507CE373"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -1044,6 +1045,7 @@
 		{
 			dependencies: ["67F9455FD7103538"]
 			description: ["Lens frames can filter beams based on color by inserting specific gems like ruby (energy/red), emerald (potential/green), or diamond (stability/blue). Without a gem, they can measure the beam's power using a comparator or circuit reader. Pure quartz can be inserted to convert light beams into glowing quartz, and void crystals will convert any incoming beam into a void beam. "]
+			icon: "crossroads:lens_frame"
 			id: "35ED2B5FB762DED9"
 			tasks: [
 				{
@@ -1134,6 +1136,7 @@
 		{
 			dependencies: ["47FBB618E947698B"]
 			description: ["Certain blocks allow beams to pass through them. "]
+			icon: "crossroads:permeable_obsidian"
 			id: "6440AF1D63594366"
 			optional: true
 			rewards: [{
@@ -1387,7 +1390,7 @@
 				""
 				"&lAlchemy&r: A path about chemistry and transmutation."
 				"&lTechnomancy&r: A path about time manipulation."
-				"&lWitchcraft&r: A path about life and death."
+				"&lBioengineering&r: A path about life and death."
 			]
 			id: "35445DCE9ECB2A9B"
 			rewards: [
@@ -1416,6 +1419,26 @@
 			x: 15.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: ["You'll notice you do not find and void crystal ore in the end. That should not stop you! You can make void crystal ore via a fusion beam transmutation on compressed end stone."]
+			icon: "crossroads:void_crystal"
+			id: "4DB91670AE5BE9B0"
+			tasks: [
+				{
+					id: "0B37B519A52CC003"
+					item: "crossroads:void_crystal"
+					type: "item"
+				}
+				{
+					id: "65828E57B3AF6C50"
+					item: "kubejs:compressed_end_stone"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -0.5d
+		}
 	]
-	title: "Crossroads"
+	title: "The Main Road"
 }

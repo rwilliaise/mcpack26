@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemy"
+	group: "7DA2C9124CBC0DEA"
+	id: "23DACCB746EF7DD5"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "Alchemy"
+}

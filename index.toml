@@ -290,19 +290,19 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crossroads.snbt"
-hash = "50cf11460faf2079d8eac94cb6b5cc38f48b1fc9457e4fee673cf973cfe3dcf3"
+hash = "78862661aff793d695b946d40af66e66bd9dac0c0b409ac6d08430af0372254b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
-hash = "5faa852713fb4f7bb6ea265fe9f1244c5d85cb5fdd9772437033a058fb13f836"
+hash = "5f0ba2dd2fa80c8adf5c49d3e6a63c579828288b0fc0e02497ebef10543dba33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "8e35a2bd609344fcd9af12ce07b663787fcebf840c313c5d606be6c5451298f5"
+hash = "f758f4dc542f3cea94d51c9ebb108fb8fbdce26110a26fa83225d21d40cd4d33"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
-hash = "0c74a373d6a709300405a02ca4c9e128db1db045704a688da72c1472a4044507"
+hash = "3ddd975b7acaa36f3d54d76a8017a8a98154d98c5f12f0fdc4183d9545068b45"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -589,12 +589,24 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_end_stone.png"
+hash = "14432df7d88301d99830446510bed04ca7a2901b2e3d38e7d9840beea9294511"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/client_scripts/item_renamer.js"
+hash = "00f04ea1d78636c5f0810a0dffdb224d22a581f44cd62a4028db0448037b0607"
+
+[[files]]
 file = "kubejs/client_scripts/jei_hider.js"
-hash = "0a44454648bddc412ec5513099eb169b01cfa11e181a8837169040a7732f2991"
+hash = "28d5fb4d0ccb0cefcbb7db0e99588fd7dfdc2716f60e3fb619bcb69ed4f9d5b8"
+
+[[files]]
+file = "kubejs/client_scripts/nbt_shower.js"
+hash = "d74b9cd821e22135ec6a2ec593d28952c7ebf182a2db0578f68ceaede9b10479"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -610,7 +622,11 @@ hash = "c1e8140d3cf6f1961663cdce016ab9f18bb442a930a5a4f0a679b0f65d989068"
 
 [[files]]
 file = "kubejs/server_scripts/crossroads_ore_replacement.js"
-hash = "7e82a0e666b5bba2dafa55a7a510ac5172a10edbded33e9ac14d3e7714ec0236"
+hash = "e57fc6616c06e63eff617ae7025dbde209b2305cce9d6fb2179607a0ead20627"
+
+[[files]]
+file = "kubejs/server_scripts/misc_recipes.js"
+hash = "868fc11b67cfb09e578d8768a4ee8e09b970530a98ff5c7c4cae5e427e78924d"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
@@ -619,6 +635,10 @@ hash = "02114b2d9c50ffc113d85b9861090f9fe6a86d3e7fcc6d6612085c429e28fc8c"
 [[files]]
 file = "kubejs/server_scripts/nuke_create.js"
 hash = "e49b53ad53a96ec2f44dcc8e70b11e5f58836e7483f692d2049f860edae1ef4b"
+
+[[files]]
+file = "kubejs/startup_scripts/compressed_end_stone.js"
+hash = "a07014bf99224b81b4b34893de400c02db51020344a94f45dc1ba01e5d402452"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

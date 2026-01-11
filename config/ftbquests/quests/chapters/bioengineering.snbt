@@ -1,0 +1,467 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bioengineering"
+	group: "7DA2C9124CBC0DEA"
+	icon: {
+		Count: 1
+		id: "crossroads:syringe"
+		tag: { }
+	}
+	id: "7D261315738099A2"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7EA4290D93CD8A57"
+				"13DE91E8D9C2F463"
+			]
+			description: ["The Syringe is your multi-tool for biology. With it, you can inject potions by offhanding a potion and right clicking a mob (the duration will be doubled too), draw blood by offhanding an empty pouch and right clicking a mob, and you'll use it later for genetic modification."]
+			id: "7036CFF4D1BC7604"
+			rewards: [
+				{
+					id: "1BE0A892DF387DA9"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:poison"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "220CCE4973008270"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "507672594CAAE482"
+					item: {
+						Count: 1
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7698E61164A00295"
+				item: "crossroads:syringe"
+				type: "item"
+			}]
+			title: "The Doctor Is In"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7036CFF4D1BC7604"]
+			description: [
+				"The Incubator (kept near target temp) can turn Eggs and Mutagen into Genetic Plasmids."
+				"Use a Syringe to inject a Plasmid + Potion into yourself or a mob. The effect becomes permanent, &4but you lose 1 heart of Max HP per effect.&r"
+			]
+			icon: "crossroads:mutagen"
+			id: "764AB7425B4528EE"
+			rewards: [{
+				id: "1614D408C6CE1429"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "500CC4FEE3DF8650"
+					item: "crossroads:incubator"
+					type: "item"
+				}
+				{
+					id: "1F4DE49FAABAA6C8"
+					item: "crossroads:mutagen"
+					type: "item"
+				}
+			]
+			title: "They Laced My Plasmid With SUPER FENT"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35445DCE9ECB2A9B"]
+			id: "7EA4290D93CD8A57"
+			rewards: [{
+				id: "24688DA4C5369D45"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				advancement: "crossroads:progress/path/witchcraft"
+				criterion: ""
+				id: "0C5B12F09EC51B86"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2643E0D50BFCEC97"]
+			description: ["The Blood Effigy links a Blood Sample to the creature it came from. Any beam that hits the Effigy is applied instantly to the victim. Hit the effigy with a Void-Potential beam to kill a player regardless of where they are. Not that you'd ever do that."]
+			id: "47D2EE85DC1BA228"
+			rewards: [{
+				count: 2
+				id: "5848EBB24C379036"
+				item: "crossroads:blood_sample_empty"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC0A2E38B59705E"
+				item: "crossroads:blood_beam_linker"
+				type: "item"
+			}]
+			title: "Straight doo. Voo doo."
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["542C4665632EFCE0"]
+			description: ["Hold a blood sample in your offhand. The Compass points to the victim."]
+			id: "2643E0D50BFCEC97"
+			rewards: [{
+				id: "58E4D8890F72D247"
+				item: "crossroads:blood_sample_empty"
+				type: "item"
+			}]
+			tasks: [{
+				id: "012E29FEBE1D7FE6"
+				item: "crossroads:blood_compass"
+				type: "item"
+			}]
+			title: "Dream Manhunt. IM NOT CHEATING"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["542C4665632EFCE0"]
+			description: ["Souls are a powerful fuel source, as well as a valuable crafting ingredient. To get them, you need Soul Transience. Brew a Potion of Soul Transience then splash it on a mob and kill it."]
+			icon: "crossroads:soul_cluster"
+			id: "75F4BDC8587AEA6C"
+			rewards: [{
+				id: "16F7E23BEB6EE5A0"
+				item: "crossroads:soul_cluster"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "444890FF2DE1DB41"
+					item: "crossroads:soul_cluster"
+					type: "item"
+				}
+				{
+					id: "0D8E2536B5208E01"
+					item: "crossroads:soul_shard"
+					type: "item"
+				}
+			]
+			title: "Tra-La-La-La! Chop The Wood To Light The Fire!"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7036CFF4D1BC7604"]
+			description: ["The Brewing Vat is a heat-based brewing stand, similar to the industrial furnace, it is much faster than its Vanilla counterpart."]
+			id: "542C4665632EFCE0"
+			rewards: [{
+				count: 8
+				id: "0F14E2E01CEE01AE"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E70388AAD874658"
+				item: "crossroads:brewing_vat"
+				type: "item"
+			}]
+			title: "It's Just Basic Chemistry"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["542C4665632EFCE0"]
+			description: ["Now we're talking. These are some plants you can use to help your automation."]
+			icon: "crossroads:wheezewort_seeds"
+			id: "6E02B1B2E576ED86"
+			rewards: [{
+				count: 4
+				id: "34A1BD266DE44AB6"
+				item: "crossroads:mushroom_dust"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6B415EFD56B14E2A"
+					item: "crossroads:medicinal_mushroom"
+					type: "item"
+				}
+				{
+					id: "7F9536061D56A26E"
+					item: "crossroads:petrol_cactus"
+					type: "item"
+				}
+				{
+					id: "49657B3F8DD715C1"
+					item: "crossroads:wheezewort_seeds"
+					type: "item"
+				}
+			]
+			title: "This Is The Stuff Jordan Peterson Is On"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E02B1B2E576ED86"]
+			description: [
+				"Things rot. ESPECIALLY &oorganic&r ingredients."
+				""
+				"The sample freezer cools items to stop spoilage, requiring cold from heat cables. &4This damages delicate items like Embryos.&r"
+				""
+				"The stasis box works by freezing time, not temperature. This does not damage Embryos."
+			]
+			icon: "crossroads:stasis_storage"
+			id: "1501A23F8D52638D"
+			rewards: [{
+				count: 4
+				id: "45D0A2C988B1D803"
+				item: "crossroads:mutagen"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6BBE27EE81B4EDF8"
+					item: "crossroads:cold_storage"
+					type: "item"
+				}
+				{
+					id: "5DE724150A2F9349"
+					item: "crossroads:stasis_storage"
+					type: "item"
+				}
+			]
+			title: "Fight the Rot"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["542C4665632EFCE0"]
+			description: ["You need fluids to run your biology lab. The Formulation Vat mixes items and fluids using heat."]
+			icon: "crossroads:formulation_vat"
+			id: "667B3B96A0C795FD"
+			rewards: [{
+				id: "321312E4DCBBF9A0"
+				item: "crossroads:fertilizer_solution_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62561B69E0F71612"
+				item: "crossroads:formulation_vat"
+				type: "item"
+			}]
+			title: "Fluid Mixing"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["667B3B96A0C795FD"]
+			description: ["The Hydroponics Trough can grow almost any non-tree plant with light and Fertilizer Solution. Strange that mushrooms use light to grow here, but one does not question the ways of the Hydroponics Trough. Opening the Trough vents all contained fluids."]
+			id: "13362BF27F0CE627"
+			rewards: [
+				{
+					count: 4
+					id: "7724389613E1388E"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "44D706BE9A217E3B"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EF611925BFA8E6E"
+				item: "crossroads:hydroponics_trough"
+				type: "item"
+			}]
+			title: "Grower Not A Shower"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["542C4665632EFCE0"]
+			description: ["The Auto-Injector applies potion effects to everything in a 5x5 area. Now you can uh. Not actually sure what you'll want to do with this one. Yet."]
+			id: "01E94A3D8265D644"
+			rewards: [
+				{
+					count: 4
+					id: "757E8553886EF001"
+					item: "minecraft:fermented_spider_eye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E8873E90D9E4950"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3959F4F79480904F"
+				item: "crossroads:auto_injector"
+				type: "item"
+			}]
+			title: "More Complicated Splash Potion"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01E94A3D8265D644"]
+			description: ["[ \"Cloning allows you to mass-produce mobs starting with blood. Take a blood sample from a mob using a syringe. Do be warned though that blood spoilage occurs over time. Check \", { \"text\": \"Fight The Rot\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1501A23F8D52638D\" } }, \" to preserve your sample for longer.\" ]"]
+			icon: "crossroads:blood_sample_empty"
+			id: "4649BE67C6C3A5E1"
+			rewards: [{
+				id: "6665AE23794F674F"
+				item: "crossroads:blood_sample_empty"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1994FC0294793041"
+					item: "crossroads:blood_sample_empty"
+					type: "item"
+				}
+				{
+					id: "58EBD85D34360DC9"
+					item: "crossroads:blood_sample"
+					type: "item"
+				}
+			]
+			title: "Cloning I"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4649BE67C6C3A5E1"]
+			description: ["You want just the DNA from the blood, so, you gotta spin the shit out of it. The Blood Centrifuge requires precise rotary speed. The target speed changes as the machine runs (0 to 10 rad/s). If your speed is off, the blood degrades. With too much degradation, the resulting clone will come out weak or dead."]
+			icon: {
+				Count: 1
+				id: "crossroads:separated_blood_sample"
+				tag: { }
+			}
+			id: "642ABE3F0297AB7D"
+			tasks: [
+				{
+					id: "7070691017D40C63"
+					item: "crossroads:blood_centrifuge"
+					type: "item"
+				}
+				{
+					id: "5A2A8960661DCCBE"
+					item: "crossroads:separated_blood_sample"
+					type: "item"
+				}
+			]
+			title: "Cloning II"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["642ABE3F0297AB7D"]
+			description: ["Does life begin at whatever this is? The Life-Spark Capsule turns Centrifuged Blood into an Embryo. You're also welcome to add potions to give the clone effects, or Soul Clusters for respawning. Then you must strike the capsule with lightning. Up to you how you want to do that."]
+			icon: {
+				Count: 1
+				id: "crossroads:embryo"
+				tag: { }
+			}
+			id: "28E623C94F9C6A1C"
+			rewards: [{
+				count: 16
+				id: "121A79887C080E64"
+				item: "crossroads:solid_voltus"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D7F67619D1EDDD8"
+					item: "crossroads:embryo_lab"
+					type: "item"
+				}
+				{
+					id: "32DBF819CB70C6B8"
+					item: "crossroads:embryo"
+					type: "item"
+				}
+			]
+			title: "Cloning III"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28E623C94F9C6A1C"]
+			description: ["Put the Embryo in a Nutrition Vat with Nutrient Solution to keep the Embryo fresh AND produce copies of it over time."]
+			id: "26A8D3F1B8C0CA58"
+			tasks: [{
+				id: "3FFA8D3977940B08"
+				item: "crossroads:cultivator_vat"
+				type: "item"
+			}]
+			title: "Cloning IV"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26A8D3F1B8C0CA58"]
+			description: ["We're almost there! Put the Embryo with a regular egg into the Incubator and keep the temperature stable. When it completes, you should get the spawn egg for the mob of your choosing."]
+			id: "5BE0000C14B96585"
+			rewards: [
+				{
+					count: 4
+					id: "385605829D26C8B8"
+					item: "farmersdelight:fried_egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "175BCA5A05DF7D1E"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5319B551EB2A6826"
+				item: "crossroads:incubator"
+				type: "item"
+			}]
+			title: "Cloning V"
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			id: "13DE91E8D9C2F463"
+			tasks: [{
+				advancement: "crossroads:progress/path/witchcraft"
+				criterion: ""
+				id: "320520AF5233FB1B"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+	]
+	title: "Bioengineering"
+}

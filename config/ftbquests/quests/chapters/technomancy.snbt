@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technomancy"
+	group: "7DA2C9124CBC0DEA"
+	id: "3CC2F768DB99A14E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Technomancy"
+}

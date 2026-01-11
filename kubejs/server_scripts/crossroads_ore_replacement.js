@@ -10,12 +10,13 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   });
- 
+
   event.remove({ id: 'crossroads:mill/ore_tin' })
+  event.remove({ id: 'crossroads:smelting/tin_ore' })
   event.custom({
     type: 'crossroads:mill',
     input: {
-      tag: 'forge:stones'
+      tag: 'forge:stone'
     },
     output: [
       {
@@ -52,8 +53,58 @@ ServerEvents.recipes(event => {
     output: 'minecraft:iron_block'
   });
 
-  event.remove({ output: 'crossroads:void_crystal' });
+  event.custom({
+    type: 'crossroads:crucible',
+    input: {
+      item: 'palegardenbackport:resin_clump'
+    },
+    output: {
+      fluid: 'kubejs:molten_resin',
+      amount: 90
+    }
+  });
+  event.custom({
+    type: 'crossroads:crucible',
+    input: {
+      item: 'palegardenbackport:resin_brick'
+    },
+    output: {
+      fluid: 'kubejs:molten_resin',
+      amount: 90
+    }
+  });
+  event.custom({
+    type: 'crossroads:crucible',
+    input: {
+      item: 'palegardenbackport:resin_bricks'
+    },
+    output: {
+      fluid: 'kubejs:molten_resin',
+      amount: 360
+    }
+  });
+  event.custom({
+    type: 'crossroads:crucible',
+    input: {
+      item: 'palegardenbackport:block_of_resin'
+    },
+    output: {
+      fluid: 'kubejs:molten_resin',
+      amount: 810
+    }
+  });
+  event.custom({
+    type: 'crossroads:copshowium',
+    input: {
+      fluid: 'kubejs:molten_resin'
+    },
+    mult: 2,
+    entropy: false
+  });
+
+  //event.remove({ output: 'crossroads:void_crystal' });
   event.shapeless('kubejs:compressed_end_stone', Item.of('minecraft:end_stone', 9));
+  event.shapeless(Item.of('minecraft:end_stone', 9), 'kubejs:compressed_end_stone');
   event.custom({
     type: 'crossroads:beam_transmute',
     alignment: 'fusion',
@@ -61,7 +112,7 @@ ServerEvents.recipes(event => {
     power: 16,
     input: [
       {
-        item: 'kubejs:compressed_end_stone'
+        block: 'kubejs:compressed_end_stone'
       }
     ],
     output: 'crossroads:ore_void'
@@ -73,7 +124,7 @@ ServerEvents.recipes(event => {
     power: 1,
     input: [
       {
-        item: 'crossroads:ore_void'
+        block: 'crossroads:ore_void'
       }
     ],
     output: 'kubejs:compressed_end_stone'
