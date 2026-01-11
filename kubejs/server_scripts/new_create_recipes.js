@@ -295,4 +295,57 @@ ServerEvents.recipes(event => {
   // Honey & Chocolate Melting (Crucible)
   crucible('minecraft:honey_block', 'create:honey', 1000);
   crucible('create:bar_of_chocolate', 'create:chocolate', 250);
+
+  // Trackwork
+  event.shaped(
+    Item.of('trackwork:small_simple_wheel_part'),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'minecraft:dried_kelp',
+      B: 'create:cogwheel'
+    }
+  );
+
+  event.shaped(
+    Item.of('trackwork:med_simple_wheel_part'),
+    [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    {
+        A: 'minecraft:dried_kelp',
+        B: 'create:cogwheel'
+    }
+  );
+
+  event.shaped(
+    Item.of('trackwork:simple_wheel_part'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        B: 'create:large_cogwheel',
+        A: 'minecraft:dried_kelp_block'
+    }
+  );
+
+  event.shaped(
+    Item.of('trackwork:large_simple_wheel_part'),
+    [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    {
+        B: 'create:large_cogwheel',
+        A: 'minecraft:dried_kelp_block'
+    }
+  );
 });
