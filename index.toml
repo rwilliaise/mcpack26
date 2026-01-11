@@ -725,6 +725,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
+hash = "fec49033058ced91f7668d4e305e599f5527501ef37c1f30f96d8927d6202d32"
 metafile = true
 
 [[files]]
@@ -819,6 +820,7 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
+hash = "73611c5390d8cc18c713f5d1fd3c78dc65c10b6a35ef0152b080ea127032aa7e"
 metafile = true
 
 [[files]]
@@ -873,6 +875,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-clockwork.pw.toml"
+hash = "cc128baeb57c03ec23d58d4ea94b5179335e6c394049b0b54cbaa680f598ba7b"
 metafile = true
 
 [[files]]
@@ -981,11 +984,8 @@ hash = "ec7614e11c8670959e86c8c45fa4a4e098d8643d5e5c13e589bdfe295a5c67a0"
 metafile = true
 
 [[files]]
-file = "mods/eureka-forge-1201-1.6.0-beta.1+87ebda3bf6.jar"
-hash = "f9246941e42e1c0be54a41c7236b123f3021d5cb25881ad6a661bb219bdac0fe"
-
-[[files]]
 file = "mods/eureka.pw.toml"
+hash = "efb71d9842d26ee82c813e95e2648a445b1ebc4d2de8491df6b6438603130856"
 metafile = true
 
 [[files]]
@@ -1120,6 +1120,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
+hash = "f1364a9ab516d4aa12a98365203a828cc1afdd45913935158909516e585527cf"
 metafile = true
 
 [[files]]
@@ -1199,6 +1200,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
+hash = "65a91af2199b20368a52cd49ccd3c0a874cd5ed8acd1892745bf778705c4f07e"
 metafile = true
 
 [[files]]
@@ -1368,6 +1370,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
+hash = "974af7bd8b20941d615aa6d37f522da34f62d81ddee97ccfad3c458b5db8ece5"
 metafile = true
 
 [[files]]
@@ -1407,6 +1410,7 @@ metafile = true
 
 [[files]]
 file = "mods/trackwork.pw.toml"
+hash = "973388a9461c0012eb1c13d5868d37c4ad310b54900f8ab42f507bf159f399c2"
 metafile = true
 
 [[files]]
@@ -1421,6 +1425,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
+hash = "4a99189bb405cef0912f67530bc227d28d89f8c40e484267e66bf64ed9231020"
 metafile = true
 
 [[files]]
@@ -1455,10 +1460,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
+hash = "614b247735fa9253363ad3e46ab1a966c7ea7102c9066076d99ccc0357bffe1c"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+hash = "2c365df06c9702831d14d56471266eb1dd4aa1fed920eb3d86482c27c3663a11"
 metafile = true
 
 [[files]]

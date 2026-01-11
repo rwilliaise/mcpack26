@@ -31,7 +31,7 @@ ServerEvents.recipes(event => {
   function stampMill(outputItem, outputCount, inputIngredient) {
     event.custom({
       type: 'crossroads:stamp_mill',
-      ingredient: [inputIngredient],
+      ingredient: inputIngredient,
       output: {
         item: outputItem,
         count: outputCount
@@ -40,30 +40,30 @@ ServerEvents.recipes(event => {
   }
 
   // Millstone
-  // Input: Item/Tag -> Output: Item list
+  // Input: Item/Tag -> Output: Item
   function mill(outputItem, outputCount, inputIngredient) {
-    let inputObj = typeof inputIngredient === 'string' 
-      ? (inputIngredient.startsWith('#') ? { tag: inputIngredient.substring(1) } : { item: inputIngredient }) 
+    let inputObj = typeof inputIngredient === 'string'
+      ? (inputIngredient.startsWith('#') ? { tag: inputIngredient.substring(1) } : { item: inputIngredient })
       : inputIngredient;
 
     event.custom({
       type: 'crossroads:mill',
       input: inputObj,
-      output: [{
+      output: {
         item: outputItem,
         count: outputCount
-      }]
+      }
     });
   }
 
   function oreCleanser(outputItem, outputCount, inputIngredient) {
-    let inputObj = typeof inputIngredient === 'string' 
-      ? (inputIngredient.startsWith('#') ? { tag: inputIngredient.substring(1) } : { item: inputIngredient }) 
+    let inputObj = typeof inputIngredient === 'string'
+      ? (inputIngredient.startsWith('#') ? { tag: inputIngredient.substring(1) } : { item: inputIngredient })
       : inputIngredient;
 
     event.custom({
       type: 'crossroads:ore_cleanser',
-      ingredient: [inputObj],
+      ingredient: inputObj,
       output: {
         item: outputItem,
         count: outputCount
@@ -72,8 +72,8 @@ ServerEvents.recipes(event => {
   }
 
   function crucible(inputItem, fluidName, fluidAmount) {
-    let inputObj = typeof inputItem === 'string' 
-      ? (inputItem.startsWith('#') ? { tag: inputItem.substring(1) } : { item: inputItem }) 
+    let inputObj = typeof inputItem === 'string'
+      ? (inputItem.startsWith('#') ? { tag: inputItem.substring(1) } : { item: inputItem })
       : inputItem;
 
     event.custom({
@@ -97,6 +97,7 @@ ServerEvents.recipes(event => {
     });
   }
 
+
   function centrifuge(inputFluid, inputAmount, outputFluid, outputAmount, outputItems) {
     event.custom({
       type: 'crossroads:centrifuge',
@@ -108,7 +109,7 @@ ServerEvents.recipes(event => {
         fluid: outputFluid,
         amount: outputAmount
       },
-      output: outputItems // Array of {item, count, weight}
+      output: outputItems
     });
   }
 
@@ -118,7 +119,7 @@ ServerEvents.recipes(event => {
     event.custom({
       type: 'crossroads:beam_transmute',
       alignment: alignment,
-      void: isVoid || false,
+      void: isVoid,// ? "true" : "false",
       power: power,
       input: [inputObj],
       output: outputBlock
@@ -133,21 +134,21 @@ ServerEvents.recipes(event => {
   stampMill('create:powdered_obsidian', 1, { tag: 'forge:obsidian' });
 
   // Oil and Fluid
-  
+
   // No more oil rig!!
   crucible('#forge:coal', 'createdieselgenerators:crude_oil', 100);
 
   // Crude Oil Processing via Crossroads Centrifuge
   // Create Distillation: 100 Crude -> 50 Diesel + 50 Gasoline
-  // CR Centrifuge: 90 Crude -> 45 Diesel (Fluid) + 1 Congealed Gasoline (Item)
+  // CR Centrifuge: 90 Crude -> 45 Diesel (Fluid) + 1 Petroleum Jelly (Item)
   centrifuge(
     'createdieselgenerators:crude_oil', 100,
     'createdieselgenerators:diesel', 50,
-    [{ item: 'kubejs:congealed_gasoline', count: 1, weight: 100 }]
+    [{ item: 'kubejs:petroleum_jelly', count: 1, weight: 1 }]
   );
 
-  // Melting Congealed Gasoline -> Gasoline Fluid
-  crucible('kubejs:congealed_gasoline', 'createdieselgenerators:gasoline', 50);
+  // Melting Petroleum Jelly -> Gasoline Fluid
+  crucible('kubejs:petroleum_jelly', 'createdieselgenerators:gasoline', 50);
 
   // Biofuel Processing
   // We're assuming 1000 degrees makes fermentation go REALLY fast.
@@ -161,7 +162,7 @@ ServerEvents.recipes(event => {
 
   // Biodiesel Mixing (by hand)
   event.shapeless(Item.of('createdieselgenerators:biodiesel_bucket', 2), [
-    'createdieselgenerators:plant_oil_bucket', 
+    'createdieselgenerators:plant_oil_bucket',
     'createdieselgenerators:ethanol_bucket'
   ]).replaceIngredient('createdieselgenerators:plant_oil_bucket', 'minecraft:bucket').replaceIngredient('createdieselgenerators:ethanol_bucket', 'minecraft:bucket');
 
@@ -175,11 +176,7 @@ ServerEvents.recipes(event => {
     { ingot: 'minecraft:copper_ingot', plate: 'create:copper_sheet' },
     { ingot: 'create:brass_ingot', plate: 'create:brass_sheet' },
     { ingot: 'create:zinc_ingot', plate: 'createaddition:zinc_sheet' },
-    { ingot: 'createaddition:electrum_ingot', plate: 'createaddition:electrum_sheet' },
-    { ingot: 'immersiveengineering:ingot_steel', plate: 'immersiveengineering:plate_steel' },
-    { ingot: 'immersiveengineering:ingot_aluminum', plate: 'immersiveengineering:plate_aluminum' },
-    { ingot: 'immersiveengineering:ingot_lead', plate: 'immersiveengineering:plate_lead' },
-    { ingot: 'immersiveengineering:ingot_uranium', plate: 'immersiveengineering:plate_uranium' }
+    { ingot: 'createaddition:electrum_ingot', plate: 'createaddition:electrum_sheet' }
   ];
 
   plates.forEach(p => {
@@ -189,7 +186,7 @@ ServerEvents.recipes(event => {
 
   // Alloy Dust Crafting and Smelting
   // Brass: Copper + Zinc
-  event.shapeless('kubejs:brass_dust', ['#forge:dusts/copper', '#forge:dusts/zinc']);
+  event.shapeless('kubejs:brass_dust', ['#forge:dusts/copper', 'create:crushed_raw_zinc']);
   event.smelting('create:brass_ingot', 'kubejs:brass_dust').xp(0.5);
 
   // Bronze: Copper + Tin
@@ -236,9 +233,23 @@ ServerEvents.recipes(event => {
     R: 'create:polished_rose_quartz',
     G: 'minecraft:iron_sheet'
   });
-  
-  // Gravitron
-  event.shaped('vs_clockwork:gravitron', [
+
+  // Wanderlite Crystals are no longer generated in the world so they must be craftable
+  event.shaped(
+    Item.of('vs_clockwork:wanderlite_crystal', 4),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'minecraft:phantom_membrane',
+      B: 'crossroads:lens_array'
+    }
+  );
+
+  // Physgun (like a better Gravitron)
+  event.shaped('the_vmod:physgun', [
     ' A ',
     'ECE',
     ' I '

@@ -81,6 +81,18 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			description: ["Craft the physgun! It functions like the Garry's Mod physgun, letting you move physics ships around. You can also freeze ships statically by right clicking, but that will NOT work if there is currently a Eureka! ship helm on your contraption--remove it first."]
+			id: "64ECD97989DECFDE"
+			tasks: [{
+				id: "66038ABB4E0D33B5"
+				item: "the_vmod:physgun"
+				type: "item"
+			}]
+			title: "Garry Is Proud"
+			x: 1.0d
+			y: 1.0d
+		}
 	]
 	title: "Tips n Tricks"
 }
