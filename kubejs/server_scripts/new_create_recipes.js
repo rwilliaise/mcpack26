@@ -130,6 +130,8 @@ ServerEvents.recipes(event => {
 
   // Ore processing
   stampMill('create:crushed_raw_zinc', 2, { tag: 'forge:ores/zinc' });
+  beamTransmute('fusion', 8, 'forge:storage_blocks/zinc', 'crossroads:block_tin', false);
+  beamTransmute('fusion', 8, '#forge:ores/iron', 'create:zinc_ore', false);
   event.shapeless(Item.of('create:zinc_nugget', 9), ['create:crushed_raw_zinc', 'minecraft:water_bucket']).replaceIngredient('minecraft:water_bucket', 'minecraft:bucket');
 
   // Obsidian Processing
@@ -212,6 +214,9 @@ ServerEvents.recipes(event => {
   event.shapeless('create:rose_quartz', ['minecraft:redstone', 'minecraft:quartz']);
   event.shapeless('create:polished_rose_quartz', ['create:rose_quartz']);
   stampMill('create:polished_rose_quartz', 1, { item: 'create:rose_quartz' });
+
+  mill('create:crushed_raw_zinc', 1, 'create:zinc_ingot');
+  stampMill('create:crushed_raw_zinc', 2, { item: 'create:zinc_ingot' });
 
   // Mechanisms
 

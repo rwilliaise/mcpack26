@@ -20,11 +20,11 @@ ServerEvents.recipes(event => {
     },
     output: [
       {
-        item: 'crossroads:raw_tin',
+        item: 'crossroads:nugget_tin',
         count: 1
       },
       {
-        item: 'create:crushed_raw_zinc',
+        item: 'create:zinc_nugget',
         count: 1
       },
       {
@@ -33,6 +33,7 @@ ServerEvents.recipes(event => {
       }
     ]
   });
+  
   event.custom({
     type: 'crossroads:beam_transmute',
     alignmenSt: 'fusion',
