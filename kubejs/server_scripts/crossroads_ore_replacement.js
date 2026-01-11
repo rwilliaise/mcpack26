@@ -24,7 +24,12 @@ ServerEvents.recipes(event => {
         count: 1
       },
       {
+        item: 'create:crushed_raw_zinc',
+        count: 1
+      },
+      {
         item: 'minecraft:gravel',
+        count: 1
       }
     ]
   });

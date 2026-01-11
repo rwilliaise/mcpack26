@@ -313,39 +313,52 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('trackwork:med_simple_wheel_part'),
     [
-        'AAA',
-        'ABA',
-        'AAA'
+      'AAA',
+      'ABA',
+      'AAA'
     ],
     {
-        A: 'minecraft:dried_kelp',
-        B: 'create:cogwheel'
+      A: 'minecraft:dried_kelp',
+      B: 'create:cogwheel'
     }
   );
 
   event.shaped(
     Item.of('trackwork:simple_wheel_part'),
     [
-        ' A ',
-        'ABA',
-        ' A '
+      ' A ',
+      'ABA',
+      ' A '
     ],
     {
-        B: 'create:large_cogwheel',
-        A: 'minecraft:dried_kelp_block'
+      B: 'create:large_cogwheel',
+      A: 'minecraft:dried_kelp_block'
     }
   );
 
   event.shaped(
     Item.of('trackwork:large_simple_wheel_part'),
     [
-        'AAA',
-        'ABA',
-        'AAA'
+      'AAA',
+      'ABA',
+      'AAA'
     ],
     {
-        B: 'create:large_cogwheel',
-        A: 'minecraft:dried_kelp_block'
+      B: 'create:large_cogwheel',
+      A: 'minecraft:dried_kelp_block'
+    }
+  );
+
+  event.shaped(
+    Item.of('vs_clockwork:wanderlite_matrix'),
+    [
+      ' A ',
+      'ABA',
+      ' A '
+    ],
+    {
+      A: 'minecraft:slime_ball',
+      B: 'vs_clockwork:wanderlite_crystal'
     }
   );
 });
