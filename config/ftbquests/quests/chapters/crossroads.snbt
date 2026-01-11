@@ -11,7 +11,7 @@
 		}
 	}
 	id: "2749D121507CE373"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -331,7 +331,7 @@
 				}
 			]
 			title: "Heating In Reverse"
-			x: -7.5d
+			x: -8.5d
 			y: -3.0d
 		}
 		{
@@ -531,6 +531,7 @@
 				"It'll even keep its temperature if you break and replace it!"
 			]
 			id: "400D745AD83F5125"
+			optional: true
 			rewards: [{
 				count: 6
 				id: "1E07B51CCC6DB2DE"
@@ -543,7 +544,7 @@
 				type: "item"
 			}]
 			title: "Soooo Hottt"
-			x: -1.5d
+			x: -3.0d
 			y: -3.0d
 		}
 		{
@@ -566,7 +567,7 @@
 				type: "item"
 			}]
 			title: "Childhood In A Block"
-			x: -4.5d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -588,10 +589,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"4FC2EF9238BAB33A"
-				"581FC5104D1AE8BF"
-			]
+			dependencies: ["581FC5104D1AE8BF"]
 			description: ["The salt reactor allows you to cool things down using the dissociation of...salt! You can even get to absolute zero if you try hard enough."]
 			id: "2EB7AAFDD08EB518"
 			optional: true
@@ -607,8 +605,8 @@
 				type: "item"
 			}]
 			title: "Elementary Ice Cream"
-			x: -3.0d
-			y: -0.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["143C1CB46167EF5E"]
@@ -646,14 +644,15 @@
 				}
 			]
 			title: "Move Yo Liquids"
-			x: -3.0d
-			y: -3.0d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["143C1CB46167EF5E"]
 			description: ["Need FE? Look to the dynamo! These work in tanden with tesla coils, which you can link with the linking tool to transmit energy. You may also put a Leyden jar inside of one to charge it. I wonder if you could power a car with that thing."]
 			icon: "crossroads:tesla_coil_top_normal"
 			id: "66716A08428B5998"
+			optional: true
 			rewards: [{
 				id: "57031B740601C656"
 				type: "xp"
@@ -699,6 +698,7 @@
 				tag: { }
 			}
 			id: "1346A210CF9D3E53"
+			optional: true
 			rewards: [{
 				id: "3BB77DC921E48AA1"
 				item: {
@@ -727,8 +727,8 @@
 				}
 			]
 			title: "Unwind With Some Relaxing Flight"
-			x: -1.5d
-			y: 0.5d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			description: ["Welcome to Crossroads! You're going to be making complicated machines in no time, but to start you'll want this Omnimeter. It'll tell you everything about everything."]
@@ -747,7 +747,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1346A210CF9D3E53"]
+			dependencies: [
+				"581FC5104D1AE8BF"
+				"1B77B5FBD3727290"
+			]
 			description: [
 				"Ore doubling? Get ready for ore tripling. The stamp mill lets you turn ore into grit which can be smelted directly for a not-quite 3x yield, OR you can run it through the industrial blast furnace to product 3x yield and slag."
 				"{@pagebreak}"
@@ -774,6 +777,7 @@
 			dependencies: ["236C34423C4FACC3"]
 			description: ["This will produce molten ore from ore grit at a rate of 1 ingot per grit. Finally true ore tripling. As a side effect, it produces a hefty amount of slag."]
 			id: "18E8B601B42AB9CC"
+			optional: true
 			tasks: [{
 				id: "72E35BB15EF6C7E1"
 				item: "crossroads:blast_furnace"
@@ -787,6 +791,7 @@
 			dependencies: ["18E8B601B42AB9CC"]
 			description: ["Want less slag? The ore cleanser will produce ore clumps and dirty water from ore grit. The clumps still smelt for one ingot, and the dirty water can be processed in a water centrifuge for...stuff."]
 			id: "3A136D4809B306D6"
+			optional: true
 			rewards: [{
 				count: 8
 				id: "5899CB0B001C0DF5"
@@ -808,8 +813,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["581FC5104D1AE8BF"]
-			description: ["Move water, lava, gas, any liquid that can exist in the world. Pumps function like pumps, so make sure you are putting rotary in the right direction."]
+			dependencies: ["2885269188B7A137"]
+			description: ["Move water, lava, gas, any liquid that can exist in the world. Pumps function like pumps, so make sure you are inputting rotary in the right direction."]
 			id: "2057C1FA72FC1877"
 			rewards: [{
 				id: "6D250997CF0E51DB"
@@ -822,14 +827,15 @@
 				type: "item"
 			}]
 			title: "In Case You Ain't Wet Enough Yet"
-			x: -1.5d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4FC2EF9238BAB33A"]
+			dependencies: ["1EB01D0137962279"]
 			description: ["Wall-E looks at you in horror for getting so big and round. I look at you in horror for breeding pigs using fat from pigs."]
 			icon: "crossroads:fat_congealer"
 			id: "019EAD5CAAEE91B1"
+			optional: true
 			rewards: [{
 				id: "5BDC2EF1F7ABDBC4"
 				item: "crossroads:liquid_fat_bucket"
@@ -853,8 +859,562 @@
 				}
 			]
 			title: "mmph..im so full"
-			x: 0.0d
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["17E9B4D5CFAE33F2"]
+			description: [
+				"Resonance extractors are how you actually make beams. If you press \"u\" on them, you can view what beam each item produces. Some items will produce a pure beam of one fundamental type, and some items will produce beams with more than one."
+				"{@pagebreak}"
+				"A beams power is equal to the power of each of its four fundamental types combined. You need to exceed certain minimum power levels to perform reactions with beams."
+				"{@pagebreak}"
+				"The resonance extractor can be disabled with redstone."
+			]
+			id: "066BE78A9E59C116"
+			rewards: [
+				{
+					count: 2
+					id: "6C8605055B9AE478"
+					item: "minecraft:honey_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F534B8249047F30"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35ADB7EDDE1D249D"
+				item: "crossroads:beam_extractor"
+				type: "item"
+			}]
+			title: "Things Get Stranger"
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CCA03245FC4AEF9"]
+			description: [
+				"Beams are a late-mid-game feature in Crossroads. They are different from other parts of the mod, but stick to the core principle of simple properties resulting in complex mechanics."
+				""
+				"There are four fundamental types of beams: energy, potential, stability, and void. You can see how much of each type is present in a beam using an omnimeter."
+				"{@pagebreak}"
+				"You're going to want the color chart. This helps you keep track of what kind of beam does what."
+				""
+				"You'll also DEFINITELY want to use your Omnimeter for the beam module of Crossroads."
+			]
+			id: "17E9B4D5CFAE33F2"
+			rewards: [{
+				id: "6EE55E5B1B34A00B"
+				item: "crossroads:color_chart"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D3298C836C43CC2"
+				title: "Beams"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["066BE78A9E59C116"]
+			description: ["You can use beam reflectors to...reflect beams by shooting a beam into it (the beam will be reflected out the side of the reflector with the arrow on it). You can also use them to mix beams by shooting multiple beams into it."]
+			id: "67F9455FD7103538"
+			rewards: [{
+				count: 4
+				id: "43964748A3905D95"
+				item: "crossroads:ingot_bronze"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA57D1660E32023"
+				item: "crossroads:beam_reflector"
+				type: "item"
+			}]
+			title: "Like A Lightsaber In A Block"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67F9455FD7103538"]
+			description: [
+				"Press \"u\" on the reflector to get the JEI list of beam transmutations. You'll want this."
+				"{@pagebreak}"
+				"The next part of the questline involves you experimenting with beams, and discovering every beam alignment. It may seem daunting, but it will be equally rewarding. After that, you will find yourself at the crossroads."
+			]
+			id: "47FBB618E947698B"
+			rewards: [{
+				id: "74859FD639C10804"
+				item: "crossroads:redstone_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "34E90AB232533D3A"
+				title: "Zap Some Sense Into Ya"
+				type: "checkmark"
+			}]
+			title: "Beam Me Up, Scotty"
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["366136A12DFE2AA4"]
+			description: ["In case you want to read up on specific blocks or items, or use parts of Crossroads or Essentials not mentioned in this questline. This quest is repeatable."]
+			id: "5FA423267F8CA6EA"
+			rewards: [{
+				id: "388A29608601A968"
+				item: {
+					Count: 1
+					id: "essentials:guide_book"
+					tag: {
+						"patchouli:book": "essentials:manual"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16F71CF35E4A61EA"
+				title: "Extra Shenanigans"
+				type: "checkmark"
+			}]
+			x: -10.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["1B77B5FBD3727290"]
+			description: [
+				"At first look, stirling generators look like worse steam generators. That is 100% true at low temperature differentials, but if you can get the temperature differential high enough, stirling generators become vastly more efficient than steam turbines."
+				"{@pagebreak}"
+				"Biomes have their own atmospheric temperatures, so if you were hypothetically to gain the ability to put a nether biome in the overworld, you'd be able to make free power."
+				"{@pagebreak}"
+				"If you were feeling crazy, you can also run one of these on just cold + the atmospheric temperature to get energy from just snow or ice."
+			]
+			id: "608ED527B33292E2"
+			rewards: [{
+				count: 8
+				id: "12738EF691E4428B"
+				item: "minecraft:ice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EBEB3C68F75254A"
+				item: "crossroads:stirling_engine"
+				type: "item"
+			}]
+			title: "Baby, You Burn So Hot You Make Me Shiver"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2057C1FA72FC1877"]
+			description: ["Let's put that gas to work! Steam turbines are reliable methods of converting heat into power."]
+			id: "1B77B5FBD3727290"
+			tasks: [{
+				id: "077BF09992A6619C"
+				item: "crossroads:steam_turbine"
+				type: "item"
+			}]
+			title: "I'm So Gassy From Earlier"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["236C34423C4FACC3"]
+			description: ["Specifically, make redstone shiny! For those who weren't aware, redstone is actually a fine grit made from fused aluminum oxide and chromium metal. The great news for us is that also happens to be what ruby is made of, and by compacting this ruby grit at high pressure you too can have synthetic ruby."]
+			id: "7CCA03245FC4AEF9"
+			rewards: [{
+				id: "6D3278165E5676F3"
+				type: "xp"
+				xp: 75
+			}]
+			tasks: [{
+				id: "492A3FAF61D07144"
+				item: "crossroads:gem_ruby"
+				type: "item"
+			}]
+			title: "Make Stone Shiny"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["67F9455FD7103538"]
+			description: ["Lens frames can filter beams based on color by inserting specific gems like ruby (energy/red), emerald (potential/green), or diamond (stability/blue). Without a gem, they can measure the beam's power using a comparator or circuit reader. Pure quartz can be inserted to convert light beams into glowing quartz, and void crystals will convert any incoming beam into a void beam. "]
+			id: "35ED2B5FB762DED9"
+			tasks: [
+				{
+					id: "341E6E65D94AE1F2"
+					item: "crossroads:lens_frame"
+					type: "item"
+				}
+				{
+					id: "16A1C5F9EDB05CE8"
+					item: "crossroads:gem_ruby"
+					type: "item"
+				}
+			]
+			title: "My Villain Name Is Synrad"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"The quartz stabilizer acts as a buffer. It will store incoming beam pulses and release them evenly."
+				""
+				"Shift-click with a wrench to configure the output rate. The maximum capacity is 1024."
+			]
+			id: "1771FACC15D7FC29"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "4D8B306486C30893"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "160972EC8E358CF3"
+				item: "crossroads:quartz_stabilizer"
+				type: "item"
+			}]
+			title: "Smoothing The Flow"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Reflectors are too simple for this mod. We need to make things MORE COMPLICATED."
+				""
+				"The beam redirector is a simple switch. Input redstone to flip the output from the back to the front."
+				"The beam splitter splits the beam based on a ratio. Signal 15 sends 100% out the front. Signal 7 sends approximately 50%."
+				"The beam siphon siphons a fixed amount of power out the front (equal to redstone signal), sending the rest out the back."
+			]
+			id: "4C528BBB84B5283E"
+			optional: true
+			tasks: [
+				{
+					id: "5F24608E73C03331"
+					item: "crossroads:beam_redirector"
+					type: "item"
+				}
+				{
+					id: "3E98924BDBE08669"
+					item: "crossroads:beam_splitter"
+					type: "item"
+				}
+				{
+					id: "655D84C88B73AADB"
+					item: "crossroads:beam_siphon"
+					type: "item"
+				}
+			]
+			title: "Traffic Control"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: ["The Crystalline Prism takes a beam in the top or bottom and splits it into four directions based on its fundamental composition: energy, potential, stability, and void."]
+			id: "623298D1CDAFB81C"
+			optional: true
+			tasks: [{
+				id: "10BBE41FE89FCE77"
+				item: "crossroads:crystalline_prism"
+				type: "item"
+			}]
+			title: "Dark Side of the Moon"
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: ["Certain blocks allow beams to pass through them. "]
+			id: "6440AF1D63594366"
+			optional: true
+			rewards: [{
+				id: "48C08E03F1BB2AF6"
+				item: "crossroads:lens_array"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "547EC29105D6BAB9"
+					item: "crossroads:permeable_quartz"
+					type: "item"
+				}
+				{
+					id: "6AC719AA06BAC45E"
+					item: "crossroads:permeable_obsidian"
+					type: "item"
+				}
+			]
+			title: "Ghost Blocks"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Generates heat in machines/cables (25°C/tick/power) and starts fires if it hits anything else."
+				"Void effect removes heat (-25°C/tick/power) and extinguishes fires."
+			]
+			id: "5B417AF3931E42FE"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/energy"
+				criterion: ""
+				id: "0DE0C7E0395FE7C3"
+				type: "advancement"
+			}]
+			title: "Alignment: Energy"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Bonemeals crops and heals living entities in range. Harms undead."
+				"Void effect kills plants, harms living entities (ignoring armor), and heals undead."
+			]
+			id: "51A7D3DA1C8D1C29"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/potential"
+				criterion: ""
+				id: "509D29577596EB20"
+				type: "advancement"
+			}]
+			title: "Alignment: Potential"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Stops explosions, any explosion within range (which is equal to power) has no effect on the world."
+				"Void effect causes explosions and drops all items. Imagine how great the wood farm could be."
+			]
+			id: "50A0D148DD87D370"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/stability"
+				criterion: ""
+				id: "7B91A11E2BD61065"
+				type: "advancement"
+			}]
+			title: "Alignment: Stability"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Created by passing &nany&r beam through a Void Crystal lens."
+				""
+				"Destroys blocks &lwithout drops&r and damages entities directly (bypassing armor)."
+				""
+				"Adding Void to any other alignment flips its effect (for example, heating becomes cooling)."
+			]
+			icon: "crossroads:void_crystal"
+			id: "2898920F825F5193"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/void"
+				criterion: ""
+				id: "6FEB07EFAEF02672"
+				type: "advancement"
+			}]
+			title: "Alignment: Void"
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Adds FE to machines or player inventories, and summons lightning if power >= 16 and sky is visible."
+				"Void effect drains FE from machines."
+			]
+			id: "0E1CF3143B666096"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/charge"
+				criterion: ""
+				id: "46F364AC9F604CF4"
+				type: "advancement"
+			}]
+			title: "Alignment: Charge"
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Enchants items on the ground with the power determining the level. Be warned that there is also a &4chance to destroy the item equal to power level.&r"
+				"Void effect removes enchantments &land curses&r from dropped items."
+			]
+			id: "4CB460E8CD10CF50"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/enchantment"
+				criterion: ""
+				id: "2334BBDE2A6C6B41"
+				type: "advancement"
+			}]
+			title: "Alignment: Enchantment"
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Spawns hostile biome-specific mobs (ignoring spawn caps)."
+				"Void effect prevents hostile mob spawns in radius."
+			]
+			id: "27362375D1528A6E"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/rift"
+				criterion: ""
+				id: "734F194ADE1F70F4"
+				type: "advancement"
+			}]
+			title: "Alignment: Rift"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Increases the tick rate of tile entities by power / 64 * 100% up to 2x speed. There is a much power powerful version of this in the Technomancy path."
+				"Void effect, negative temporal entropy, is DANGEROUS. NEVER USE IT."
+			]
+			id: "22E6580C94AA8706"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/time"
+				criterion: ""
+				id: "6542190EA7F0B175"
+				type: "advancement"
+			}]
+			title: "Alignment: Time"
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Places items from the ground as blocks."
+				"Void effect breaks blocks and drops them as items."
+			]
+			id: "410B4E74CDF2979A"
+			invisible: true
+			optional: true
+			tasks: [{
+				advancement: "crossroads:progress/alignment/expansion"
+				criterion: ""
+				id: "691784A356E8BA38"
+				type: "advancement"
+			}]
+			title: "Alignment: Expansion"
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Fusion has a lot of helpful block transmutations! This includes turning a block of iron into a block of tin, and compressed end stone into void crystals."
+				"Void effect is fission, and reverses many of these reactions."
+			]
+			id: "258FDCDD8625E448"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/fusion"
+				criterion: ""
+				id: "68772701FADFF48A"
+				type: "advancement"
+			}]
+			title: "Alignment: Fusion"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Creates light clusters, which are permanent light sources."
+				"Void effect breaks light sources."
+			]
+			id: "3CD3D6395F4549BB"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/light"
+				criterion: ""
+				id: "71A8F2E4342514D3"
+				type: "advancement"
+			}]
+			title: "Alignment: Light"
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["47FBB618E947698B"]
+			description: [
+				"Pushes blocks like a piston and acts as a tractor beam on entities."
+				"Void effect pulls blocks and entities towards the source."
+			]
+			id: "577A84201A442979"
+			tasks: [{
+				advancement: "crossroads:progress/alignment/equilibrium"
+				criterion: ""
+				id: "37BCBAD87E9EE020"
+				type: "advancement"
+			}]
+			title: "Alignment: Force"
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5B417AF3931E42FE"
+				"3CD3D6395F4549BB"
+				"22E6580C94AA8706"
+				"410B4E74CDF2979A"
+				"577A84201A442979"
+				"0E1CF3143B666096"
+				"51A7D3DA1C8D1C29"
+				"2898920F825F5193"
+				"4CB460E8CD10CF50"
+				"50A0D148DD87D370"
+				"27362375D1528A6E"
+				"258FDCDD8625E448"
+			]
+			description: [
+				"This is the namesake of the mod. You've hit a crossroads, and you must choose one of three paths to continue."
+				""
+				"&lAlchemy&r: A path about chemistry and transmutation."
+				"&lTechnomancy&r: A path about time manipulation."
+				"&lWitchcraft&r: A path about life and death."
+			]
+			id: "35445DCE9ECB2A9B"
+			rewards: [
+				{
+					id: "1DBAE8742D7E314B"
+					item: "crossroads:detailed_crafter"
+					type: "item"
+				}
+				{
+					id: "599DE8FB842C876E"
+					item: {
+						Count: 1
+						id: "essentials:guide_book"
+						tag: {
+							"patchouli:book": "essentials:manual"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19BFF2634EDE196A"
+				title: "The Crossroads"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.5d
 		}
 	]
 	title: "Crossroads"

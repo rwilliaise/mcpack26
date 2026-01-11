@@ -33,6 +33,10 @@ file = "config/amendments-common.toml"
 hash = "bd98c35e394d4ae37e2385f719680d2365527df98894b337d6cf0f2089b15ee6"
 
 [[files]]
+file = "config/artifacts/common.json5"
+hash = "2a67d8de60bc34313c3b565579c3902b2b787a8e6f9782894faaa8b6b61eef9b"
+
+[[files]]
 file = "config/atmospheric-common.toml"
 hash = "8f6ba61101117fabddeacf3618acb95e734b6046c213480d2455260e4d0c9213"
 
@@ -285,10 +289,6 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "2a0b662582671c018ffb4d93b2d2859a441572fdfae377994174ef615e3d7127"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/crossroads.snbt"
 hash = "50cf11460faf2079d8eac94cb6b5cc38f48b1fc9457e4fee673cf973cfe3dcf3"
 
@@ -446,7 +446,7 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
 file = "config/structurify.json"
-hash = "6ff5ed1e1863156e62d198ba9c9a979ab53f0564bf5d2f4299495b39410d5c6a"
+hash = "3904d6422a49c27c561e34aca3206800c6a1320ca86f05448a495016067fd0c1"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -577,78 +577,6 @@ file = "config/zeta-common.toml"
 hash = "5c73a54972b8af35be5d6b6fff49f46501d6ff37ddef60867221f5c1486f83d1"
 
 [[files]]
-file = "ct_dumps/attribute.txt"
-hash = "c994ffbaffe9813ac76e3ed677017a7d61c973cfa112b0ddf69e84c57994e103"
-
-[[files]]
-file = "ct_dumps/block.txt"
-hash = "2e6aa087695f75b63942abb93ef993ce03fb700265ba07683c1cdd0b0a7d12aa"
-
-[[files]]
-file = "ct_dumps/constant.txt"
-hash = "294ef17037379eef30fb810b9dd7aaeb228811f0710c47e6b45857ba82807304"
-
-[[files]]
-file = "ct_dumps/create_items.txt"
-hash = "8d7136b7fdfc1f8816fba92e5eeaff937d4fe2a6fe9c723509a883ba0bd953f1"
-
-[[files]]
-file = "ct_dumps/enchantment.txt"
-hash = "1bd7343194ea0ee5e80e907e4f437b03b042b7c897b9078f8bd24ce0ac4daaf7"
-
-[[files]]
-file = "ct_dumps/entitytype.txt"
-hash = "b56e7371c76f53d1e79043d44e4f1fe63b0453fb7dc635adafec2315109b5b3b"
-
-[[files]]
-file = "ct_dumps/fluid.txt"
-hash = "7948a7232f4ab19767b7b6928f248ba6f24a1509b8ad04a8dce591871a09e08a"
-
-[[files]]
-file = "ct_dumps/item.txt"
-hash = "7534b7aafccbcb682a72b5fd4493d571672379ad8477f7437bb26f26dece265f"
-
-[[files]]
-file = "ct_dumps/mobeffect.txt"
-hash = "419d4ec0b03779391defb02c6b0c76f207456591cd8e1d66b9fa3302bc5a604d"
-
-[[files]]
-file = "ct_dumps/potion.txt"
-hash = "26b8611800995fa7289624d4b209ce87ecdc499eeb4340f05c96748f4823e574"
-
-[[files]]
-file = "ct_dumps/profession.txt"
-hash = "4e38162cdbbac923642fae146e7d685e1825120ff47f4df3ebbd4a525525dd56"
-
-[[files]]
-file = "ct_dumps/recipecomponent.txt"
-hash = "911b9b9a25156458a5d45e2c8cdffc4704a2e73eeb00c683954bbbd6e2e4f5f8"
-
-[[files]]
-file = "ct_dumps/recipetype.txt"
-hash = "1e25e7cb9b26a447c2f5f0dd4690c2afc847f8790b176d1e14f31b06808b107c"
-
-[[files]]
-file = "ct_dumps/soundevent.txt"
-hash = "e947acb33dd467bb773c427029ee5523194b4df627567054c729f808bfc1ef0e"
-
-[[files]]
-file = "ct_dumps/tag.txt"
-hash = "acaee5f09ea6caf37f6774ced40afa485e1525315f35f8954e1b6c05421e9b0f"
-
-[[files]]
-file = "ct_dumps/tagmanager.txt"
-hash = "59a142cb685afe92768f135f19302f0cdf9203e59c9b6a38ff4818e5084834d3"
-
-[[files]]
-file = "ct_dumps/targetingstrategy.txt"
-hash = "85805d08e25a1e97bfa962ceae7b227c8e4852f1e35254d712985eacee89ed44"
-
-[[files]]
-file = "ct_dumps/toolaction.txt"
-hash = "466e5ecbdfcd528ea15219552a7f47a4a93dc656837c0cfc07599ab09ceacefa"
-
-[[files]]
 file = "defaultconfigs/computercraft-server.toml"
 hash = "50de33f2e12902aef9ae11358ab5c4f9d5be3abe3c88dacb9a1a8389db6eaac3"
 
@@ -661,20 +589,12 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
-file = "kubejs/assets/kubejs/textures/block/andesite_machine.png"
-hash = "2ce8258ed715971b854e40323483e3d751eb12a9832a78d8480131f7f4929698"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/block/example_block.png"
-hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
-file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+file = "kubejs/client_scripts/jei_hider.js"
+hash = "0a44454648bddc412ec5513099eb169b01cfa11e181a8837169040a7732f2991"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -689,12 +609,16 @@ file = "kubejs/config/packicon.png"
 hash = "c1e8140d3cf6f1961663cdce016ab9f18bb442a930a5a4f0a679b0f65d989068"
 
 [[files]]
-file = "kubejs/server_scripts/create.js"
-hash = "004f659485132137387359a2085464d329a5de4ef4c127df27a0c9eaf0fba213"
+file = "kubejs/server_scripts/crossroads_ore_replacement.js"
+hash = "7e82a0e666b5bba2dafa55a7a510ac5172a10edbded33e9ac14d3e7714ec0236"
 
 [[files]]
-file = "kubejs/startup_scripts/create.js"
-hash = "f0f7c7093ac31cb14a1586dfd553c75fb441b6e7a1de116aa658f5e57af06f9c"
+file = "kubejs/server_scripts/new_create_recipes.js"
+hash = "02114b2d9c50ffc113d85b9861090f9fe6a86d3e7fcc6d6612085c429e28fc8c"
+
+[[files]]
+file = "kubejs/server_scripts/nuke_create.js"
+hash = "e49b53ad53a96ec2f44dcc8e70b11e5f58836e7483f692d2049f860edae1ef4b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"

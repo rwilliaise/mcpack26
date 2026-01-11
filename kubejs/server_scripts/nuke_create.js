@@ -1,35 +1,27 @@
 ServerEvents.recipes(event => {
-    const modsToWipe = [
-        'create',
-        'createaddition',
-        'vs_clockwork',
-        'trackwork',
-        'createdieselgenerators',
-    ];
+  const typesToWipe = [
+    "create:basin",
+    "create:compacting",
+    "create:conversion",
+    "create:crushing",
+    "create:cutting",
+    "create:deploying",
+    "create:emptying",
+    "create:filling",
+    "create:haunting",
+    "create:item_application",
+    "create:mechanical_crafting",
+    "create:milling",
+    "create:mixing",
+    "create:pressing",
+    "create:sandpaper_polishing",
+    "create:sequenced_assembly",
+    "create:splashing"
+  ];
 
-    modsToWipe.forEach(modId => {
-        event.remove({ mod: modId });
-    });
+  typesToWipe.forEach(type => {
+    //event.remove({ type: type });
+  });
 
-    const typesToWipe = [
-        'create:mixing',
-        'create:compacting',
-        'create:pressing',
-        'create:milling',
-        'create:crushing',
-        'create:cutting',
-        'create:splashing',
-        'create:deploying',
-        'create:item_application',
-        'create:mechanical_crafting',
-        'create:sequenced_assembly',
-        'create:filling',
-        'create:emptying',
-        'createaddition:rolling',
-        'createaddition:charging'
-    ];
-
-    typesToWipe.forEach(type => {
-        event.remove({ type: type });
-    });
+  console.info("Nuke Create Loaded");
 });

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "supplementaries:turn_table"
 	id: "5000000000000001"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
