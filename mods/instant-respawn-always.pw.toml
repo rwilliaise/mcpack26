@@ -1,0 +1,13 @@
+name = "Instant Respawn Always"
+filename = "instant-respawn-v1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0804581b0de204dd0d7b67ea86cbe3584420ad88"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7387544
+project-id = 1297913

@@ -1104,6 +1104,10 @@ hash = "b449e490600e89d6ce55b7e85f57073d799298f2b2501b2918745c4652b5b842"
 metafile = true
 
 [[files]]
+file = "mods/instant-respawn-always.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/item-filters.pw.toml"
 hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
