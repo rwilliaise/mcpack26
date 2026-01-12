@@ -622,11 +622,11 @@ hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
-hash = "d60298986136a363a5017f0d7f954106e0dad8a941ae640b3c30579590939933"
+hash = "a4841c42f513a7f90707fd22c89aef36ca4811a2b77ea58f5fbdc813b4113ef4"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hider.js"
-hash = "28d5fb4d0ccb0cefcbb7db0e99588fd7dfdc2716f60e3fb619bcb69ed4f9d5b8"
+hash = "f27498078d701798a9ab7b5e5e51b39b69c09e6c4d552d9c9fe558b293334035"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -642,15 +642,15 @@ hash = "c1e8140d3cf6f1961663cdce016ab9f18bb442a930a5a4f0a679b0f65d989068"
 
 [[files]]
 file = "kubejs/server_scripts/crossroads_ore_replacement.js"
-hash = "06c9219a4c8f05f96e1270e19baacf2cca9261464447b5b361d35555455c0507"
+hash = "d0f6a9a17e71435e9d863fbc96986bcf56c25c3fea48f493fb7abaa74cabad30"
 
 [[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
-hash = "868fc11b67cfb09e578d8768a4ee8e09b970530a98ff5c7c4cae5e427e78924d"
+hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "6ddd05e2ffd977551784da4a7ca5ecb322901ab0fa04d88f3ac2182901507991"
+hash = "7d82c256bb0599b5f6cc8d7671f22935f138d788e5351dd98b6cd080e28ea000"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -885,6 +885,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-tweaked-controllers.pw.toml"
+hash = "91354129d4adaf2982fbf6d975331067ad39a6e408de32383ea8ff65a3c71e7a"
 metafile = true
 
 [[files]]
@@ -1119,10 +1120,12 @@ metafile = true
 
 [[files]]
 file = "mods/jei-integration.pw.toml"
+hash = "06476837027569174dc086ae42b7c8055814f9b8d9f1376b862fc4c54e96e0bd"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
+hash = "29b62d42548542296d9932bcbb8a93ffba0b75b7cc859a67e596aeb1e048ace2"
 metafile = true
 
 [[files]]

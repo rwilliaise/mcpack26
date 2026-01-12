@@ -213,7 +213,6 @@ ServerEvents.recipes(event => {
 
   event.shapeless('create:rose_quartz', ['minecraft:redstone', 'minecraft:quartz']);
   event.shapeless('create:polished_rose_quartz', ['create:rose_quartz']);
-  stampMill('create:polished_rose_quartz', 1, { item: 'create:rose_quartz' });
 
   mill('create:crushed_raw_zinc', 1, 'create:zinc_ingot');
   stampMill('create:crushed_raw_zinc', 3, { item: 'createaddition:zinc_sheet' });
@@ -251,7 +250,7 @@ ServerEvents.recipes(event => {
     'ECE',
     ' I '
   ], {
-    A: 'create:andesite_alloy',
+    A: 'create:brass_hand',
     E: 'crossroads:lens_array',
     C: 'create:brass_casing',
     I: 'minecraft:iron_block'
@@ -364,6 +363,25 @@ ServerEvents.recipes(event => {
     {
       A: 'minecraft:slime_ball',
       B: 'vs_clockwork:wanderlite_crystal'
+    }
+  );
+
+  // Other Clockwork Blocks
+  event.shapeless('vs_clockwork:duct_tank', ['create:fluid_tank', 'create:industrial_iron_block']);
+  event.shapeless('vs_clockwork:duct', ['create:fluid_tank', 'vs_clockwork:gas_engine']);
+  event.shapeless('vs_clockwork:copter_bearing', 'vs_clockwork:propeller_bearing');
+  event.shaped(
+    Item.of('vs_clockwork:gas_thruster'),
+    [
+      'ABB',
+      'CDD',
+      'ABB'
+    ],
+    {
+      B: 'create:iron_sheet',
+      C: 'create:industrial_iron_block',
+      A: 'vs_clockwork:duct',
+      D: 'create:propeller'
     }
   );
 });
