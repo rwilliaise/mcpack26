@@ -1298,6 +1298,11 @@ hash = "76b63835bb34c29fef33d15e2581d74833f1ae7a8348d4dd3f191a16a2b5bab7"
 metafile = true
 
 [[files]]
+file = "mods/interactive.pw.toml"
+hash = "7442eedee93f3797e9bedce849d5a41bdb4b8a26255ee47090caaaee961887f1"
+metafile = true
+
+[[files]]
 file = "mods/item-filters.pw.toml"
 hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
