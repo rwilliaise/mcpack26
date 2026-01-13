@@ -302,7 +302,7 @@ hash = "53ba9c642d8743f01a187083dd35a0b0e6aa16b29c94117ff4e23cc2a131ab0a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
-hash = "5f0ba2dd2fa80c8adf5c49d3e6a63c579828288b0fc0e02497ebef10543dba33"
+hash = "57b99c550b231397d4857ac51d8f8a731ff8da553e8ac0d011d6d4f5ef3c0f39"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/technomancy.snbt"
@@ -1436,7 +1436,6 @@ metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
-hash = "de4b3b898a16ed4d615cfce18ac872e6a963605d52072d290b495cdff160a34c"
 metafile = true
 
 [[files]]
