@@ -671,7 +671,7 @@ metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
-hash = "eed03a69cacac3a826fc07806ad069b0ae605fefcedab2b2b8fcfa060eb60ebb"
+hash = "dfab1141c0b00ca194d3826f3bbc06f6b50ed844ecad886bb69fb3d560090b0e"
 metafile = true
 
 [[files]]
@@ -786,7 +786,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "fdf79665dd59c66d4dff01eb8530189fe43f140eb5b9420e6dd3981d7b28c2cc"
+hash = "92962c9c0fc925651202eaf51cd07e5bc722bca8c66a4380468ba9154a9d4ea9"
 metafile = true
 
 [[files]]
@@ -1151,7 +1151,7 @@ metafile = true
 
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
-hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
+hash = "071ae7387afbd840ec0142a0a07c2edf31d28a0a43334ce1e0786eca4e9d715b"
 metafile = true
 
 [[files]]
@@ -1311,7 +1311,7 @@ metafile = true
 
 [[files]]
 file = "mods/rightclickharvest.pw.toml"
-hash = "42a38c75d065265ab819c51c13d9aa86c55ba5b518168e943e3d832918ecb1ee"
+hash = "d7fe34c6dee45788e0bef3c86b928566ace97353022945980a53d1ceb8a99bee"
 metafile = true
 
 [[files]]
@@ -1436,11 +1436,12 @@ metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
+hash = "1901cefc095dfaeafb78fc34610febb36f9e4a0ae32f7b96f484f0dacc94c681"
 metafile = true
 
 [[files]]
 file = "mods/wits.pw.toml"
-hash = "4d949b696cb80dea8ffa799fae89b3d20b62503386e8e4067224689f79b7b695"
+hash = "3e0190ccd05214b046bc7d9655f77cf7850fa8ff15d4db8faa99df5dac9b9824"
 metafile = true
 
 [[files]]
@@ -1467,3 +1468,7 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
+
+[[files]]
+file = "scripts/set-side-both.sh"
+hash = "d7334b607cbdca9d47ef0cede740428f54c177d6d64dd2aaabf58b0f8b7abeab"
