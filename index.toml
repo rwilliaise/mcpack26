@@ -401,6 +401,10 @@ file = "config/neruina.json"
 hash = "29e73ae1075a5d9f61394a353e60ba84c5c801e511105f2400e0d4ba66a9bf76"
 
 [[files]]
+file = "config/packetfixer.properties"
+hash = "e6a1bc4f195bf7a04e0403f7f5ef8c6a763ccd8e7e8a9b31a1bb693ea2d0b885"
+
+[[files]]
 file = "config/palegardenbackport.common.conf"
 hash = "8d10be6aa1ef250cca2bf564dea134cfe79cdd33af89febe7923ca613b540859"
 
@@ -569,6 +573,10 @@ file = "config/xaerominimap.txt"
 hash = "44e64c860fd43c3323f454df27c29c064a5484dd5f49a875ee52d65d882d80c5"
 
 [[files]]
+file = "config/xaerominimap_entities.json"
+hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
+
+[[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -650,7 +658,7 @@ hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "7d82c256bb0599b5f6cc8d7671f22935f138d788e5351dd98b6cd080e28ea000"
+hash = "ffec450701e5e58d742dda8c96487ba308fb14f4673331b1410e2a872d665eba"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -806,6 +814,10 @@ metafile = true
 [[files]]
 file = "mods/chloride.pw.toml"
 hash = "5f30cb8c6a3eadddfbd87c0436776ca8d3223403a5293661becb9c43fb9af0a8"
+metafile = true
+
+[[files]]
+file = "mods/chunky-autopause.pw.toml"
 metafile = true
 
 [[files]]
@@ -1105,6 +1117,7 @@ metafile = true
 
 [[files]]
 file = "mods/instant-respawn-always.pw.toml"
+hash = "76b63835bb34c29fef33d15e2581d74833f1ae7a8348d4dd3f191a16a2b5bab7"
 metafile = true
 
 [[files]]
