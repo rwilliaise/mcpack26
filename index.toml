@@ -278,7 +278,7 @@ hash = "b48fa242f155a033ff8752de91fb483268763ce47eadc762db575b76eec53453"
 
 [[files]]
 file = "config/fml.toml"
-hash = "1ed9280977d03a3e6d0661ae5c7217b49a4c40e255c88c6811b12b1b28f69ea5"
+hash = "858e5a6258e6baf298d9475763bf6eec69fa40a3a107448c5546c3fab139bf5e"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -646,7 +646,7 @@ hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "ffec450701e5e58d742dda8c96487ba308fb14f4673331b1410e2a872d665eba"
+hash = "d7f24f6d019213d6d0e59d553ff0ef0380bf52654166451e3c9d5c2bf86fc071"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -771,7 +771,6 @@ metafile = true
 
 [[files]]
 file = "mods/carryon-vs-compat.pw.toml"
-hash = "702433eedd02735d948b78c6c976dbb4b1fb8edf07888fdd2a35892a55a46777"
 metafile = true
 
 [[files]]
@@ -872,11 +871,6 @@ metafile = true
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "6539be34ce1c1142910690b42dd243672ca0a2d64a2e15b70ad5a863e0ec06ee"
-metafile = true
-
-[[files]]
-file = "mods/create-tweaked-controllers.pw.toml"
-hash = "91354129d4adaf2982fbf6d975331067ad39a6e408de32383ea8ff65a3c71e7a"
 metafile = true
 
 [[files]]
@@ -1081,7 +1075,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "88e7c6bf332028bd716eb64137011006035c135d5dde5ed3c651ddc79745f776"
+hash = "ca21aba11704415bfe29253155cd54f0c3d2d2ee4c928f73c5908c4e8627bc7d"
 metafile = true
 
 [[files]]
@@ -1102,6 +1096,10 @@ metafile = true
 [[files]]
 file = "mods/item-filters.pw.toml"
 hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
+metafile = true
+
+[[files]]
+file = "mods/jade-vs.pw.toml"
 metafile = true
 
 [[files]]
@@ -1411,7 +1409,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "42b9e34f518ff801d8ae39ba0000e83924f88c466ab0042fa731402a8a9f020b"
+hash = "d5aa9ef83ca4510a9c800876e124775a32e6cc82bda9ad737c9a3520195ddc33"
 metafile = true
 
 [[files]]
