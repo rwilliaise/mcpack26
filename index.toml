@@ -34,7 +34,7 @@ hash = "bd98c35e394d4ae37e2385f719680d2365527df98894b337d6cf0f2089b15ee6"
 
 [[files]]
 file = "config/artifacts/common.json5"
-hash = "2a67d8de60bc34313c3b565579c3902b2b787a8e6f9782894faaa8b6b61eef9b"
+hash = "af44d0f9559ef192cdf0aa59d0bc38ca5347df3268c7ce8512da02742f83668c"
 
 [[files]]
 file = "config/atmospheric-common.toml"
@@ -409,6 +409,10 @@ file = "config/quark-common.toml"
 hash = "c7fd18bbd0e9142ac6005e621b445f3b04ca4154b2dcc9f383aa6f5a10981dd5"
 
 [[files]]
+file = "config/relics.yaml"
+hash = "6b639bdf78022af725141301e5e0dd988ef5e6a7e541b4407db5ef52415e311c"
+
+[[files]]
 file = "config/resourceful-config-web.json"
 hash = "4e588eb536aa56ebc19ac9a2eaf8b6ddf6f6c09d79c898ca7e7fe08f2f30ca58"
 
@@ -534,7 +538,7 @@ hash = "8555234cb06a79bcea18b5258658c44be0caa24c3ed56248ab0d5cdb69777705"
 
 [[files]]
 file = "config/valkyrienskies/vs_eureka_server.json"
-hash = "c99409f2573ac524028874508f9ee0cc2e485cad7227a68cdab740737a7f8bce"
+hash = "de69942a67cdd74e69929787e3ad3ea6e8c0b2e74aa53650e5384e9344c12358"
 
 [[files]]
 file = "config/valkyrienskies/vs_server.json"

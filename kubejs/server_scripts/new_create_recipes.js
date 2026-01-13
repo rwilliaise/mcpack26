@@ -297,6 +297,15 @@ ServerEvents.recipes(event => {
     ]
   );
 
+  // Drive by Wire
+  const driveByWireParts = ['drivebywire:controller_hub', 'drivebywire:tweaked_controller_hub', 'drivebywire:wire', 'drivebywire:wire_cutter', 'create:brass_casing'];
+  
+  driveByWireParts.forEach(input => {
+    driveByWireParts.forEach(output => {
+      if (input !== output) event.stonecutting(output, input);
+    });
+  });
+
   // World Interactions
 
   // Block of andesite from stone
