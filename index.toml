@@ -369,10 +369,6 @@ file = "config/lithium.properties"
 hash = "e694a171f7547accb5ee5f9bb0d6c8f0dfb2a2c5952d812b1de9dbc11e7606ca"
 
 [[files]]
-file = "config/lithostitched.json"
-hash = "d8a63933ec4757186a594debea59dd35724a0a895fe601b324f96217c28312df"
-
-[[files]]
 file = "config/lootr-common.toml"
 hash = "80e5f311165898d0a77966f90d25f2b9b1d6e73fa199b20565f47c9ff061129e"
 
@@ -650,7 +646,7 @@ hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "7d82c256bb0599b5f6cc8d7671f22935f138d788e5351dd98b6cd080e28ea000"
+hash = "ffec450701e5e58d742dda8c96487ba308fb14f4673331b1410e2a872d665eba"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -746,11 +742,6 @@ metafile = true
 [[files]]
 file = "mods/bettergrassify.pw.toml"
 hash = "ccd718340ef692d4e4c013813f72c5498c31b033d7ace29dadf098d1cb905614"
-metafile = true
-
-[[files]]
-file = "mods/biome-replacer.pw.toml"
-hash = "428b6dc9b3394cbd047f5d73d6d3ea8f8694194ea2b03f48d6e9086c71280507"
 metafile = true
 
 [[files]]
@@ -875,7 +866,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-clockwork.pw.toml"
-hash = "cc128baeb57c03ec23d58d4ea94b5179335e6c394049b0b54cbaa680f598ba7b"
+hash = "4d7a5d021162ecbcb6edacf2d297c56ad0ed7ff4f164d1624291a891583e51a1"
 metafile = true
 
 [[files]]
@@ -1065,7 +1056,7 @@ metafile = true
 
 [[files]]
 file = "mods/geophilic.pw.toml"
-hash = "17a39f71985dd963c15fe6ed5acf7cff675c7d5d0a8508a2664767c911faea51"
+hash = "cdc66a084161b07f0f07e8a445272862270f1f7be71a8ec94959365395eadc86"
 metafile = true
 
 [[files]]
@@ -1090,7 +1081,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "98bffabb3bfc2a7b408cad2b14604ccab19554a28261c6f89b6a5a53eb377de5"
+hash = "88e7c6bf332028bd716eb64137011006035c135d5dde5ed3c651ddc79745f776"
 metafile = true
 
 [[files]]
@@ -1105,6 +1096,7 @@ metafile = true
 
 [[files]]
 file = "mods/instant-respawn-always.pw.toml"
+hash = "76b63835bb34c29fef33d15e2581d74833f1ae7a8348d4dd3f191a16a2b5bab7"
 metafile = true
 
 [[files]]
@@ -1160,16 +1152,6 @@ metafile = true
 [[files]]
 file = "mods/leaves-be-gone.pw.toml"
 hash = "9a5e498a9c596fb0bfbab74173aa854257466e8c538d15c1966ce268b3267575"
-metafile = true
-
-[[files]]
-file = "mods/lithosphere.pw.toml"
-hash = "11e8f7c2a2214f3133188ca8d045c9171eca8988fbae8a13572e56129b8b9910"
-metafile = true
-
-[[files]]
-file = "mods/lithostitched.pw.toml"
-hash = "457f1d7c34cb8cb605b002fee89d3f0a766eb461ef82236c48cb1196b1e81a97"
 metafile = true
 
 [[files]]
@@ -1239,7 +1221,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "a8490c2e35cf77f1da179934254618329829f2075f77f3d407b46598cfc8b452"
+hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
 metafile = true
 
 [[files]]
@@ -1368,11 +1350,6 @@ hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
 
 [[files]]
-file = "mods/structurify.pw.toml"
-hash = "fe1516f5f97ab1278665ab82e612a8d9c1b9f138207dd9c13646437400f6341a"
-metafile = true
-
-[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
 metafile = true
@@ -1434,7 +1411,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "4a99189bb405cef0912f67530bc227d28d89f8c40e484267e66bf64ed9231020"
+hash = "42b9e34f518ff801d8ae39ba0000e83924f88c466ab0042fa731402a8a9f020b"
 metafile = true
 
 [[files]]
