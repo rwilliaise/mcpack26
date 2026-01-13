@@ -667,6 +667,10 @@ file = "mods/create-diesel-generators.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/create-tweaked-controllers.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 metafile = true
 
