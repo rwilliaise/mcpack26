@@ -5,7 +5,7 @@
 	group: ""
 	icon: "vs_eureka:anchor"
 	id: "2000000000000001"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -48,7 +48,7 @@
 				type: "item"
 			}]
 			title: "Knock The Wind Out Of Ya'"
-			x: 1.5d
+			x: 2.0d
 			y: -1.0d
 		}
 		{
@@ -67,7 +67,7 @@
 				type: "item"
 			}]
 			title: "Big n Round"
-			x: 3.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			title: "What Goes Down Must Come Up"
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 		}
 		{
@@ -119,359 +119,85 @@
 				item: "vs_eureka:engine"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2B6EAB62614B9BA1"]
-			description: ["These little guys will MASSIVELY help you in figuring out what the hell your ship is doing. The Aeronaut Goggles are the same as iron armor + Engineer's Goggles, I believe."]
-			icon: "create:goggles"
-			id: "34CDB13B3AD6DD74"
+			description: ["Combine two blades in a crafting table to make bigger blades :)"]
+			id: "54083C53B7ECCDC1"
+			rewards: [{
+				count: 16
+				id: "0F4656A7CC33424B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "596DC67A507DDD84"
+				item: {
+					Count: 2
+					id: "vs_clockwork:propeller_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Bigger Blades"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"How to use linked controller:"
+				"1: Go to the mod's settings (to the right of 'mods' in settings)"
+				"2: Go to 'general configuration' -> 'use custom mappins' set to ON"
+				"3: Go back to mod settings"
+				"4: Go to 'controller configuration'"
+				"5: You can use this page to set gamepad inputs to keyboard / mouse / anything input, which translates to the advanced linked controller in-game."
+			]
+			id: "20D2288A4F26407C"
 			rewards: [
 				{
-					id: "73494DDD1EC4B18C"
-					item: {
-						Count: 1
-						id: "vs_clockwork:aeronaut_goggles"
-						tag: {
-							Damage: 0
-						}
-					}
+					count: 16
+					id: "477BBB00BE4583B1"
+					item: "create:electron_tube"
 					type: "item"
 				}
 				{
-					id: "092F84091CC887A9"
-					item: {
-						Count: 1
-						id: "vs_clockwork:aeronaut_jacket"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "37E402782E711851"
-					item: {
-						Count: 1
-						id: "vs_clockwork:aeronaut_jumpers"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "52AF9D84CF1B418E"
-					item: {
-						Count: 1
-						id: "vs_clockwork:aeronaut_boots"
-						tag: {
-							Damage: 0
-						}
-					}
+					count: 4
+					id: "160F84D82AEE6B9A"
+					item: "create:precision_mechanism"
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "34261F275D694708"
+				item: "create_tweaked_controllers:tweaked_linked_controller"
+				type: "item"
+			}]
+			title: "What the heck? "
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: ["Put universial shafts on the 2 blocks, then connect the U. Shaft's with the compressable shaft. Now a little thingy links them and transfers rotation."]
+			id: "2E89352458B302C5"
 			tasks: [
 				{
-					consume_items: true
-					id: "49DD5214EB5E9972"
-					item: "create:goggles"
+					id: "50DA5A0783745012"
+					item: "vs_clockwork:universal_shaft"
 					type: "item"
 				}
 				{
-					consume_items: true
-					count: 24L
-					id: "1133D227362B62BB"
-					item: { Count: 24, id: "minecraft:iron_ingot" }
+					id: "1487C2AA12621831"
+					item: "vs_clockwork:universal_shaft_item"
 					type: "item"
 				}
 			]
-			title: "See No Evil"
-			x: 1.5d
-			y: 3.0d
-		}
-		{
-			description: ["VS: Clockwork lets you do everything Eureka does but more advanced. You better lock in for this one."]
-			id: "2B6EAB62614B9BA1"
-			tasks: [{
-				id: "4657FEF2EEE4135C"
-				title: "N SCI 502"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["34CDB13B3AD6DD74"]
-			description: ["Want easy rotation? Want to destroy the environment? Look no further! You'll need to progress through crossroads a little to produce fuel sources like diesel, ethanol, or gasoline."]
-			id: "2E1E43BEC24C1E64"
-			rewards: [{
-				id: "1BB4EEC55871B5E5"
-				item: "createdieselgenerators:gasoline_bucket"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6FCA94CC2F8BA6FA"
-				item: "createdieselgenerators:diesel_engine"
-				type: "item"
-			}]
-			title: "Vroom Vroom"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["2E1E43BEC24C1E64"]
-			description: ["I see you're well on your way to making your own gas."]
-			id: "3700AAE59DDCEE6B"
-			tasks: [{
-				id: "00FCA0A086D54D4E"
-				item: "kubejs:petroleum_jelly"
-				type: "item"
-			}]
-			title: "The Slippery Slope"
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["34CDB13B3AD6DD74"]
-			description: ["[ \"Want to go green? Or burn coal for power but not directly in your vehicle? This is the path for you. You should explore Crossroads a little if you don't currently have any methods of generating FE. \", { \"text\": \"This\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"66716A08428B5998\" } }, \" is the quest that lets you generate FE with Crossroads.\" ]"]
-			id: "54B1BA391A0A3B11"
-			rewards: [{
-				count: 4
-				id: "68D5213347EF4C95"
-				item: "createaddition:modular_accumulator"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5CD1B839AA582362"
-					item: "createaddition:modular_accumulator"
-					type: "item"
-				}
-				{
-					id: "715C6CA8DEC59314"
-					item: "createaddition:electric_motor"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1FA8188F473D02DA"
-					item: { Count: 2, id: "createaddition:connector" }
-					type: "item"
-				}
-				{
-					id: "7A89E8E22A79F43B"
-					item: "createaddition:copper_spool"
-					type: "item"
-				}
-			]
-			title: "Big Battery"
-			x: 1.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3700AAE59DDCEE6B"]
-			description: ["Here's every oil you might consider using to power your engine! Some of them are better than others."]
-			id: "1741A5E8A3784A00"
-			rewards: [{
-				count: 4
-				id: "29D11059F5462073"
-				item: {
-					Count: 1
-					id: "crossroads:fluid_tank"
-					tag: {
-						BlockEntityTag: { }
-					}
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "5F8531994E7BC1DE"
-					item: "createaddition:seed_oil_bucket"
-					type: "item"
-				}
-				{
-					id: "6A220B4FC4861A41"
-					item: "createdieselgenerators:crude_oil_bucket"
-					type: "item"
-				}
-				{
-					id: "55FABAEC1C79A463"
-					item: "createdieselgenerators:plant_oil_bucket"
-					type: "item"
-				}
-				{
-					id: "2D886E842FFD192A"
-					item: "createdieselgenerators:ethanol_bucket"
-					type: "item"
-				}
-				{
-					id: "4180276C712FFB7F"
-					item: "createdieselgenerators:biodiesel_bucket"
-					type: "item"
-				}
-				{
-					id: "6B00C803C6C6EE69"
-					item: "createdieselgenerators:diesel_bucket"
-					type: "item"
-				}
-				{
-					id: "18277B090D666887"
-					item: "createdieselgenerators:gasoline_bucket"
-					type: "item"
-				}
-				{
-					id: "7D64C8B50452F6A0"
-					item: "createdieselgenerators:ethanol_bucket"
-					type: "item"
-				}
-			]
-			title: "You're Just Missing Baby Oil"
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["34CDB13B3AD6DD74"]
-			description: ["These are the starting components you'll need for an airplane! A cambered wing generates more lift than a wing I believe, but use them only when/if needed to prevent weird problems with too much lift."]
-			id: "47D6A4458B5B9CCE"
-			rewards: [{
-				count: 2
-				id: "13C4C05EF31E04BA"
-				item: "minecraft:slime_block"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "056503B053FE7AF1"
-					item: "vs_clockwork:flap"
-					type: "item"
-				}
-				{
-					id: "32E1F922D0B6849C"
-					item: "vs_clockwork:wing"
-					type: "item"
-				}
-				{
-					id: "4DF712B4C1BE3CD3"
-					item: "vs_clockwork:andesite_flap_bearing"
-					type: "item"
-				}
-				{
-					id: "0DD2EE71B46CE9F3"
-					item: {
-						Count: 1
-						id: "create:super_glue"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Bukkit -> Spigot -> Paper -> Purpur -> Airplane"
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["47D6A4458B5B9CCE"]
-			description: ["Control your flaps directly with the smart flap controller and a linked controller!"]
-			id: "2464E87750E7A39B"
-			tasks: [{
-				id: "5B13521749A00AE0"
-				item: "vs_clockwork:smart_flap_bearing"
-				type: "item"
-			}]
-			title: "Control Freak"
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["47D6A4458B5B9CCE"]
-			description: ["Drive By Wire will let you avoid using Create Wireless Links (this way you do not need to remember frequencies). You can simply link everything to the hub, and then right click the hub with a linked controller to control your vehicle."]
-			id: "6D3062D9BFFCF4BC"
-			rewards: [{
-				id: "5E683F84BCFD61E8"
-				item: {
-					Count: 1
-					id: "trackwork:track_tool_kit"
-					tag: { }
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2F6D513F672DC660"
-					item: "create:linked_controller"
-					type: "item"
-				}
-				{
-					id: "2D90C86329AD4E70"
-					item: "drivebywire:controller_hub"
-					type: "item"
-				}
-				{
-					id: "3EED2FB5CBBC577F"
-					item: "drivebywire:wire"
-					type: "item"
-				}
-				{
-					id: "6FC9302FB43FAF20"
-					item: "drivebywire:wire_cutter"
-					optional_task: true
-					type: "item"
-				}
-			]
-			title: "Got A Plane, Need To Drive It"
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["6D3062D9BFFCF4BC"]
-			description: ["You need wheels to drive. Here they are!"]
-			id: "3B8DE6BF404B592D"
-			rewards: [{
-				id: "13534229D4667979"
-				item: "trackwork:horn"
-				type: "item"
-			}]
-			tasks: [{
-				id: "048222F64A27B85A"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "trackwork:large_simple_wheel"
-							}
-							{
-								Count: 1b
-								id: "trackwork:simple_wheel"
-							}
-							{
-								Count: 1b
-								id: "trackwork:med_simple_wheel"
-							}
-							{
-								Count: 1b
-								id: "trackwork:small_simple_wheel"
-							}
-							{
-								Count: 1b
-								id: "trackwork:oleo_wheel"
-							}
-						]
-					}
-				}
-				type: "item"
-			}]
-			title: "Set Sail For The Ground"
-			x: 4.5d
-			y: 6.0d
+			title: "Move rotation ANYWHERE"
+			x: -3.5d
+			y: 0.5d
 		}
 	]
 	title: "Boats \\& Balloons"
