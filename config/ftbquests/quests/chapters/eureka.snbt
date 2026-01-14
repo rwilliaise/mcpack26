@@ -35,12 +35,20 @@
 			dependencies: ["2000000000000002"]
 			description: ["Balloons require Canvas (from Farmer's Delight) and String. Tack a few of them onto a craft, and you'll be able to float it upward. Go down, you ask? Check your keybinds, but it should be the \"V\" key."]
 			id: "2000000000000005"
-			rewards: [{
-				count: 8
-				id: "2000000000000006"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "2000000000000006"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2929CEE3D9BBC92B"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "2000000000000007"
@@ -56,9 +64,9 @@
 			description: ["Craft your first Balloon. These provide lift for your ship."]
 			id: "2000000000000008"
 			rewards: [{
-				count: 2
-				id: "2000000000000009"
-				item: "vs_eureka:white_balloon"
+				count: 8
+				id: "0B5682C2698DA9DA"
+				item: "vs_eureka:balloon"
 				type: "item"
 			}]
 			tasks: [{
@@ -183,6 +191,12 @@
 		{
 			description: ["Put universial shafts on the 2 blocks, then connect the U. Shaft's with the compressable shaft. Now a little thingy links them and transfers rotation."]
 			id: "2E89352458B302C5"
+			rewards: [{
+				count: 8
+				id: "78080E017C730EBA"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "50DA5A0783745012"
@@ -263,6 +277,106 @@
 			}]
 			title: "variable speed with redstone"
 			x: -2.5d
+			y: 0.5d
+		}
+		{
+			description: ["only works on physics"]
+			id: "545EF14B1F4F8AF5"
+			rewards: [{
+				count: 16
+				id: "6B7C5646EAC4572C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B6B505192D7897B"
+					item: "drivebywire:wire"
+					type: "item"
+				}
+				{
+					id: "0AD87F2354E237B2"
+					item: "drivebywire:tweaked_controller_hub"
+					type: "item"
+				}
+			]
+			title: "wireless redstone"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: ["yeah we forced this."]
+			id: "7340964F005708E3"
+			rewards: [{
+				count: 32
+				id: "2BE6A204345D2A3E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A6F0BB279362D05"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			title: "you make diesel w/ crossroads now"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "5A4A6D94B212BF3A"
+			rewards: [{
+				count: 8
+				id: "54D1547B045FA574"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FFCD8E545FF837A"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "35B03EDD41DBCD22"
+			tasks: [{
+				id: "78F82DE541E5C02A"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "41880FFD11032237"
+			tasks: [{
+				id: "63554B9109045DD3"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "16D7DC93D0B87834"
+			tasks: [{
+				id: "66A3724BAD375A03"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			id: "732DCE48A4CD243B"
+			tasks: [{
+				id: "249BF22ACC16548D"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: -4.5d
 			y: 0.5d
 		}
 	]

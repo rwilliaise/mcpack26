@@ -1439,6 +1439,19 @@
 			x: 8.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["366136A12DFE2AA4"]
+			description: ["NO!!!! FUCK YOU!!!!!!"]
+			id: "7886A8C29316A953"
+			tasks: [{
+				id: "5C0349488A44D25A"
+				title: "Q & A"
+				type: "checkmark"
+			}]
+			title: "\"Why cant i use create?\""
+			x: -10.5d
+			y: 0.5d
+		}
 	]
 	title: "The Main Road"
 }
