@@ -413,6 +413,118 @@ file = "config/relics.yaml"
 hash = "6b639bdf78022af725141301e5e0dd988ef5e6a7e541b4407db5ef52415e311c"
 
 [[files]]
+file = "config/relics/relics/amphibian_boot.yaml"
+hash = "dc383ee87058458979943100c3940d48a51ce58e468d90029e96d92dc895281e"
+
+[[files]]
+file = "config/relics/relics/aqua_walker.yaml"
+hash = "8fd0eddafa9aa85bd15c0cf895f7279f4e4761582bc7c193cbc1be495d3282bf"
+
+[[files]]
+file = "config/relics/relics/arrow_quiver.yaml"
+hash = "e132d16079f574c85647e3bb9ac04bda0307f040a2ca8207dfa72d13a6095a00"
+
+[[files]]
+file = "config/relics/relics/bastion_ring.yaml"
+hash = "ff11768984a685ae7cd2979038db26bd036e9d3a9a8d41f943e1e95ad8229e25"
+
+[[files]]
+file = "config/relics/relics/blazing_flask.yaml"
+hash = "ea767b7c6014469f18c6acd19a2528021d15bf08350c84908aab2006b54656d1"
+
+[[files]]
+file = "config/relics/relics/chorus_inhibitor.yaml"
+hash = "0e7d0ae8b83bdca3df8ab0fe04afbc4c3e1b8c4660aa1eeb874bd9cb25899792"
+
+[[files]]
+file = "config/relics/relics/drowned_belt.yaml"
+hash = "a255e6ba485bc21f4068298334c6acb9cb95cff75e73063dbd2e5ad608ab423f"
+
+[[files]]
+file = "config/relics/relics/elytra_booster.yaml"
+hash = "50303f9a48a5dc00412ad3239780a07a4fbb1673c6f7221b984fd83bc35aa9d0"
+
+[[files]]
+file = "config/relics/relics/enders_hand.yaml"
+hash = "2e46b289ba555cb08fb05f80760d1c0da471b7badd9f4c79cc70bd62130fff56"
+
+[[files]]
+file = "config/relics/relics/holy_locket.yaml"
+hash = "d6672bdf394445ac37f49b93bacf0b6fd9da7b75f7cd49a12f8c80ca226a0800"
+
+[[files]]
+file = "config/relics/relics/horse_flute.yaml"
+hash = "2c72c8e64aa156642cb4032977a41b25a1061f33069ade33419a043f35b47d36"
+
+[[files]]
+file = "config/relics/relics/hunter_belt.yaml"
+hash = "588fcc56122bbfa3f770f7932f6ec310ee56ad36a1e36f4215efa3e978e6bb20"
+
+[[files]]
+file = "config/relics/relics/ice_breaker.yaml"
+hash = "081ac3585f2c082de9a96615a3cfba7992bebf75529bb6e98614e95faa08a985"
+
+[[files]]
+file = "config/relics/relics/ice_skates.yaml"
+hash = "a91aaca767b2150b5a1281683f63fa1206ed28ef13f3a657711f7474615f0160"
+
+[[files]]
+file = "config/relics/relics/infinity_ham.yaml"
+hash = "6a1b2a175aaf78486843e7c2ad6b87b60c04c83b78db28193a6f9777af27eb21"
+
+[[files]]
+file = "config/relics/relics/jellyfish_necklace.yaml"
+hash = "25d399449011187214272b1b91d18cc7df1227442630b161500e4aa486d9460d"
+
+[[files]]
+file = "config/relics/relics/leather_belt.yaml"
+hash = "fb83b76636c37519b932ce625521a3bd56b715a0c408b9a2909c1f0506d3b263"
+
+[[files]]
+file = "config/relics/relics/magic_mirror.yaml"
+hash = "dd1c2be05fed94f0b14323dc0a2eafbc18d7f29d4a85af6df7f5f510634b3399"
+
+[[files]]
+file = "config/relics/relics/magma_walker.yaml"
+hash = "5391bbfa911bfd5ce0101aa399c583f0de5ad9c962734d4570936edf8adc510d"
+
+[[files]]
+file = "config/relics/relics/midnight_robe.yaml"
+hash = "02b43c8452be4b1ef92e251333733792969cd5c8f71459b00d8ebe5418b700bc"
+
+[[files]]
+file = "config/relics/relics/rage_glove.yaml"
+hash = "c938ac5abe883584e496d47c945ed6343eb4e560b34e1d9e16e3e3adcce8c1e0"
+
+[[files]]
+file = "config/relics/relics/reflection_necklace.yaml"
+hash = "190b65e35c1db3af1809df85fe1e6aa36323b15c87c42220fa407dbe71321fce"
+
+[[files]]
+file = "config/relics/relics/roller_skates.yaml"
+hash = "b5381bf30f2cf3763c5d658f74ba863b08481f424a130dcc9ec6e7cc3c133098"
+
+[[files]]
+file = "config/relics/relics/shadow_glaive.yaml"
+hash = "0fec9ca2670613d019692985e012a2a5f6162316a2a1baa535842c468ecc0c4b"
+
+[[files]]
+file = "config/relics/relics/space_dissector.yaml"
+hash = "744e17c21eb441b6450c8abe38b63c44849bced2ad76c15ca53925dfa2227142"
+
+[[files]]
+file = "config/relics/relics/spatial_sign.yaml"
+hash = "f43471b8f9d0763d57897902f0bb2049235f79a866c40742e27bae9698438986"
+
+[[files]]
+file = "config/relics/relics/spore_sack.yaml"
+hash = "2d9733a81c69b839a569314b682b7aec396a43e4dedd6f5659093a2a25b49fb3"
+
+[[files]]
+file = "config/relics/relics/wool_mitten.yaml"
+hash = "4b2646788a7343282cac946a01b6222a10e4b5f4e2b5b298c44a04fe20d8533a"
+
+[[files]]
 file = "config/resourceful-config-web.json"
 hash = "4e588eb536aa56ebc19ac9a2eaf8b6ddf6f6c09d79c898ca7e7fe08f2f30ca58"
 
@@ -650,7 +762,7 @@ hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "d7f24f6d019213d6d0e59d553ff0ef0380bf52654166451e3c9d5c2bf86fc071"
+hash = "c353f77a4d14b80a4210b44a8cd0f43dd5fa5d119e966ef494a5f57d8ecff803"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -870,6 +982,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-clockwork.pw.toml"
+hash = "f2346fa469e2090e6c7fbfd3e126e306bf27a0602971ed8944c784bcfab5e67e"
 metafile = true
 
 [[files]]
@@ -1358,6 +1471,10 @@ hash = "0be4976227df8e261fd362889bf8e85b93e224d1b1c3cd2a11b73a9de3b64083"
 metafile = true
 
 [[files]]
+file = "mods/structurify.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "1cf9cb3955b075664ea4fba13b47fe7160975740a28864983aebd53d39c1946e"
 metafile = true
@@ -1476,6 +1593,10 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
+
+[[files]]
+file = "scripts/add_relic_multiplier.py"
+hash = "67ea6bf1a0994e4ce30b615157417b84e22032989228f6ce64d6a4794e1f4668"
 
 [[files]]
 file = "scripts/set-side-both.sh"
