@@ -569,10 +569,6 @@ file = "config/spark/config.json"
 hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
-file = "config/structurify.json"
-hash = "c36f9ea7c258bf53612f2cbd4bbc89c35843466d7fafec199c324bda0c3d806a"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "3d3a398ecd113215267dbdd000a7d556b9bf7da1af3ed1b676e15b70928fb182"
 
@@ -1202,6 +1198,7 @@ metafile = true
 
 [[files]]
 file = "mods/improved-mobs.pw.toml"
+hash = "bc2190d04091e94f8821032472168c7574cec27e6f37c35c405528e522105300"
 metafile = true
 
 [[files]]
@@ -1291,10 +1288,12 @@ metafile = true
 
 [[files]]
 file = "mods/lukis-grand-capitals.pw.toml"
+hash = "2fe01d8046db2246c6df01eedd1fbc7837c08cc6d3b2a9017107ade989e86a28"
 metafile = true
 
 [[files]]
 file = "mods/lukis-strongholds.pw.toml"
+hash = "f4bfdf260db78a2e3878b0e4ea7b523241c0a6323c0262f230110dc089c19143"
 metafile = true
 
 [[files]]
@@ -1349,6 +1348,7 @@ metafile = true
 
 [[files]]
 file = "mods/nyfs-spiders.pw.toml"
+hash = "361f5915170fc468704db1c693cfac69431b82fdefc380d6d2d7a95242799bb9"
 metafile = true
 
 [[files]]
@@ -1508,6 +1508,7 @@ metafile = true
 
 [[files]]
 file = "mods/tenshilib.pw.toml"
+hash = "25ac4e21c8f32b8bc174037bb4a6b4e9ca7b03018de859596113022de4906036"
 metafile = true
 
 [[files]]
@@ -1552,6 +1553,7 @@ metafile = true
 
 [[files]]
 file = "mods/unnamed-sea.pw.toml"
+hash = "147325d323fa6246e4c51cca1f6a3157a3fb9bfc22d83767cd74ff44861bfa81"
 metafile = true
 
 [[files]]
