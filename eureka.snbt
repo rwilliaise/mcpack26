@@ -135,7 +135,7 @@
 				count: 2L
 				id: "596DC67A507DDD84"
 				item: {
-					Count: 1
+					Count: 2
 					id: "vs_clockwork:propeller_blade"
 					tag: {
 						Damage: 0
@@ -249,21 +249,6 @@
 			}]
 			x: -1.0d
 			y: 2.0d
-		}
-		{
-			description: [
-				"\"oh man how can i vary the speed of my shafts with a redstone connection\" - YOU, very stupidly."
-				"This block does that. lowers output speed percentage-ly w/ redstone. "
-			]
-			id: "212878E47D8B4347"
-			tasks: [{
-				id: "7C9E147B5B726EA8"
-				item: "vs_clockwork:redstone_resistor"
-				type: "item"
-			}]
-			title: "variable speed with redstone"
-			x: -2.5d
-			y: 0.5d
 		}
 	]
 	title: "Boats \\& Balloons"
