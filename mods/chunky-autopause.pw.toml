@@ -1,0 +1,13 @@
+name = "Chunky Autopause"
+filename = "chunky-autopause-1.20.1-0.0.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/sFQLq6Xy/versions/Rl0BNZwV/chunky-autopause-1.20.1-0.0.2.jar"
+hash-format = "sha512"
+hash = "bad9333fd0153ce2b0b827912926661a548063cf61ab9790be89d73a384cc8bc8d8d7c48db058dd3c66d6ef473c02f354097791e7a6af9d24e965715964c65ca"
+
+[update]
+[update.modrinth]
+mod-id = "sFQLq6Xy"
+version = "Rl0BNZwV"

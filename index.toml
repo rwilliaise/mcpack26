@@ -912,6 +912,10 @@ hash = "5f30cb8c6a3eadddfbd87c0436776ca8d3223403a5293661becb9c43fb9af0a8"
 metafile = true
 
 [[files]]
+file = "mods/chunky-autopause.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 hash = "49183b853be9ced87da71fa9b8589eafd84fd0efa212c3da4c617b36302e6fb6"
 metafile = true
