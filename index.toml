@@ -570,7 +570,7 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
 file = "config/structurify.json"
-hash = "3904d6422a49c27c561e34aca3206800c6a1320ca86f05448a495016067fd0c1"
+hash = "c36f9ea7c258bf53612f2cbd4bbc89c35843466d7fafec199c324bda0c3d806a"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -1201,6 +1201,10 @@ hash = "ca21aba11704415bfe29253155cd54f0c3d2d2ee4c928f73c5908c4e8627bc7d"
 metafile = true
 
 [[files]]
+file = "mods/improved-mobs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/incendium.pw.toml"
 hash = "0f83be0761e0014686517c20f2850242152dd7a26e87088d869028bc40a8a125"
 metafile = true
@@ -1286,6 +1290,14 @@ hash = "66bcfe786e6bbdee6f7ea0805ec3d2561b41285a5c77f1e465e80f4c2fd9200c"
 metafile = true
 
 [[files]]
+file = "mods/lukis-grand-capitals.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lukis-strongholds.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "c9f8bce06b85e4dbfdaecc7d0930bf7f4fabccc7967f867b7eb7acb8dd5b77a7"
 metafile = true
@@ -1333,6 +1345,10 @@ metafile = true
 [[files]]
 file = "mods/neruina.pw.toml"
 hash = "e6de05ff93544874f2e8a8f6646def228e877aad97396d14e43b9996849a4eab"
+metafile = true
+
+[[files]]
+file = "mods/nyfs-spiders.pw.toml"
 metafile = true
 
 [[files]]
@@ -1472,6 +1488,7 @@ metafile = true
 
 [[files]]
 file = "mods/structurify.pw.toml"
+hash = "eb1caa99ba8d5656c2827fa3d403fe369f05265d407173ed7788589e9ec78234"
 metafile = true
 
 [[files]]
@@ -1487,6 +1504,10 @@ metafile = true
 [[files]]
 file = "mods/tectonic.pw.toml"
 hash = "23c3dddf24d8d65b2ad798247389647b47e10439dca2c46b1c958a8d2b0a1841"
+metafile = true
+
+[[files]]
+file = "mods/tenshilib.pw.toml"
 metafile = true
 
 [[files]]
@@ -1530,6 +1551,10 @@ hash = "c2df41a37fec3a93afc4e2866705bf9e457d506ce8cd02e61c2f610d4f6a7617"
 metafile = true
 
 [[files]]
+file = "mods/unnamed-sea.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/upgrade-aquatic.pw.toml"
 hash = "909482378bf0ed15645bcbba896daf9e83b7ef4e100bc44d6d3a34090f13578f"
 metafile = true
@@ -1557,11 +1582,6 @@ metafile = true
 [[files]]
 file = "mods/vs-safe-and-sound.pw.toml"
 hash = "a7e4a12322f3efd6207b36ae207a656ef1b78d4d61f1520ef185a4d0a4265c16"
-metafile = true
-
-[[files]]
-file = "mods/when-dungeons-arise.pw.toml"
-hash = "1901cefc095dfaeafb78fc34610febb36f9e4a0ae32f7b96f484f0dacc94c681"
 metafile = true
 
 [[files]]
