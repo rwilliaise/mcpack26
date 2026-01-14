@@ -126,3 +126,9 @@ lootData:
     entries:
         '[\w]+:chests\/[\w_\/]*(water|ocean|river|(?<!air)ship|aqua)[\w_\/]*': 0.05
         minecraft:chests/buried_treasure: 0.05
+        u_sea:ship/gold: 0.05
+        u_sea:ship/iron: 0.05
+        u_sea:lighthouse/boat: 0.05
+        u_sea:lighthouse/cartography: 0.05
+        u_sea:raft/cooled_fish: 0.05
+        u_sea:island/cooled_fish: 0.05

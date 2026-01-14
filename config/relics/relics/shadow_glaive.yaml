@@ -138,3 +138,6 @@ lootData:
         '[\w]+:chests\/[\w_\/]*(end|warp)[\w_\/]*': 0.05
         minecraft:chests/ancient_city_ice_box: 0.05
         '[\w]+:chests\/[\w_\/]*(warden|sculk|echo)[\w_\/]*': 0.05
+        strongholds:crypt: 0.05
+        strongholds:stronghold_equipment: 0.04
+        revampedvillages:pillager_treasure: 0.04

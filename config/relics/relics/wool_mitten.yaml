@@ -93,3 +93,6 @@ lootData:
         '[\w]+:chests\/[\w_\/]*(frosz?|taiga|cold|winter|snow|icey?|glac)[\w_\/]*': 0.05
         minecraft:chests/village/village_fletcher: 0.05
         minecraft:chests/igloo_chest: 0.05
+        revampedvillages:snowy_common: 0.05
+        revampedvillages:taiga_common: 0.05
+        revampedvillages:professions/shepherd: 0.05

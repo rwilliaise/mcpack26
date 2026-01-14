@@ -101,3 +101,5 @@ lootData:
         '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.05
         '[\w]+:chests\/[\w_\/]*(pillag|outpost)[\w_\/]*': 0.05
         minecraft:chests/woodland_mansion: 0.05
+        strongholds:crypt: 0.05
+        strongholds:stronghold_treasure: 0.04
