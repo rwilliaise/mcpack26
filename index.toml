@@ -1187,11 +1187,6 @@ hash = "22f7bd473bdc5add41d8afa0dc89dc442d77695a4675c3abf792c0981cc9ce9b"
 metafile = true
 
 [[files]]
-file = "mods/ibo.pw.toml"
-hash = "8258a36d7c84d329f13d8351b950eb15d76d316084cdd1e4efa54062b9301325"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "ca21aba11704415bfe29253155cd54f0c3d2d2ee4c928f73c5908c4e8627bc7d"
 metafile = true
