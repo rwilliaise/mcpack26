@@ -24,7 +24,7 @@
   "balloonElevationMaxSpeed" : 6.0,
   "elevationSnappiness" : 1.0,
   "doFluidDrag" : false,
-  "massPerBalloon" : 4000.0,
+  "massPerBalloon" : 1250.0,
   "turnSpeed" : 0.5,
   "turnAcceleration" : 10.0,
   "maxSizeForTurnSpeedPenalty" : 16.0,
