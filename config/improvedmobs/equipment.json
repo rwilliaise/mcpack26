@@ -1,360 +1,118 @@
 {
   "__comment": [
-    "Mobs will be able to equip items declared here",
-    "The first number is the weight while the second number is the quality",
-    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
-    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+    "Weight 0 means it never spawns at Difficulty 0.",
+    "Quality adds to weight based on Difficulty.",
+    "Example: Diamond Sword (W:0, Q:2). Diff 0 = W0. Diff 50 = W100. Diff 100 = W200.",
+    "Negative Quality makes items disappear as game gets harder."
   ],
   "MAINHAND": {
-    "create:cardboard_sword": [
-      3592,
-      0.0064999997
-    ],
-    "minecraft:bow": [
-      1089,
-      4.508568
-    ],
-    "minecraft:copper_axe": [
-      3182,
-      0.0475
-    ],
-    "minecraft:copper_sword": [
-      3290,
-      0.0367
-    ],
-    "minecraft:crossbow": [
-      1383,
-      3.826627
-    ],
-    "minecraft:diamond_axe": [
-      852,
-      5.022479
-    ],
-    "minecraft:diamond_sword": [
-      914,
-      4.889481
-    ],
-    "minecraft:enchanted_book": [
-      2057,
-      1.8573177
-    ],
-    "minecraft:golden_axe": [
-      3513,
-      0.014399999
-    ],
-    "minecraft:golden_sword": [
-      3576,
-      0.0081
-    ],
-    "minecraft:iron_axe": [
-      3080,
-      0.51635593
-    ],
-    "minecraft:iron_sword": [
-      3167,
-      0.049
-    ],
-    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
-      2157,
-      1.7269388
-    ],
-    "minecraft:netherite_axe": [
-      16,
-      6.778693
-    ],
-    "minecraft:netherite_sword": [
-      86,
-      6.632802
-    ],
-    "minecraft:snowball": [
-      3107,
-      0.46844563
-    ],
-    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
-      2157,
-      1.7269388
-    ],
-    "minecraft:stone_axe": [
-      3283,
-      0.0374
-    ],
-    "minecraft:stone_sword": [
-      3391,
-      0.026599998
-    ],
-    "minecraft:tnt": [
-      1957,
-      1.9881918
-    ],
-    "minecraft:trident": [
-      1157,
-      4.357304
-    ],
-    "minecraft:wooden_axe": [
-      3467,
-      0.019
-    ],
-    "minecraft:wooden_sword": [
-      3530,
-      0.0127
-    ],
-    "vs_clockwork:propeller_blade": [
-      750,
-      0.018399999
-    ],
-    "vs_clockwork:wide_propeller_blade": [
-      500,
-      0.038399998
-    ]
+    "create:cardboard_sword": [ 3000, -5.0 ],
+    "minecraft:wooden_sword": [ 3000, -5.0 ],
+    "minecraft:wooden_axe": [ 3000, -5.0 ],
+    "minecraft:stone_sword": [ 2000, -2.0 ],
+    "minecraft:stone_axe": [ 2000, -2.0 ],
+    "minecraft:golden_sword": [ 500, -1.0 ],
+    "minecraft:golden_axe": [ 500, -1.0 ],
+    
+    "minecraft:copper_sword": [ 100, 5.0 ],
+    "minecraft:copper_axe": [ 100, 5.0 ],
+    "minecraft:iron_sword": [ 100, 5.0 ],
+    "minecraft:iron_axe": [ 100, 5.0 ],
+    "vs_clockwork:propeller_blade": [ 50, 2.0 ],
+    "vs_clockwork:wide_propeller_blade": [ 50, 2.0 ],
+
+    "minecraft:bow": [ 500, 2.0 ],
+    "minecraft:crossbow": [ 100, 5.0 ],
+    "minecraft:snowball": [ 100, 2.0 ],
+    
+    "minecraft:diamond_sword": [ 0, 2.0 ],
+    "minecraft:diamond_axe": [ 0, 2.0 ],
+    "minecraft:trident": [ 0, 1.0 ],
+    
+    "minecraft:netherite_sword": [ 0, 0.5 ],
+    "minecraft:netherite_axe": [ 0, 0.5 ],
+    
+    "minecraft:enchanted_book": [ 0, 1.0 ],
+    "minecraft:tnt": [ 0, 0.2 ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [ 0, 0.5 ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [ 0, 0.1 ]
   },
   "OFFHAND": {
-    "minecraft:ender_pearl": [
-      675,
-      1.2102311
-    ],
-    "minecraft:flint_and_steel": [
-      647,
-      1.2461817
-    ],
-    "minecraft:lava_bucket": [
-      275,
-      1.7269388
-    ],
-    "minecraft:shield": [
-      353,
-      1.6255897
-    ]
+    "minecraft:shield": [ 100, 2.0 ],
+    "minecraft:lava_bucket": [ 0, 0.2 ],
+    "minecraft:flint_and_steel": [ 0, 0.3 ],
+    "minecraft:ender_pearl": [ 0, 0.1 ]
   },
   "FEET": {
-    "create:cardboard_boots": [
-      1842,
-      0.021699999
-    ],
-    "create:copper_diving_boots": [
-      1485,
-      0.5113901
-    ],
-    "create:netherite_diving_boots": [
-      424,
-      1.9030677
-    ],
-    "crossroads:chicken_boots": [
-      1429,
-      0.59678036
-    ],
-    "crossroads:enviro_boots": [
-      1753,
-      0.030599998
-    ],
-    "minecraft:chainmail_boots": [
-      1467,
-      0.540316
-    ],
-    "minecraft:copper_boots": [
-      1542,
-      0.38456443
-    ],
-    "minecraft:diamond_boots": [
-      551,
-      1.7373508
-    ],
-    "minecraft:golden_boots": [
-      1533,
-      0.4136078
-    ],
-    "minecraft:iron_boots": [
-      1219,
-      0.8764657
-    ],
-    "minecraft:leather_boots": [
-      1815,
-      0.0244
-    ],
-    "minecraft:netherite_boots": [
-      424,
-      1.9030677
-    ],
-    "vs_clockwork:aeronaut_boots": [
-      54,
-      2.5712214
-    ]
+    "create:cardboard_boots": [ 2000, -5.0 ],
+    "minecraft:leather_boots": [ 2000, -5.0 ],
+    "minecraft:golden_boots": [ 500, -1.0 ],
+    "minecraft:chainmail_boots": [ 300, 2.0 ],
+    
+    "minecraft:iron_boots": [ 100, 5.0 ],
+    "minecraft:copper_boots": [ 100, 5.0 ],
+    "create:copper_diving_boots": [ 50, 2.0 ],
+    "crossroads:chicken_boots": [ 50, 1.0 ],
+    "crossroads:enviro_boots": [ 50, 1.0 ],
+    
+    "minecraft:diamond_boots": [ 0, 2.0 ],
+    "minecraft:netherite_boots": [ 0, 0.5 ],
+    "create:netherite_diving_boots": [ 0, 0.5 ],
+    "vs_clockwork:aeronaut_boots": [ 0, 0.1 ]
   },
   "LEGS": {
-    "create:cardboard_leggings": [
-      1842,
-      0.021699999
-    ],
-    "crossroads:cow_leggings": [
-      1429,
-      0.59678036
-    ],
-    "crossroads:toolbelt": [
-      1753,
-      0.030599998
-    ],
-    "environmental:yak_pants": [
-      1373,
-      0.67440087
-    ],
-    "minecraft:chainmail_leggings": [
-      1467,
-      0.540316
-    ],
-    "minecraft:copper_leggings": [
-      1542,
-      0.38456443
-    ],
-    "minecraft:diamond_leggings": [
-      551,
-      1.7373508
-    ],
-    "minecraft:golden_leggings": [
-      1533,
-      0.4136078
-    ],
-    "minecraft:iron_leggings": [
-      1219,
-      0.8764657
-    ],
-    "minecraft:leather_leggings": [
-      1815,
-      0.0244
-    ],
-    "minecraft:netherite_leggings": [
-      424,
-      1.9030677
-    ],
-    "vs_clockwork:aeronaut_jumpers": [
-      54,
-      2.5712214
-    ]
+    "create:cardboard_leggings": [ 2000, -5.0 ],
+    "minecraft:leather_leggings": [ 2000, -5.0 ],
+    "minecraft:golden_leggings": [ 500, -1.0 ],
+    "minecraft:chainmail_leggings": [ 300, 2.0 ],
+    "environmental:yak_pants": [ 300, 2.0 ],
+    
+    "minecraft:iron_leggings": [ 100, 5.0 ],
+    "minecraft:copper_leggings": [ 100, 5.0 ],
+    "crossroads:cow_leggings": [ 50, 1.0 ],
+    "crossroads:toolbelt": [ 50, 1.0 ],
+    
+    "minecraft:diamond_leggings": [ 0, 2.0 ],
+    "minecraft:netherite_leggings": [ 0, 0.5 ],
+    "vs_clockwork:aeronaut_jumpers": [ 0, 0.1 ]
   },
   "CHEST": {
-    "autumnity:snail_shell_chestplate": [
-      1753,
-      0.030599998
-    ],
-    "create:cardboard_chestplate": [
-      1842,
-      0.021699999
-    ],
-    "create:copper_backtank": [
-      1485,
-      0.5113901
-    ],
-    "create:netherite_backtank": [
-      424,
-      1.9030677
-    ],
-    "crossroads:pig_zombie_chestplate": [
-      1429,
-      0.59678036
-    ],
-    "crossroads:propeller_pack": [
-      1753,
-      0.030599998
-    ],
-    "minecraft:chainmail_chestplate": [
-      1467,
-      0.540316
-    ],
-    "minecraft:copper_chestplate": [
-      1542,
-      0.38456443
-    ],
-    "minecraft:diamond_chestplate": [
-      551,
-      1.7373508
-    ],
-    "minecraft:golden_chestplate": [
-      1533,
-      0.4136078
-    ],
-    "minecraft:iron_chestplate": [
-      1219,
-      0.8764657
-    ],
-    "minecraft:leather_chestplate": [
-      1815,
-      0.0244
-    ],
-    "minecraft:netherite_chestplate": [
-      424,
-      1.9030677
-    ],
-    "quark:backpack": [
-      1815,
-      0.0244
-    ],
-    "vs_clockwork:aeronaut_jacket": [
-      54,
-      2.5712214
-    ]
+    "create:cardboard_chestplate": [ 2000, -5.0 ],
+    "minecraft:leather_chestplate": [ 2000, -5.0 ],
+    "quark:backpack": [ 2000, -5.0 ],
+    "minecraft:golden_chestplate": [ 500, -1.0 ],
+    "minecraft:chainmail_chestplate": [ 300, 2.0 ],
+    
+    "minecraft:iron_chestplate": [ 100, 5.0 ],
+    "minecraft:copper_chestplate": [ 100, 5.0 ],
+    "create:copper_backtank": [ 50, 2.0 ],
+    "crossroads:pig_zombie_chestplate": [ 50, 1.0 ],
+    "crossroads:propeller_pack": [ 50, 1.0 ],
+    "autumnity:snail_shell_chestplate": [ 50, 1.0 ],
+    
+    "minecraft:diamond_chestplate": [ 0, 2.0 ],
+    "minecraft:netherite_chestplate": [ 0, 0.5 ],
+    "create:netherite_backtank": [ 0, 0.5 ],
+    "vs_clockwork:aeronaut_jacket": [ 0, 0.1 ]
   },
   "HEAD": {
-    "create:cardboard_helmet": [
-      1808,
-      0.021699999
-    ],
-    "create:copper_diving_helmet": [
-      1451,
-      0.5113901
-    ],
-    "create:netherite_diving_helmet": [
-      390,
-      1.9030677
-    ],
-    "crossroads:module_goggles": [
-      1719,
-      0.030599998
-    ],
-    "crossroads:squid_helmet": [
-      1395,
-      0.59678036
-    ],
-    "minecraft:chainmail_helmet": [
-      1433,
-      0.540316
-    ],
-    "minecraft:copper_helmet": [
-      1508,
-      0.38456443
-    ],
-    "minecraft:diamond_helmet": [
-      517,
-      1.7373508
-    ],
-    "minecraft:golden_helmet": [
-      1499,
-      0.4136078
-    ],
-    "minecraft:iron_helmet": [
-      1185,
-      0.8764657
-    ],
-    "minecraft:leather_helmet": [
-      1781,
-      0.0244
-    ],
-    "minecraft:netherite_helmet": [
-      390,
-      1.9030677
-    ],
-    "minecraft:shulker_shell": [
-      500,
-      0.0081
-    ],
-    "minecraft:turtle_helmet": [
-      1129,
-      0.948558
-    ],
-    "quark:forgotten_hat": [
-      1781,
-      0.0244
-    ],
-    "vs_clockwork:aeronaut_goggles": [
-      20,
-      2.5712214
-    ]
+    "create:cardboard_helmet": [ 2000, -5.0 ],
+    "minecraft:leather_helmet": [ 2000, -5.0 ],
+    "quark:forgotten_hat": [ 1000, -2.0 ],
+    "minecraft:golden_helmet": [ 500, -1.0 ],
+    "minecraft:turtle_helmet": [ 200, 1.0 ],
+    "minecraft:chainmail_helmet": [ 300, 2.0 ],
+    
+    "minecraft:iron_helmet": [ 100, 5.0 ],
+    "minecraft:copper_helmet": [ 100, 5.0 ],
+    "create:copper_diving_helmet": [ 50, 2.0 ],
+    "crossroads:module_goggles": [ 50, 1.0 ],
+    "crossroads:squid_helmet": [ 50, 1.0 ],
+    
+    "minecraft:diamond_helmet": [ 0, 2.0 ],
+    "minecraft:netherite_helmet": [ 0, 0.5 ],
+    "create:netherite_diving_helmet": [ 0, 0.5 ],
+    "minecraft:shulker_shell": [ 0, 0.1 ],
+    "vs_clockwork:aeronaut_goggles": [ 0, 0.1 ]
   }
 }
