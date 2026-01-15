@@ -3,14 +3,6 @@ filename = "ImmediatelyFast-Forge-1.5.3+1.20.4.jar"
 side = "client"
 pin = true
 
-[option]
-optional = true
-default = true
-description = """
-Optimizes certain GPU draw calls, resulting in faster rendering of entities,
-paricles, text rendering, etc. Disable if your game is unstable with shaders.
-"""
-
 [download]
 url = "https://cdn.modrinth.com/data/5ZwdcRci/versions/a4stvpj6/ImmediatelyFast-Forge-1.5.3%2B1.20.4.jar"
 hash-format = "sha512"

@@ -3,11 +3,11 @@ filename = "create_tweaked_controllers-1.20.1-1.2.5.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f71ca2b4e555b112930680c17840ec56df8445f8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/H6bJ8Ju4/versions/aHqvR8LC/create_tweaked_controllers-1.20.1-1.2.5.jar"
+hash-format = "sha512"
+hash = "aa57d77aacdcc15fc586f6a3a1be30340a1ac1017c03e9fb7b698cf39222ed8e51cb32c0e51533a1d1638bce463850ff05b81a49a44d3254a646aba906af2a6e"
 
 [update]
-[update.curseforge]
-file-id = 6252762
-project-id = 898849
+[update.modrinth]
+mod-id = "H6bJ8Ju4"
+version = "aHqvR8LC"

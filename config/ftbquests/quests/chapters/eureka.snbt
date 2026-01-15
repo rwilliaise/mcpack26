@@ -5,7 +5,7 @@
 	group: ""
 	icon: "vs_eureka:anchor"
 	id: "2000000000000001"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,12 +35,20 @@
 			dependencies: ["2000000000000002"]
 			description: ["Balloons require Canvas (from Farmer's Delight) and String. Tack a few of them onto a craft, and you'll be able to float it upward. Go down, you ask? Check your keybinds, but it should be the \"V\" key."]
 			id: "2000000000000005"
-			rewards: [{
-				count: 8
-				id: "2000000000000006"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "2000000000000006"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2929CEE3D9BBC92B"
+					item: "farmersdelight:canvas"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 8L
 				id: "2000000000000007"
@@ -56,9 +64,9 @@
 			description: ["Craft your first Balloon. These provide lift for your ship."]
 			id: "2000000000000008"
 			rewards: [{
-				count: 2
-				id: "2000000000000009"
-				item: "vs_eureka:white_balloon"
+				count: 8
+				id: "0B5682C2698DA9DA"
+				item: "vs_eureka:balloon"
 				type: "item"
 			}]
 			tasks: [{
@@ -121,6 +129,442 @@
 			}]
 			x: 5.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["570AAE477E7853C3"]
+			description: [
+				"Combine two blades in a crafting table to make bigger blades :)"
+				"You can also make wider blades that generate more thrust-per-blade."
+			]
+			id: "54083C53B7ECCDC1"
+			rewards: [{
+				count: 16
+				id: "0F4656A7CC33424B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "596DC67A507DDD84"
+					item: {
+						Count: 1
+						id: "vs_clockwork:propeller_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FBB865439AAAD40"
+					item: {
+						Count: 1
+						id: "vs_clockwork:wide_propeller_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bigger Blades"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["545EF14B1F4F8AF5"]
+			description: [
+				"How to use linked controller:"
+				"1: Go to the mod's settings (to the right of 'mods' in settings)"
+				"2: Go to 'general configuration' -> 'use custom mappins' set to ON"
+				"3: Go back to mod settings"
+				"4: Go to 'controller configuration'"
+				"5: You can use this page to set gamepad inputs to keyboard / mouse / anything input, which translates to the advanced linked controller in-game."
+			]
+			id: "20D2288A4F26407C"
+			rewards: [
+				{
+					count: 16
+					id: "477BBB00BE4583B1"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "160F84D82AEE6B9A"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34261F275D694708"
+				item: "create_tweaked_controllers:tweaked_linked_controller"
+				type: "item"
+			}]
+			title: "What the heck? "
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["212878E47D8B4347"]
+			description: ["Put universial shafts on the 2 blocks, then connect the U. Shaft's with the compressable shaft. Now a little thingy links them and transfers rotation."]
+			id: "2E89352458B302C5"
+			rewards: [{
+				count: 8
+				id: "78080E017C730EBA"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "50DA5A0783745012"
+					item: "vs_clockwork:universal_shaft"
+					type: "item"
+				}
+				{
+					id: "1487C2AA12621831"
+					item: "vs_clockwork:universal_shaft_item"
+					type: "item"
+				}
+			]
+			title: "Move rotation ANYWHERE"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: [
+				"This is the path for making more complicated contraptions. Eureka can make (admittedly pretty fuel-hungry, but effective) boats and balloons, but has essentially zero customizability and does not let you make cars, tanks, planes, quadcopters, or anything else you can dream of."
+				"{@pagebreak}"
+				"If you want to go down this path, craft the physgun--it functions like the Garry's Mod physgun, letting you move, manipulate, and freeze ships in the air."
+			]
+			id: "5EC5619E987DE3DC"
+			rewards: [{
+				count: 2
+				id: "19B78AD427C17E83"
+				item: "crossroads:lens_array"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60932E33D3363908"
+				item: "the_vmod:physgun"
+				type: "item"
+			}]
+			title: "Garry Is Proud"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5EC5619E987DE3DC"]
+			description: ["Takes rotational power and applies physics to the blocks attached. You can use a stonecutter to convert this into any of the other bearings."]
+			id: "18B96C0E476BE57C"
+			optional: true
+			require_sequential_tasks: false
+			rewards: [{
+				count: 4
+				id: "0ACF65801EBA5F6C"
+				item: "vs_clockwork:wanderlite_matrix"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2315F8CDFCF0ED01"
+				item: "vs_clockwork:phys_bearing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: [
+				"When activated and fitted with windmill sails, the brass propeller bearing generates a (frankly ridiculous amount of) thrust, allowing contraptions to take off. Can be reversed to push down."
+				""
+				"This does not work with a blade controller and blades, which give you more precision."
+			]
+			id: "0FBFA62E0BB5DAA8"
+			tasks: [{
+				id: "610F09478E30DC8F"
+				item: "vs_clockwork:brass_propeller_bearing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: [
+				"\"oh man how can i vary the speed of my shafts with a redstone connection\" - YOU, very stupidly."
+				"This block does that. lowers output speed percentage-ly w/ redstone. "
+			]
+			id: "212878E47D8B4347"
+			optional: true
+			tasks: [{
+				id: "7C9E147B5B726EA8"
+				item: "vs_clockwork:redstone_resistor"
+				type: "item"
+			}]
+			title: "variable speed with redstone"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: ["only works on physics"]
+			id: "545EF14B1F4F8AF5"
+			rewards: [{
+				count: 16
+				id: "6B7C5646EAC4572C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3B6B505192D7897B"
+					item: "drivebywire:wire"
+					type: "item"
+				}
+				{
+					id: "0AD87F2354E237B2"
+					item: "drivebywire:tweaked_controller_hub"
+					type: "item"
+				}
+				{
+					id: "52777B1A2E0D39AB"
+					item: "create:linked_controller"
+					type: "item"
+				}
+			]
+			title: "So You Built A Car, Now You Want To Drive It?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: ["yeah we forced this."]
+			id: "7340964F005708E3"
+			rewards: [{
+				count: 32
+				id: "2BE6A204345D2A3E"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A6F0BB279362D05"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			title: "you make diesel w/ crossroads now"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: ["Single-use, high-thrust rocket. The kind of thing you'll want on New Year's."]
+			id: "5A4A6D94B212BF3A"
+			rewards: [{
+				count: 8
+				id: "54D1547B045FA574"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FFCD8E545FF837A"
+				item: "vs_clockwork:sugar_rocket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: ["The Jury-Rigged Propeller Bearing works using a blade controller + 1-8 blades to provide thrust. You can change the angle of the blades using the blade controller, making this a more precise alternative to the Brass Propeller Bearing."]
+			id: "570AAE477E7853C3"
+			rewards: [{
+				count: 7
+				id: "164F54155BA92FBB"
+				item: {
+					Count: 1
+					id: "vs_clockwork:propeller_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2D011B2C4BD7A3C1"
+					item: "vs_clockwork:juryrigged_propeller_bearing"
+					type: "item"
+				}
+				{
+					id: "68452940EBAEEF5A"
+					item: {
+						Count: 1
+						id: "vs_clockwork:propeller_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5692A4AAD34E747C"
+					item: "vs_clockwork:blade_controller"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: [
+				"Wings generate lift AND help stabilize your contraption. Cambered wings generate significantly more lift than wings, but use them sparingly because it is quite easy to generate too much lift."
+				""
+				"Flap Bearings are used to control wings, allowing them to tilt and generate lift or turn your plane. The speed at which it tilts is dependent on input rotation speed, and its angle is controlled by redstone strength."
+				""
+				"Smart Flap Bearings function very similarly to the Flap Bearing but can be controlled remotely via a redstone link."
+			]
+			id: "273D88E005EEDDE7"
+			tasks: [
+				{
+					id: "2DB49722EE3FE75A"
+					item: "vs_clockwork:flap"
+					type: "item"
+				}
+				{
+					id: "10E0A6310794A595"
+					item: "vs_clockwork:wing"
+					type: "item"
+				}
+				{
+					id: "374DDBEB0050F150"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "vs_clockwork:andesite_flap_bearing"
+								}
+								{
+									Count: 1b
+									id: "vs_clockwork:smart_flap_bearing"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Air Ball"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["18B96C0E476BE57C"]
+			description: [
+				"The air compressor...creates compressed air when provided with Create power. This is the most basic gas to create, and you could feed it directly into a thruster if you wanted mid ass ship."
+				""
+				"Ducts are used to move gas around, gas tanks are used to store it. Tanks can be connected to make multiblock gas storage."
+			]
+			id: "64C3D5DF47FCF66D"
+			rewards: [{
+				count: 16
+				id: "3C2E133FCC8C6774"
+				item: "vs_clockwork:duct"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0F9B5609B31241D2"
+					item: "vs_clockwork:air_compressor"
+					type: "item"
+				}
+				{
+					id: "38591478E3716771"
+					item: "vs_clockwork:duct"
+					type: "item"
+				}
+				{
+					id: "4AE7EE7CE2256320"
+					item: "vs_clockwork:duct_tank"
+					type: "item"
+				}
+			]
+			title: "Blow Job"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["64C3D5DF47FCF66D"]
+			description: ["Takes furnace fuel and adds heat to compressed air, creating hot air. Heat = pressure and whatnot, so this puts you well on the road to thrust town."]
+			id: "4CDF12755A48AD11"
+			rewards: [{
+				count: 48
+				id: "568765BE05A166BB"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67D47EC8813F7435"
+				item: "vs_clockwork:coal_burner"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CDF12755A48AD11"]
+			description: ["You don't really need this, but if for some reason you decide you want to make it, the gas engine takes hot air and runs a steam engine. There are much better ways to generate rotational power."]
+			id: "1EA48B21EB2A9A40"
+			tasks: [{
+				id: "0865F02381E01079"
+				item: "vs_clockwork:gas_engine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4CDF12755A48AD11"]
+			description: ["If you set up a boiler, this can take steam out of it. Steam can be shot out a thruster as well."]
+			id: "6C20E810B38CB632"
+			rewards: [{
+				count: 4
+				id: "650EF512AC048B73"
+				item: "vs_clockwork:duct_tank"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6879FE8EC0D4A39D"
+				item: "vs_clockwork:steam_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4CDF12755A48AD11"]
+			description: ["Put gas in, get thrust out."]
+			id: "5F72D1105EDA4896"
+			rewards: [{
+				count: 6
+				id: "1A5DD0BFED192A3E"
+				item: "create:industrial_iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6668212B61DF6DF5"
+				item: "vs_clockwork:gas_thruster"
+				type: "item"
+			}]
+			title: "Unleash The Braphogs"
+			x: 1.0d
+			y: 6.0d
 		}
 	]
 	title: "Boats \\& Balloons"

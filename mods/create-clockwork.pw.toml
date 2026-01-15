@@ -1,6 +1,7 @@
 name = "Clockwork"
 filename = "clockwork-0.5.4.4.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/84USeAvk/versions/ZyJYZ6kU/clockwork-0.5.4.4.jar"

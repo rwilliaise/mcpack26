@@ -1,0 +1,13 @@
+name = "Jade VS"
+filename = "Jade-VS-forge-1.20.1-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zNKzjsZM/versions/u49aZqK9/Jade-VS-forge-1.20.1-1.2.3.jar"
+hash-format = "sha512"
+hash = "00f09eefeeda4f6c3e855bb1fd74ddefb992c3d85304f3ece90edd39d853bdd8d6682d473c0b66062a18e03a1b70e7924841e5a5e2f8ef13430a640c2cf7a45f"
+
+[update]
+[update.modrinth]
+mod-id = "zNKzjsZM"
+version = "u49aZqK9"

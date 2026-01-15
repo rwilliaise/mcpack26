@@ -1,0 +1,13 @@
+name = "Improved Mobs"
+filename = "improvedmobs-1.20.1-1.13.6-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/23MovWyi/versions/URG9RSTR/improvedmobs-1.20.1-1.13.6-forge.jar"
+hash-format = "sha512"
+hash = "7b46804330ae81d6277b52d2f841e35745be55e30c9cc4350e0502125f987838da4715fb426bd3e15ca92413b6319b0b957e6fca22df9243adbaf5ad85620e7a"
+
+[update]
+[update.modrinth]
+mod-id = "23MovWyi"
+version = "URG9RSTR"

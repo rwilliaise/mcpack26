@@ -260,6 +260,52 @@ ServerEvents.recipes(event => {
   event.shapeless('vs_clockwork:wanderlite_crystal', ['crossroads:lens_array']);
   event.shapeless('crossroads:lens_array', ['vs_clockwork:wanderlite_crystal']);
 
+  event.shaped(
+    Item.of('vs_clockwork:reactionwheel'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        A: 'create:industrial_iron_block',
+        B: 'vs_clockwork:gyro'
+    }
+  );
+
+  const bearingInterchange = [
+    'create:mechanical_bearing',
+    'vs_clockwork:copter_bearing',
+    'create:clockwork_bearing',
+    'vs_clockwork:brass_propeller_bearing',
+    'vs_clockwork:juryrigged_propeller_bearing',
+    'vs_clockwork:phys_bearing',
+  ];
+
+  bearingInterchange.forEach(input => {
+    bearingInterchange.forEach(output => {
+      if (input !== output) event.stonecutting(output, input);
+    });
+  });
+
+  event.shapeless(
+    Item.of('vs_clockwork:universal_shaft_item'),
+    [
+        'create:shaft',
+        'create:shaft',
+        'create:shaft'
+    ]
+  );
+
+  // Drive by Wire
+  const driveByWireParts = ['drivebywire:controller_hub', 'drivebywire:tweaked_controller_hub', 'drivebywire:wire', 'drivebywire:wire_cutter', 'create:brass_casing'];
+  
+  driveByWireParts.forEach(input => {
+    driveByWireParts.forEach(output => {
+      if (input !== output) event.stonecutting(output, input);
+    });
+  });
+
   // World Interactions
 
   // Block of andesite from stone

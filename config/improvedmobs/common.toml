@@ -1,0 +1,122 @@
+[general]
+	"Enable difficulty scaling" = true
+	# 120000 ticks = 5 Minecraft Days before difficulty starts ticking up.
+	# This gives players time to build a base and get iron gear.
+	"Difficulty Delay" = 120000
+	"Ignore Spawner" = false
+	# Scaled to be slow early game, faster late game.
+	# 0-25 Difficulty: Increases by 0.002 per 2400 ticks (0.02 per Day) - Very Slow
+	# 25-50 Difficulty: Increases by 0.005 per 2400 ticks (0.05 per Day) - Medium
+	# 50+ Difficulty: Increases by 0.01 per 2400 ticks (0.1 per Day) - Fast
+	"Difficulty Increase" = ["0.0-0.002", "25.0-0.005", "50.0-0.01", "250.0-0.0"]
+	"Ignore Players" = false
+	"Punish Time Skip" = true
+	FriendlyFire = false
+	"Pet Blacklist" = []
+	"Pet Whitelist" = false
+	"Difficulty toggle" = true
+	"Difficulty type" = "GLOBAL"
+	"Center Position" = "0-0"
+
+[list]
+	"Entity Configs" = ["UNINITIALIZED"]
+	"Flag Blacklist" = []
+	"Attribute Whitelist" = false
+	"Armor Equip Whitelist" = false
+	"Held Equip Whitelist" = false
+	"Breaker Whitelist" = false
+	"Use Flag Whitelist" = false
+	"Ladder Whitelist" = false
+	"Steal Whitelist" = false
+	"Guardian Whitelist" = false
+	"Phantom Whitelist" = false
+	"Villager Whitelist" = false
+	"Neutral Aggro Whitelist" = false
+	"Pehkui Whitelist" = false
+
+[integration]
+	"Use Vanilla Difficulty" = "OFF"
+	"Vanilla Max" = 250.0
+	"Use Scaling Health Mod" = "ON"
+	"Use Player EX Mod" = "ON"
+	"PlayerEX Scaling" = 1.0
+	"Use LevelZ Mod" = "ON"
+	"LevelZ Scaling" = 1.0
+	"Use pehkui Mod" = false
+	"Max size Multiplier" = 2.0
+	"Minimum size Multiplier" = 0.5
+	"Size Chance" = 0.5
+
+[ai]
+	"Block Break Whitelist" = ["#forge:glass", "#forge:glass_panes", "#minecraft:fence_gates", "#forge:fence_gates", "#minecraft:wooden_doors"]
+	"Breaklist as Blacklist" = false
+	Sound = false
+	"Breaker Chance" = 0.3
+	"Breaker Initial Cooldown" = 120
+	"Breaker Cooldown" = 20
+	"Ignore Harvest Check" = false
+	"Restore delay" = 200
+	"Idle Break" = false
+	"Breaker Sight Ignore" = 0.5
+	"Breaking Speed Base" = 1.0
+	"Breaking Speed Add" = 0.0
+	"Stealer Chance" = 0.0
+	"Steal Block Blacklist" = []
+	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
+	"Break BlockEntities" = false
+	"Neutral Aggressive Chance" = 0.05
+	"Auto Target List" = []
+	# Set to 20.0 so they don't break your house immediately on night 1 (after delay)
+	"Difficulty Break AI" = 20.0
+	# Set to 30.0 so early chests are safe
+	"Difficulty Steal AI" = 30.0
+	# Reduced chances significantly (0.5 was 50%). 
+	# Now 5% and 10% respectively, making them rare "boss" encounters.
+	"Guardian Chance" = 0.05
+	"Phantom Chance" = 0.1
+	"TNT Block Destruction" = false
+	"Generic Sight Ignore" = 0.5
+
+[equipment]
+	"Item Blacklist" = []
+	"Item Whitelist" = false
+	"Item Use Blacklist" = ["bigbrain:buckler"]
+	"Item Use Whitelist" = false
+	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
+	# Lowered base chance to 5% (Vanilla feel). 
+	# Scales up +0.2% per difficulty point.
+	"Equipment Chance" = 0.05
+	"Additional Equipment Chance" = 0.3
+	"Equipment Addition" = 0.002
+	"Armor Trim Chance" = 0.05
+	# Drastically reduced base weapon chance.
+	"Weapon Chance" = 0.05
+	"Weapon Chance Add" = 0.003
+	"Enchanting Chance" = 0.1
+	"Enchanting Addition" = 0.2
+	"Enchanting Calc" = ["0.0-5-10", "25.0-5-15", "50.0-10-17", "100.0-15-25", "200.0-20-30", "250.0-30-35"]
+	"Enchanting Blacklist" = []
+	"Enchanting Whitelist" = false
+	# Lowered base offhand chance (shield/pearls/tnt).
+	"Item Equip Chance" = 0.02
+	"Item Chance add" = 0.002
+	"Should drop equipment" = false
+
+[attributes]
+	# Reduced multiplier to 0.01 to prevent 'one-shot' mobs too early
+	"Health Increase Multiplier" = 0.6
+	"Max Health Increase" = 4.0
+	"Round HP" = 0.5
+	# Reduced damage scaling. 1.0 is very harsh early on.
+	"Damage Increase Multiplier" = 0.5
+	"Max Damage Increase" = 3.0
+	"Speed Increase" = 1.0
+	"Max Speed" = 0.1
+	"Knockback Increase" = 1.0
+	"Max Knockback" = 0.5
+	"Magic Resistance Increase" = 1.0
+	"Max Magic Resistance" = 0.4
+	"Projectile Damage Increase" = 1.0
+	"Max Projectile Damage" = 2.0
+	"Explosion Damage Increase" = 1.0
+	"Max Explosion Damage" = 1.75

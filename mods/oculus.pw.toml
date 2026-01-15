@@ -2,13 +2,6 @@ name = "Oculus"
 filename = "oculus-mc1.20.1-1.8.0.jar"
 side = "client"
 
-[option]
-optional = true
-default = true
-description = """
-A port of Iris to Forge which adds OptiFine shader support. If you're not using shaders, or experience crashes/instability with this, disable it.
-"""
-
 [download]
 url = "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
 hash-format = "sha512"

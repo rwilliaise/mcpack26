@@ -1,6 +1,7 @@
 name = "Valkyrien Skies"
 filename = "valkyrienskies-120-2.4.6.jar"
 side = "both"
+pin = true
 
 [download]
 url = "https://cdn.modrinth.com/data/V5ujR2yw/versions/BjOYUTLA/valkyrienskies-120-2.4.6.jar"
