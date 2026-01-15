@@ -263,13 +263,13 @@ ServerEvents.recipes(event => {
   event.shaped(
     Item.of('vs_clockwork:reactionwheel'),
     [
-        ' A ',
-        'ABA',
-        ' A '
+      ' A ',
+      'ABA',
+      ' A '
     ],
     {
-        A: 'create:industrial_iron_block',
-        B: 'vs_clockwork:gyro'
+      A: 'create:industrial_iron_block',
+      B: 'vs_clockwork:gyro'
     }
   );
 
@@ -291,15 +291,30 @@ ServerEvents.recipes(event => {
   event.shapeless(
     Item.of('vs_clockwork:universal_shaft_item'),
     [
-        'create:shaft',
-        'create:shaft',
-        'create:shaft'
+      'create:shaft',
+      'create:shaft',
+      'create:shaft'
     ]
   );
 
+  event.shaped(
+    Item.of('trackwork:phys_track'),
+    [
+      ' A ',
+      'AAA',
+      ' A '
+    ],
+    {
+      A: 'create:cogwheel'
+    }
+  );
+
+  event.shapeless(Item.of('trackwork:suspension_track'), ['trackwork:phys_track']);
+  event.shapeless(Item.of('trackwork:phys_track'), ['trackwork:suspension_track']);
+
   // Drive by Wire
   const driveByWireParts = ['drivebywire:controller_hub', 'drivebywire:tweaked_controller_hub', 'drivebywire:wire', 'drivebywire:wire_cutter', 'create:brass_casing'];
-  
+
   driveByWireParts.forEach(input => {
     driveByWireParts.forEach(output => {
       if (input !== output) event.stonecutting(output, input);

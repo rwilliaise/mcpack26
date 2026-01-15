@@ -1,13 +1,11 @@
 [general]
 	"Enable difficulty scaling" = true
 	# 120000 ticks = 5 Minecraft Days before difficulty starts ticking up.
-	# This gives players time to build a base and get iron gear.
 	"Difficulty Delay" = 120000
 	"Ignore Spawner" = false
-	# Scaled to be slow early game, faster late game.
-	# 0-25 Difficulty: Increases by 0.002 per 2400 ticks (0.02 per Day) - Very Slow
-	# 25-50 Difficulty: Increases by 0.005 per 2400 ticks (0.05 per Day) - Medium
-	# 50+ Difficulty: Increases by 0.01 per 2400 ticks (0.1 per Day) - Fast
+	# 0-25 Difficulty: Increases by 0.002 per 2400 ticks (0.02 per Day)
+	# 25-50 Difficulty: Increases by 0.005 per 2400 ticks (0.05 per Day)
+	# 50+ Difficulty: Increases by 0.01 per 2400 ticks (0.1 per Day)
 	"Difficulty Increase" = ["0.0-0.002", "25.0-0.005", "50.0-0.01", "250.0-0.0"]
 	"Ignore Players" = false
 	"Punish Time Skip" = true
