@@ -80,7 +80,12 @@
 		}
 		{
 			dependencies: ["2000000000000002"]
-			description: ["Floaters act as a very buoyant block when unpowered (each one can lift 6062kg), but they can be powered with redstone to control the buoyancy: the higher the signal, the less buoyant it is."]
+			description: [
+				"Floaters act as a very buoyant block when unpowered (each one can lift 6062kg), but they can be powered with redstone to control the buoyancy: the higher the signal, the less buoyant it is."
+				""
+				"Ballasts are the opposite of floaters, weighing your craft down until powered with redstone."
+			]
+			icon: "vs_eureka:floater"
 			id: "200000000000000B"
 			rewards: [
 				{
@@ -99,12 +104,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				count: 4L
-				id: "200000000000000C"
-				item: "vs_eureka:floater"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "200000000000000C"
+					item: "vs_eureka:floater"
+					type: "item"
+				}
+				{
+					id: "450E624BD00831C1"
+					item: "vs_eureka:ballast"
+					type: "item"
+				}
+			]
 			title: "What Goes Down Must Come Up"
 			x: 2.0d
 			y: 1.0d
@@ -135,7 +146,16 @@
 			description: [
 				"Combine two blades in a crafting table to make bigger blades :)"
 				"You can also make wider blades that generate more thrust-per-blade."
+				""
+				"&4Be very careful, because blades that are too long/that produce a ridiculous amount of force will crash the server.&r"
 			]
+			icon: {
+				Count: 1
+				id: "vs_clockwork:wide_propeller_blade"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "54083C53B7ECCDC1"
 			rewards: [{
 				count: 16
@@ -209,6 +229,7 @@
 		{
 			dependencies: ["212878E47D8B4347"]
 			description: ["Put universial shafts on the 2 blocks, then connect the U. Shaft's with the compressable shaft. Now a little thingy links them and transfers rotation."]
+			icon: "vs_clockwork:universal_shaft_item"
 			id: "2E89352458B302C5"
 			rewards: [{
 				count: 8
@@ -311,6 +332,7 @@
 		{
 			dependencies: ["18B96C0E476BE57C"]
 			description: ["only works on physics"]
+			icon: "drivebywire:wire"
 			id: "545EF14B1F4F8AF5"
 			rewards: [{
 				count: 16
@@ -379,6 +401,7 @@
 		{
 			dependencies: ["18B96C0E476BE57C"]
 			description: ["The Jury-Rigged Propeller Bearing works using a blade controller + 1-8 blades to provide thrust. You can change the angle of the blades using the blade controller, making this a more precise alternative to the Brass Propeller Bearing."]
+			icon: "vs_clockwork:juryrigged_propeller_bearing"
 			id: "570AAE477E7853C3"
 			rewards: [{
 				count: 7
@@ -427,6 +450,7 @@
 				""
 				"Smart Flap Bearings function very similarly to the Flap Bearing but can be controlled remotely via a redstone link."
 			]
+			icon: "vs_clockwork:wing"
 			id: "273D88E005EEDDE7"
 			tasks: [
 				{
@@ -471,6 +495,7 @@
 				""
 				"Ducts are used to move gas around, gas tanks are used to store it. Tanks can be connected to make multiblock gas storage."
 			]
+			icon: "vs_clockwork:air_compressor"
 			id: "64C3D5DF47FCF66D"
 			rewards: [{
 				count: 16
@@ -565,6 +590,281 @@
 			title: "Unleash The Braphogs"
 			x: 1.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["14961E93832878A0"]
+			description: [
+				"If your ship vanishes and your coordinates jump to millions, you got Shipyarded. This could be caused by infinite acceleration, massive propellers, or Terrain Gen mods (Terralith/Tectonic) generating blocks in the void dimension."
+				""
+				"&lTO FIX Run /vs teleport @v[limit=1] ~ ~ ~ to bring it back.&r"
+			]
+			id: "3000000000000008"
+			title: "My Ship Vanished!!!"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "14961E93832878A0"
+			tasks: [{
+				id: "39B3DCAA77CDEE9B"
+				title: "FAQ"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4CDF12755A48AD11"]
+			description: ["These balloons are more controllable than Eureka's balloons. To start, build a cup shape out of Balloon Casings (like an envelope for hot air, similar to how real hot air balloons look). Then, place a gas nozzle at the bottom. Right click it with an empty hand to seal your baloon, and then pump steam (or I guess another gas) into the nozzle."]
+			icon: "vs_clockwork:gas_nozzle"
+			id: "300000000000000E"
+			rewards: [{
+				count: 16
+				id: "142672EA995AC1C3"
+				item: "vs_clockwork:balloon_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "61160394AC298360"
+					item: "vs_clockwork:balloon_casing"
+					type: "item"
+				}
+				{
+					id: "62EF8E9018C42819"
+					item: "vs_clockwork:gas_nozzle"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4CDF12755A48AD11"]
+			description: ["Use a gas heater to boil steam instead of having to deal with blaze burners."]
+			id: "5E81B98AF98B3A58"
+			tasks: [{
+				id: "65264D3220B31DC7"
+				item: "vs_clockwork:gas_heater"
+				type: "item"
+			}]
+			title: "Make gas with gas!"
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0FBFA62E0BB5DAA8"]
+			description: [
+				"Bearings you probably won't use regularly, but might come in handy."
+				"The Spinoff Bearing Connects two physics ships. &4Reloading the world can cause these to 'snap' and launch ships.&r"
+				"The Extendon is a pneumatic piston. &4Can glitch if fighting against superglue.&r"
+			]
+			icon: "vs_clockwork:extendon"
+			id: "4B0448063C665A11"
+			rewards: [
+				{
+					id: "581B4A497F4D766C"
+					item: "vs_clockwork:spinoff_bearing"
+					type: "item"
+				}
+				{
+					id: "22BD416203243674"
+					item: "vs_clockwork:extendon"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "29FA91F79E5BA1E6"
+					item: "vs_clockwork:spinoff_bearing"
+					type: "item"
+				}
+				{
+					id: "71E478BCA9D8C4E6"
+					item: "vs_clockwork:extendon"
+					type: "item"
+				}
+			]
+			title: "Bearing With You Until This Point"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14961E93832878A0"]
+			description: [
+				"Are your shafts invisible? Are your ships flickering?"
+				""
+				"1. Run /flywheel backend indirect or if that doesn't work /flywheel backend off."
+				"2. Go to Video Settings -> Performance and DISABLE Entity Culling and Block Face Culling. This fixes invisible ship helms, seats, and tracks."
+			]
+			id: "3000000000000004"
+			title: "I Can't See My Ship!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["14961E93832878A0"]
+			description: ["If a ship feels 'heavy' or off-center after you modify it, look at the ship and run /vs remass @v[limit=1]. This will recalculate the cebter of mass and total mass."]
+			id: "161251A45C5D6CA0"
+			title: "My Ship Is Symmetrical But Unbalanced"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2E89352458B302C5"]
+			description: [
+				"The Spinotron detects rotation via redstone output."
+				"The Lodefocus takes a Lodestone Compass inside, and will output signal based on alignment to the Lodestone."
+				"The Altimeter detects height relative to its setting. For instance, you can define \"altitude >= 190\" and when that is true, the redstone signal will activate."
+			]
+			icon: "vs_clockwork:alt_meter"
+			id: "2993FDBD87BC46DA"
+			rewards: [
+				{
+					id: "5AAE6D18B6C299CB"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					id: "391AECBE99FB4EA7"
+					item: "minecraft:compass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "151A2D05EB45CB5B"
+					item: "vs_clockwork:lodefocus"
+					type: "item"
+				}
+				{
+					id: "7D362EEB55EB015F"
+					item: "vs_clockwork:gyroscopic_sensor"
+					type: "item"
+				}
+				{
+					id: "3F96F84948B99391"
+					item: "vs_clockwork:alt_meter"
+					type: "item"
+				}
+			]
+			title: "Where Am I"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0FBFA62E0BB5DAA8"]
+			description: ["These will help you drive, they roll. Trackwork wheels need rotation input on one side, and when they are powered with redstone, they will turn in the direction they were powered. Oleo wheels are designed to be used like landing gear (although you must build a system yourself to retract them)."]
+			id: "5DFA13AE76936470"
+			rewards: [{
+				count: 8
+				id: "5FE8A1761D135F0B"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42F95E658C424424"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trackwork:large_simple_wheel"
+							}
+							{
+								Count: 1b
+								id: "trackwork:simple_wheel"
+							}
+							{
+								Count: 1b
+								id: "trackwork:med_simple_wheel"
+							}
+							{
+								Count: 1b
+								id: "trackwork:small_simple_wheel"
+							}
+							{
+								Count: 1b
+								id: "trackwork:oleo_wheel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Stop Sliding, Start Rolling"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5DFA13AE76936470"]
+			description: ["Tank treads are pretty awesome, you can add them to your vehicle now! These, like wheels, only work on assembled ships. Place them on either side of your ship to give it treads."]
+			id: "0B34CAA69C4F8CCF"
+			rewards: [{
+				count: 32
+				id: "05C104AA29884706"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD104488FFACF5F"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "trackwork:phys_track"
+							}
+							{
+								Count: 1b
+								id: "trackwork:med_phys_track"
+							}
+							{
+								Count: 1b
+								id: "trackwork:large_phys_track"
+							}
+							{
+								Count: 1b
+								id: "trackwork:suspension_track"
+							}
+							{
+								Count: 1b
+								id: "trackwork:med_suspension_track"
+							}
+							{
+								Count: 1b
+								id: "trackwork:large_suspension_track"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Tank It Out"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2000000000000002"]
+			description: ["Build an anchor! This will keep your ship still."]
+			id: "6553EE0C625EBF7B"
+			rewards: [{
+				id: "05B136A3AF41DB52"
+				item: "minecraft:iron_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C104455A42182A2"
+				item: "vs_eureka:anchor"
+				type: "item"
+			}]
+			title: "My Ship Is Drifting Away!"
+			x: -1.0d
+			y: -1.0d
 		}
 	]
 	title: "Boats \\& Balloons"
