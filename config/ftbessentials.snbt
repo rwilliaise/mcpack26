@@ -1,0 +1,113 @@
+{
+	admin: {
+		fly: {
+			enabled: true
+		}
+		god: {
+			enabled: true
+		}
+		heal: {
+			enabled: true
+		}
+		invsee: {
+			enabled: true
+		}
+		kit: {
+			enabled: true
+		}
+		mute: {
+			enabled: true
+		}
+		speed: {
+			enabled: true
+		}
+		tp_offline: {
+			enabled: true
+		}
+	}
+
+	chat: {
+		nickname: {
+			enabled: false
+		}
+	}
+
+	misc: {
+		enderchest: {
+			enabled: false
+		}
+		hat: {
+			enabled: false
+		}
+		kickme: {
+			enabled: false
+		}
+		leaderboard: {
+			enabled: false
+		}
+		near: {
+			enabled: false
+		}
+		rec: {
+			enabled: false
+		}
+
+		trashcan: {
+			enabled: true
+		}
+		
+		# Virtual Workstations
+		anvil: {
+			enabled: false
+		}
+		crafting: {
+			enabled: false
+		}
+		smithing: {
+			enabled: false
+		}
+		stonecutter: {
+			enabled: false
+		}
+	}
+
+	teleportation: {
+		back: {
+			enabled: false
+			cooldown: 10
+			warmup: 0
+		}
+		home: {
+			enabled: true
+			cooldown: 0
+			max: 1
+			warmup: 0
+		}
+		jump: {
+			enabled: true
+		}
+		rtp: {
+			enabled: false
+			cooldown: 600
+			warmup: 0
+		}
+		spawn: {
+			enabled: false
+			cooldown: 10
+			warmup: 0
+		}
+		tpa: {
+			enabled: true
+			cooldown: 10
+			warmup: 0
+		}
+		tpx: {
+			enabled: false
+		}
+		warp: {
+			enabled: false
+			cooldown: 10
+			warmup: 0
+		}
+	}
+}
