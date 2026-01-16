@@ -74,7 +74,7 @@
 	teleportation: {
 		back: {
 			enabled: false
-			cooldown: 10
+			cooldown: 0
 			warmup: 0
 		}
 		home: {
@@ -88,17 +88,17 @@
 		}
 		rtp: {
 			enabled: false
-			cooldown: 600
+			cooldown: 0
 			warmup: 0
 		}
 		spawn: {
 			enabled: false
-			cooldown: 10
+			cooldown: 0
 			warmup: 0
 		}
 		tpa: {
 			enabled: true
-			cooldown: 10
+			cooldown: 0
 			warmup: 0
 		}
 		tpx: {
@@ -106,7 +106,7 @@
 		}
 		warp: {
 			enabled: false
-			cooldown: 10
+			cooldown: 0
 			warmup: 0
 		}
 	}
