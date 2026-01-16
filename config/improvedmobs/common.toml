@@ -1,7 +1,7 @@
 [general]
 	"Enable difficulty scaling" = true
-	# 120000 ticks = 5 Minecraft Days before difficulty starts ticking up.
-	"Difficulty Delay" = 120000
+	# 12000 ticks = 5 Minecraft Days before difficulty starts ticking up.
+	"Difficulty Delay" = 12000
 	"Ignore Spawner" = false
 	# 0-25 Difficulty: Increases by 0.002 per 2400 ticks (0.02 per Day)
 	# 25-50 Difficulty: Increases by 0.005 per 2400 ticks (0.05 per Day)
