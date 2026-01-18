@@ -6,7 +6,7 @@ side = "both"
 optional = true
 default = true
 description = """
-Uses LODs to expand your render distance to ridiculous levels with a humble performance impact. Crashes on Mac or if you have outdated OpenGL drivers.
+Uses LODs to expand your render distance to ridiculous levels with a humble performance impact. Crashes on Mac or if you have outdated OpenGL drivers. DISABLE THIS IF YOU OPT TO USE VOXY INSTEAD. Voxy is higher quality LODs, but requires more strict hardware and performs slightly less well.
 """
 
 [download]

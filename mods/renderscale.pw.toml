@@ -7,7 +7,7 @@ optional = true
 default = true
 description = """
 Allows you to set a custom render scale (resolution scale) of just the world and not the UI for better performance.
-This is good if you have a 4K monitor and a comparable wimpy GPU.
+This is good if you have a 4K monitor but a wimpy GPU. For example, you could render your world at 0.75x resolution, but your hotbar/inventory/UI will not become any granier.
 """
 
 [download]

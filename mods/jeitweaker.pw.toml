@@ -2,13 +2,6 @@ name = "JEITweaker"
 filename = "JeiTweaker-forge-1.20.1-8.0.6.jar"
 side = "both"
 
-[option]
-optional = true
-default = true
-description = """
-Allows CraftTweaker to modify JEI items. Only enable if JEI is also enabled.
-"""
-
 [download]
 url = "https://cdn.modrinth.com/data/EiEOyeoL/versions/BTMxPqmn/JeiTweaker-forge-1.20.1-8.0.6.jar"
 hash-format = "sha512"

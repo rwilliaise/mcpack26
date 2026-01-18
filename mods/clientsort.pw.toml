@@ -14,5 +14,5 @@ version = "LBgzIy3e"
 
 [option]
 optional = true
-description = "Adds a button to easily sort inventories and chests.\n"
+description = "Adds a button to easily sort inventories and chests."
 default = true

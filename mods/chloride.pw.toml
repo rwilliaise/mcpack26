@@ -6,7 +6,7 @@ side = "client"
 optional = true
 default = true
 description = """
-A bunch of performance optimizations, also adds borderless fullscreen, a zoom key (you'll want to unbind this if you also use Ok Zoomer), and a bunch of other little handy features.
+A bunch of performance optimizations, also adds borderless fullscreen, a zoom key (you'll want to unbind this if you also use Ok Zoomer), and a bunch of other little handy features and things you can configure (this mod also optionally lets you make darkness "true" darkness, e.g. 0 light level = black).
 """
 
 [download]
