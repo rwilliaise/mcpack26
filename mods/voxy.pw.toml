@@ -2,6 +2,9 @@ name = "Voxy"
 filename = "voxy-0.2.6-alpha.jar"
 side = "both"
 
+[download]
+url = "https://github.com/rwilliaise/mcpack26/blob/e574fb80405bd7e883267f300e53d67961b86eaa/mods/voxy-0.2.6-alpha.jar"
+
 [option]
 optional = true
 default = false
