@@ -214,6 +214,9 @@ file = "config/fml.toml"
 file = "config/ftbbackups2.json"
 
 [[files]]
+file = "config/ftbessentials.snbt"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 
 [[files]]
@@ -1250,6 +1253,9 @@ metafile = true
 [[files]]
 file = "mods/vmod.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/voxy-0.2.6-alpha.jar"
 
 [[files]]
 file = "mods/vs-safe-and-sound.pw.toml"
