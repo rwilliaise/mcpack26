@@ -659,6 +659,10 @@ file = "mods/bettergrassify.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/block-swap.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/blueprint.pw.toml"
 metafile = true
 
@@ -1100,6 +1104,10 @@ metafile = true
 
 [[files]]
 file = "mods/polylib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/probejs.pw.toml"
 metafile = true
 
 [[files]]

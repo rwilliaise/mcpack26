@@ -1,0 +1,13 @@
+{
+  "generate_all_new_states": true,
+  "retro_gen": true,
+  "state_swapper":  [],
+  "swapper": {
+    "crossroads:ore_ruby": "minecraft:stone",
+    "crossroads:ore_tin": "minecraft: stone",
+    "crossroads: ore_tin_deep": "minecraft:deepslate",
+    "crossroads:ore_void": "minecraft:end_stone",
+    "vs_clockwork:wanderlite_deepslate_ore":  "minecraft:deepslate",
+    "vs_clockwork:wanderlite_end_ore": "minecraft:end_stone"
+  }
+}

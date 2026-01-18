@@ -3,12 +3,37 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'crossroads:stamp_mill',
     ingredient: [
-      { item: 'minecraft:redstone_block' }
+      { item: 'kubejs:fluorescent_redstone' }
     ],
     output: {
       "item": "crossroads:gem_ruby",
       "count": 1
     }
+  });
+
+  event.shapeless('kubejs:compressed_redstone_block', Item.of('minecraft:redstone_block', 9));
+  event.shapeless(Item.of('minecraft:redstone_block', 9), 'kubejs:compressed_redstone_block');
+
+  event.shaped(Item.of('kubejs:fluorescent_redstone', 4), [
+    'GGG',
+    'GRG',
+    'GGG'
+  ], {
+    G: 'kubejs:compressed_redstone_block',
+    R: 'createaddition:diamond_grit'
+  });
+
+  event.custom({
+    type: 'crossroads:mill',
+    input: {
+      item: 'minecraft:diamond'
+    },
+    output: [
+      {
+        item: 'createaddition:diamond_grit',
+        count: 2
+      }
+    ]
   });
 
   event.remove({ id: 'crossroads:mill/ore_tin' })
@@ -33,7 +58,7 @@ ServerEvents.recipes(event => {
       }
     ]
   });
-  
+
   event.custom({
     type: 'crossroads:beam_transmute',
     alignmenSt: 'fusion',

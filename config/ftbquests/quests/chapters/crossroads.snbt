@@ -411,7 +411,7 @@
 			rewards: [{
 				count: 4
 				id: "7EF60DA26CF6CDF7"
-				item: "crossroads:ore_tin"
+				item: "crossroads:raw_tin"
 				type: "item"
 			}]
 			tasks: [{
