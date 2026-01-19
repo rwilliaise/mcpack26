@@ -3,7 +3,7 @@ filename = "voxy-0.2.6-alpha.jar"
 side = "both"
 
 [download]
-url = "https://github.com/rwilliaise/mcpack26/blob/e574fb80405bd7e883267f300e53d67961b86eaa/mods/voxy-0.2.6-alpha.jar"
+url = "https://github.com/rwilliaise/mcpack26/raw/346ce4ef7bac7757ee47c243efe4e4c784a79534/misc_files/voxy-0.2.6-alpha.jar"
 
 hash-format = "sha256"
 hash = "5387edbaa049bfa72905d4ccecbb21116cdbf96882d8f17abc07ea0ff1651fdd"
