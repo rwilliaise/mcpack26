@@ -2,6 +2,7 @@
   "__comment": "Crafting table blocks to enable Visual Workbench support for.",
   "values": [
     "minecraft:crafting_table",
+    "crossroads:detailed_crafter",
     "blue_skies:bluebright_crafting_table",
     "blue_skies:starlit_crafting_table",
     "blue_skies:frostbright_crafting_table",
