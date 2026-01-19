@@ -9,14 +9,14 @@ const itemsToRename = {
   "crossroads:dust_tin": "Aluminum Dust",
   "crossroads:molten_tin_bucket": "Molten Aluminum Bucket",
   "crossroads:ore_tin": "Aluminum Ore",
-  "crossroads:ore_tin_deep": "Deepslate Aluminum Ore"
+  "crossroads:ore_tin_deep": "Deepslate Aluminum Ore",
+  "crossroads:water_centrifuge": "Industrial Centrifuge",
 }
 
-ClientEvents.lang("en_us", event => {
-  event.renameItem("crossroads:gem_ruby", "Synthetic Ruby");
-  event.renameItem("crossroads:ingot_tin", "Aluminum Ingot");
-  event.renameItem("crossroads:raw_tin", "Raw Aluminum");
-  event.renameItem("crossroads:nugget_tin", "Aluminum Nugget");
+ClientEvents.lang("en_us", event => {  
+  for (const [itemID, newName] of Object.entries(itemsToRename)) {
+    event.renameItem(itemID, newName);
+  }
 });
 
 ItemEvents.tooltip(event => {
