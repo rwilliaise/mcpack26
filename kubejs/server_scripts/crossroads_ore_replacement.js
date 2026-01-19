@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+  // Rubies (now Synthetic Rubies) are made using 81 redstone dust + 4 diamonds, processed into compressed redstone, then fluorescent redstone, then compacted via the stamp mill into rubies.
   event.remove({ output: 'crossroads:gem_ruby' });
   event.custom({
     type: 'crossroads:stamp_mill',
