@@ -46,6 +46,9 @@ file = "config/bettergrass.json5"
 file = "config/biome_replacer.properties"
 
 [[files]]
+file = "config/blockswap/block_swap.json5"
+
+[[files]]
 file = "config/blueprint-common.toml"
 
 [[files]]
@@ -517,16 +520,10 @@ file = "config/vmod-CLIENT.toml"
 file = "config/xaerominimap-common.txt"
 
 [[files]]
-file = "config/xaerominimap.txt"
-
-[[files]]
 file = "config/xaeropatreon.txt"
 
 [[files]]
 file = "config/xaeroworldmap-common.txt"
-
-[[files]]
-file = "config/xaeroworldmap.txt"
 
 [[files]]
 file = "config/yacl.json5"
@@ -545,6 +542,12 @@ file = "kubejs/README.txt"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/compressed_end_stone.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/compressed_redstone.png"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/fluorescent_redstone.png"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/brass_dust.png"
@@ -593,6 +596,12 @@ file = "kubejs/startup_scripts/main.js"
 
 [[files]]
 file = "kubejs/startup_scripts/resin_copshowium.js"
+
+[[files]]
+file = "kubejs/startup_scripts/synthetic_ruby_compat.js"
+
+[[files]]
+file = "misc_files/voxy-0.2.6-alpha.jar"
 
 [[files]]
 file = "mods/advancedperipherals.pw.toml"
@@ -820,10 +829,6 @@ metafile = true
 
 [[files]]
 file = "mods/digital-items-3.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
@@ -1107,10 +1112,6 @@ file = "mods/polylib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/probejs.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
@@ -1263,7 +1264,8 @@ file = "mods/vmod.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/voxy-0.2.6-alpha.jar"
+file = "mods/voxy.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/vs-safe-and-sound.pw.toml"
