@@ -7,10 +7,3 @@ url = "https://github.com/rwilliaise/mcpack26/raw/346ce4ef7bac7757ee47c243efe4e4
 
 hash-format = "sha256"
 hash = "5387edbaa049bfa72905d4ccecbb21116cdbf96882d8f17abc07ea0ff1651fdd"
-
-[option]
-optional = true
-default = false
-description = """
-Voxy is like Distant Horizons on steroids. It's vastly higher quality, but it REQUIRES very recent versions of OpenGL, and takes a little more of a performance hit than Distance Horizons (Voxy is ~20 FPS lower). You CANNOT have them both enabled. Voxy also does not request LOD chunks from the server like Distant Horizons, so 
-"""
