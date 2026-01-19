@@ -62,8 +62,8 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.05
-        revampedvillages:professions/fletcher: 0.05
-        revampedvillages:professions/butcher: 0.04
-        revampedvillages:treasure: 0.03
-        u_sea:island/bow: 0.04
+        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.0375
+        revampedvillages:professions/fletcher: 0.0375
+        revampedvillages:professions/butcher: 0.03
+        revampedvillages:treasure: 0.0225
+        u_sea:island/bow: 0.03

@@ -124,11 +124,11 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(water|ocean|river|(?<!air)ship|aqua)[\w_\/]*': 0.05
-        minecraft:chests/buried_treasure: 0.05
-        u_sea:ship/gold: 0.05
-        u_sea:ship/iron: 0.05
-        u_sea:lighthouse/boat: 0.05
-        u_sea:lighthouse/cartography: 0.05
-        u_sea:raft/cooled_fish: 0.05
-        u_sea:island/cooled_fish: 0.05
+        '[\w]+:chests\/[\w_\/]*(water|ocean|river|(?<!air)ship|aqua)[\w_\/]*': 0.0375
+        minecraft:chests/buried_treasure: 0.0375
+        u_sea:ship/gold: 0.0375
+        u_sea:ship/iron: 0.0375
+        u_sea:lighthouse/boat: 0.0375
+        u_sea:lighthouse/cartography: 0.0375
+        u_sea:raft/cooled_fish: 0.0375
+        u_sea:island/cooled_fish: 0.0375

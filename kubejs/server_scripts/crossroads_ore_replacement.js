@@ -11,15 +11,15 @@ ServerEvents.recipes(event => {
     }
   });
 
-  event.shapeless('kubejs:compressed_redstone_block', Item.of('minecraft:redstone_block', 9));
-  event.shapeless(Item.of('minecraft:redstone_block', 9), 'kubejs:compressed_redstone_block');
+  event.shapeless('kubejs:compressed_redstone', Item.of('minecraft:redstone_block', 9));
+  event.shapeless(Item.of('minecraft:redstone', 9), 'kubejs:compressed_redstone');
 
   event.shaped(Item.of('kubejs:fluorescent_redstone', 4), [
     'GGG',
     'GRG',
     'GGG'
   ], {
-    G: 'kubejs:compressed_redstone_block',
+    G: 'kubejs:compressed_redstone',
     R: 'createaddition:diamond_grit'
   });
 
