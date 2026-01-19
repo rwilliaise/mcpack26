@@ -1090,6 +1090,11 @@ hash = "7e90696877a7c861609420d15929246d52b725c41f98d54cf68214ff70e66427"
 metafile = true
 
 [[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "47fd33da68d0b13cdffd4124f5bc9cff64caa2878ce7e979ba8092400c2ae1eb"
+metafile = true
+
+[[files]]
 file = "mods/drive-by-wire.pw.toml"
 hash = "0660a4f8e5ea24c70144aec20b47e8f39e9340b6576421650cc71ddcdee0cf4c"
 metafile = true
@@ -1627,11 +1632,6 @@ metafile = true
 [[files]]
 file = "mods/vmod.pw.toml"
 hash = "16df875d4c8a6e2394556ab78ae8fa932078e32713d3d948861e7245adc98db7"
-metafile = true
-
-[[files]]
-file = "mods/voxy.pw.toml"
-hash = "deca0c41b20e368374537826c2447ab1d9ef09242302ab8ae5bda4b1dc91a74b"
 metafile = true
 
 [[files]]

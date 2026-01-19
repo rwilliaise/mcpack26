@@ -20,8 +20,8 @@ ServerEvents.recipes(event => {
     'GRG',
     'GGG'
   ], {
-    G: 'kubejs:compressed_redstone',
-    R: 'createaddition:diamond_grit'
+    R: 'kubejs:compressed_redstone',
+    G: 'createaddition:diamond_grit'
   });
 
   event.custom({
