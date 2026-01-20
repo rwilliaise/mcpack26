@@ -343,6 +343,9 @@ ServerEvents.recipes(event => {
   // Cinder Flour
   mill('create:cinder_flour', 1, 'minecraft:netherrack');
 
+  // Wheat Flour
+  mill('create:wheat_flour', 1, 'minecraft:wheat');
+
   // Concrete Washing (Shapeless)
   const concreteColors = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray', 'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black'];
   concreteColors.forEach(color => {
