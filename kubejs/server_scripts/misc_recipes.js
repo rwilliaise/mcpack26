@@ -49,4 +49,12 @@ ServerEvents.recipes(event => {
       }
     });
   });
+
+  event.shapeless(
+    Item.of('cc_androids:android_cpu'),
+    [
+        'crossroads:sequence_box',
+        'create:iron_sheet'
+    ]
+  );
 });
