@@ -161,11 +161,11 @@ ServerEvents.recipes(event => {
   // Seed Oil from Seeds
   // Plant Oil from Crops
   // Use Crucible: Seeds -> Plant Oil
-  crucible('#forge:seeds', 'createdieselgenerators:seed_oil', 50);
+  crucible('#forge:seeds', 'createaddition:seed_oil', 50);
   crucible('#forge:crops', 'createdieselgenerators:plant_oil', 50);
 
   // Cool seed oil into biomass (must reach a pretty low temp)
-  fluidCooling('createdieselgenerators:seed_oil', 50, 'createaddition:biomass', 100);
+  fluidCooling('createaddition:seed_oil', 50, 'createaddition:biomass', 100);
 
   // Biodiesel Mixing (by hand)
   event.shapeless(Item.of('createdieselgenerators:biodiesel_bucket', 2), [
