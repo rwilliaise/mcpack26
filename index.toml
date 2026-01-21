@@ -362,7 +362,7 @@ hash = "4efb822630df68ed7d8b3364b5cc4fdd99cad59b345c0b0b061f147cc79287e8"
 
 [[files]]
 file = "config/improvedmobs/common.toml"
-hash = "584ff255714a8d7b50c0b6621cddfb5b86b90d8cf962349ff33682862ef713bd"
+hash = "19cb5338bdcf8ccf503644f4b8d515bd3cb441e83da056909baafb338aae6332"
 
 [[files]]
 file = "config/improvedmobs/equipment.json"
@@ -586,7 +586,7 @@ hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
 
 [[files]]
 file = "config/structurify.json"
-hash = "80b072c83feb6776c37d344026227007ab9d5088aa36dca9680adb029e49a40b"
+hash = "b6dcf26a2e96490158b8dc7e5f52ca28f8e1209f592651d2db79c4f7e371f4ff"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -603,6 +603,10 @@ hash = "6182d9b5caace521a7429905796002e5f6c560e4a19828bfc79e057112084bfa"
 [[files]]
 file = "config/terrablender.toml"
 hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
+
+[[files]]
+file = "config/trashslot-common.toml"
+hash = "966b517f3cc05a133c42ae4b8e8a4a4afa88f59ed005d46f2242f1c32fa218e9"
 
 [[files]]
 file = "config/upgrade_aquatic-client.toml"
@@ -750,11 +754,11 @@ hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
-hash = "774282d890b5859e36a9561b310cd450617e624250a806ef7cae0983cdacb99a"
+hash = "7ed4a67bec35d9921f7841dd2ab8dd801e9afe8519d257a7a598ca5cc351d033"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hider.js"
-hash = "f27498078d701798a9ab7b5e5e51b39b69c09e6c4d552d9c9fe558b293334035"
+hash = "04b67073668be313a9926cc93f61a55cc12d88074765ab0c98e828acddd7a83a"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -770,7 +774,7 @@ hash = "c1e8140d3cf6f1961663cdce016ab9f18bb442a930a5a4f0a679b0f65d989068"
 
 [[files]]
 file = "kubejs/server_scripts/crossroads_ore_replacement.js"
-hash = "5120c8e9689e7a59bb52ccf1454a98c27d7c296dce9f5df535b6af27b1563da0"
+hash = "a823abe889b3e4f8190a3d18fb061c65460009d8bed9b64d14236820291e9ed9"
 
 [[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
@@ -778,7 +782,7 @@ hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "e6350c8384372d904287a156e33ce16c9ebfc841381bb62dff42e6469575162c"
+hash = "5aab31c064d68a52b6e7f337365e2285b50648ebc63115fd9eb7f0088fc4695b"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -786,7 +790,7 @@ hash = "a07014bf99224b81b4b34893de400c02db51020344a94f45dc1ba01e5d402452"
 
 [[files]]
 file = "kubejs/startup_scripts/create_compat.js"
-hash = "316bbd294341737fb9083d2d43fe9a4df899324f016b755895753bf026d10c96"
+hash = "2172a890080ec679fc8774ff9d0f097604fa7a9720ba4f44e27fdcbdce66be1b"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -1000,6 +1004,11 @@ hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
 
 [[files]]
+file = "mods/copycats.pw.toml"
+hash = "00bcb49250fa1f8e533a321cd650e8e57e3d7f7b6178e0f92c21b93736bfb6a8"
+metafile = true
+
+[[files]]
 file = "mods/corpse.pw.toml"
 hash = "2fba2317a375669ccb1376525d4d4e0d1903cc5dc44fc70dce1d0e3dbb6aacb1"
 metafile = true
@@ -1036,7 +1045,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
 metafile = true
 
 [[files]]
