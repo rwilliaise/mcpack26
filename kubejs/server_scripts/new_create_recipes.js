@@ -344,6 +344,7 @@ ServerEvents.recipes(event => {
   mill('create:cinder_flour', 1, 'minecraft:netherrack');
 
   // Wheat Flour
+  event.remove({ id: 'crossroads:mill/wheat' });
   mill('create:wheat_flour', 1, 'minecraft:wheat');
 
   // Concrete Washing (Shapeless)
