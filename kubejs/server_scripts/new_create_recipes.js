@@ -188,7 +188,6 @@ ServerEvents.recipes(event => {
   ];
 
   plates.forEach(p => {
-    event.stonecutting(p.plate, p.ingot);
     stampMill(p.plate, 1, { item: p.ingot });
   });
 
