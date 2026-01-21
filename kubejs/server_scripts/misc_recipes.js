@@ -30,4 +30,23 @@ ServerEvents.recipes(event => {
       'createaddition:copper_rod'
     ]
   );
+
+  const wrenches = [
+    'essentials:wrench',
+    'essentials:circuit_wrench',
+    Item.of('supplementaries:wrench', '{Damage:0}'),
+    Item.of('cc_androids:wrench', '{Damage:0}'),
+    'create:wrench'
+  ];
+
+  wrenches.forEach(wrench => {
+    wrenches.forEach(outputWrench => {
+      if (wrench !== outputWrench) {
+        event.stonecutting(
+          outputWrench,
+          wrench
+        );
+      }
+    });
+  });
 });
