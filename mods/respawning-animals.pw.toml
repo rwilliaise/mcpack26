@@ -1,0 +1,13 @@
+name = "Respawning Animals"
+filename = "RespawningAnimals-v8.2.1-1.20.1-Forge.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/WnwcSeWc/versions/KQaLEkgg/RespawningAnimals-v8.2.1-1.20.1-Forge.jar"
+hash-format = "sha512"
+hash = "30ada80665f644374b2d62d1216bff69002a20ddded72cf65346b63536288969475cdc1c9cffc76c0ab3973be88022310c501d59a1d8f95e60e9c12c3e575e2a"
+
+[update]
+[update.modrinth]
+mod-id = "WnwcSeWc"
+version = "KQaLEkgg"
