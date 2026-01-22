@@ -1114,6 +1114,11 @@ hash = "d6e3ac7a748b54d711705affd3d0851d0234820172b45adcff659f208f1bd247"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-mobcap.pw.toml"
+hash = "a58158d5194ac542b5c3eb25eb0f3a9e7d17186015e4a87dfc798582caf3a3de"
+metafile = true
+
+[[files]]
 file = "mods/ecologics.pw.toml"
 hash = "1859de5f388c57e08412a9f9ed2b9069ed8078a963264c0d66cb7eba13938538"
 metafile = true

@@ -1,0 +1,13 @@
+name = "Dynamic MobCap"
+filename = "increasemobcap-1.0-1.20.1-THUG.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cPWa8mfa/versions/tTjVVdlQ/increasemobcap-1.0-1.20.1-THUG.jar"
+hash-format = "sha512"
+hash = "57fc46128592c1097651fa8424ae3c2614202f6e4c63facadb840ddbb02976dbac6c15a778031c0052c83900645ab6fcd2230ba6082d3fefca7f1ac46d07403f"
+
+[update]
+[update.modrinth]
+mod-id = "cPWa8mfa"
+version = "tTjVVdlQ"
