@@ -35,7 +35,6 @@ ServerEvents.recipes(event => {
     'essentials:wrench',
     'essentials:circuit_wrench',
     Item.of('supplementaries:wrench', '{Damage:0}'),
-    Item.of('cc_androids:wrench', '{Damage:0}'),
     'create:wrench'
   ];
 
