@@ -12,6 +12,17 @@ ServerEvents.recipes(event => {
     }
   );
 
+  event.shaped(Item.of('crossroadscreatecompat:gear_coupler'), [
+    'BBB',
+    'GSS',
+    'BBB'
+  ],
+  {
+    B: 'crossroads:ingot_bronze',
+    G: 'crossroads:gear_base',
+    S: 'create:shaft'
+  });
+
   event.custom({
     type: 'crossroads:beam_extract',
     input: {

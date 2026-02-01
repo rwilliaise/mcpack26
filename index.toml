@@ -369,6 +369,10 @@ file = "config/improvedmobs/equipment.json"
 hash = "c690c3b6386f7358615b93d0fc5e3e79f8bf7c3083d53e74e1541a6d7c6025dd"
 
 [[files]]
+file = "config/item_obliterator.json5"
+hash = "c8fe346c8aec7ddccd970f611d9e2588cb8cf6274ae283d027a9119c4480d415"
+
+[[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
 hash = "55c51c3282f5af2a53f55ba835fed65f26138c379c9013d70be649e165a6ea54"
 
@@ -754,11 +758,7 @@ hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
-hash = "7ed4a67bec35d9921f7841dd2ab8dd801e9afe8519d257a7a598ca5cc351d033"
-
-[[files]]
-file = "kubejs/client_scripts/jei_hider.js"
-hash = "04b67073668be313a9926cc93f61a55cc12d88074765ab0c98e828acddd7a83a"
+hash = "10bb82e6b550f21689766ea22b0259f34d88d7025b6858979bf5e0ac7df60e37"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -778,11 +778,11 @@ hash = "a823abe889b3e4f8190a3d18fb061c65460009d8bed9b64d14236820291e9ed9"
 
 [[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
-hash = "d5a22915c8ff72a80e66a4c1be45e7ca3affecab4cac94b4b35551b85876f7f4"
+hash = "6ccf002691f8cb87733587ff4683919f8336b079d1a70f3fa98af852efbafa15"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "5aab31c064d68a52b6e7f337365e2285b50648ebc63115fd9eb7f0088fc4695b"
+hash = "ceebeef948c7a87cdc2cc1562b32b43fb1bd4e72073565f0f4238adcb3db0138"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -821,6 +821,16 @@ metafile = true
 [[files]]
 file = "mods/amendments.pw.toml"
 hash = "8b9bd5d12a7068c334ab4ad626a9a86e70302cda90885daa531bfa842e8b29c5"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis.pw.toml"
+hash = "c281ef574be46e4df3f7ed04b0a4b5f6d1b2a836b7d1d94c4a30be9c85d3adcb"
+metafile = true
+
+[[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "5f3996f32795f87086cd2e34ac1d7cc281411fe0c8799cb589706680107171ee"
 metafile = true
 
 [[files]]
@@ -1059,6 +1069,10 @@ hash = "06105c83ebbe971970cde51f0670e5707705369c121eed968740d7c25a4cfe8e"
 metafile = true
 
 [[files]]
+file = "mods/crossroadscreatecompat-1.0.0.jar"
+hash = "17b20e7004ef66b333d51263d37bda777b0f56e5c1dc91ad7d6b35f72ccbf0b2"
+
+[[files]]
 file = "mods/culinary-construct.pw.toml"
 hash = "7d5ef09e0162cd9eb36b4cfbe5707f354214e143524046ac15150f4e19ff9839"
 metafile = true
@@ -1179,11 +1193,6 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
-file = "mods/forge-config-api-port.pw.toml"
-hash = "8dd1b54dbebc8759e9ace242ad02456771874962918da69f61994c1c156805a2"
-metafile = true
-
-[[files]]
 file = "mods/forgified-fabric-api.pw.toml"
 hash = "2a2f2168bf03bfa3034ad9583588676c5d66b6f7c767df9fe259ab55350792d2"
 metafile = true
@@ -1279,6 +1288,11 @@ hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
 metafile = true
 
 [[files]]
+file = "mods/item-obliterator.pw.toml"
+hash = "8d2954e230da5baa467b2851827aed41e6c7544fd2ddbb581fa177efb2bc0ffb"
+metafile = true
+
+[[files]]
 file = "mods/jade-vs.pw.toml"
 hash = "494a2284ce26be17d16b47ce940daffdd8f94d32bf337f39d902edf5b54086b3"
 metafile = true
@@ -1361,6 +1375,11 @@ metafile = true
 [[files]]
 file = "mods/lukis-strongholds.pw.toml"
 hash = "f4bfdf260db78a2e3878b0e4ea7b523241c0a6323c0262f230110dc089c19143"
+metafile = true
+
+[[files]]
+file = "mods/majrusz-library.pw.toml"
+hash = "0ef781c42a9409729bab1b76403b1a1dcd1eae6e22ebbdedab180acd2a64952c"
 metafile = true
 
 [[files]]
@@ -1450,12 +1469,17 @@ metafile = true
 
 [[files]]
 file = "mods/patchouli.pw.toml"
-hash = "55c6d0b8ee25fd6a37a964805de3d2eab3f20d73a88ba77a63b4a51fd985d9dd"
+hash = "dec2bc011d4ca1d451aaa3eea477f13366bfb13beba0716018f47d9331a50d8e"
 metafile = true
 
 [[files]]
 file = "mods/paucal.pw.toml"
 hash = "3a4c0fe9052e2c63f96a08066fb18ba08f501e06e8ffd6e2c9240e86eab21304"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "045d582e2c534c5bb96d7336b4ae2cd12692c6de29b19ae5f1dbfd8759c03b03"
 metafile = true
 
 [[files]]
@@ -1671,6 +1695,11 @@ metafile = true
 [[files]]
 file = "mods/wits.pw.toml"
 hash = "3e0190ccd05214b046bc7d9655f77cf7850fa8ff15d4db8faa99df5dac9b9824"
+metafile = true
+
+[[files]]
+file = "mods/wonderful-enchantments.pw.toml"
+hash = "32b0cc4de656130b7c0f66b110338536ce09e025490b3144893a1af3527e4701"
 metafile = true
 
 [[files]]
