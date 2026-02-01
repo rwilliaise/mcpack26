@@ -984,6 +984,11 @@ hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
 metafile = true
 
 [[files]]
+file = "mods/cluttered.pw.toml"
+hash = "2975796aab1e74baebcaae08d49dc0638b467fe742e0affdf8a84e17cf5a13c7"
+metafile = true
+
+[[files]]
 file = "mods/cobweb.pw.toml"
 hash = "c6266e6abc3eb46a62db3d106a915c78d8bd40502e45c23c729bad7e21de1141"
 metafile = true
