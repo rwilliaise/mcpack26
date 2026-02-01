@@ -1403,6 +1403,11 @@ hash = "ff3e8c24b856793dea18726883722d8274d7b292448ecc4beecec9df008d44cd"
 metafile = true
 
 [[files]]
+file = "mods/mob-collision-off.pw.toml"
+hash = "806e829e8e25cf0256e4910ecd8dd7190ce10d20fc6c5034a0285b886466276d"
+metafile = true
+
+[[files]]
 file = "mods/modelfix.pw.toml"
 hash = "ab170eabaeec3e80c59e850a7d8aee32edfffd6a1e40e2c2f44575c69d122054"
 metafile = true
