@@ -60,11 +60,19 @@ ServerEvents.recipes(event => {
     });
   });
 
-  event.shapeless(
-    Item.of('cc_androids:android_cpu'),
-    [
-        'crossroads:sequence_box',
-        'create:iron_sheet'
-    ]
+  event.shaped(
+      Item.of('vs_clockwork:gas_engine'),
+      [
+          'AAA',
+          'ABC',
+          'AAA'
+      ],
+      {
+          B: 'vs_eureka:engine',
+          C: 'vs_clockwork:duct',
+          A: 'minecraft:copper_ingot'
+      }
   );
+
+  
 });

@@ -31,8 +31,6 @@
     'createaddition:alternator', // We don't need to convert Create rotation to FE
     'create:schematicannon',
     'create:schematic_table',
-    'create:empty_blaze_burner',
-    'create:blaze_burner',
     'create:mechanical_roller',
     'create:mechanical_harvester',
     'create:mechanical_plough',
@@ -41,7 +39,6 @@
     'create:crushing_wheel',
     'create:basin',
     'create:mechanical_press',
-    'create:mechanical_mixer',
     'create:encased_fan',
     'create:nozzle',
     'create:wand_of_symmetry',
