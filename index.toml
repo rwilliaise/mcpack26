@@ -884,11 +884,6 @@ hash = "d9032cefeb9a35dcb26277e2370a769e107a2a0a00de1e36af8cb27adfddf589"
 metafile = true
 
 [[files]]
-file = "mods/better-log4j-config.pw.toml"
-hash = "826f777e990d29ef3478a1055317f2eb9d5efeaf3dc2b9960a757dc49cec56c2"
-metafile = true
-
-[[files]]
 file = "mods/better-lush-caves.pw.toml"
 hash = "8999a2a1a694049f013dd6b18bdd523b0bce7024261c8272261dec418f295212"
 metafile = true
