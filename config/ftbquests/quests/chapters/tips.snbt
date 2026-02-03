@@ -81,6 +81,53 @@
 			x: 1.0d
 			y: -1.0d
 		}
+		{
+			description: ["We have a decoration/furniture mod! Search @cluttered in JEI to see all of the blocks, items, and recipes."]
+			id: "103D4036B6298FAE"
+			rewards: [{
+				count: 32
+				id: "49D32EF6E8C21C52"
+				item: "create:framed_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "55655BF734265C84"
+				item: {
+					Count: 1
+					id: "itemfilters:mod"
+					tag: {
+						value: "cluttered"
+					}
+				}
+				title: "Cluttered"
+				type: "item"
+			}]
+			title: "In Honor of Kayce's House"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["We have VEINMINER!!! The default keybind is the grave key (`), but you are welcome to rebind it. You may use veinminer to mine a bunch of blocks of the same type, carve out holes, and more."]
+			id: "02985450E9B5D5C2"
+			rewards: [{
+				id: "119F98DC53CF676A"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E8B8BDDD3AC3716"
+				title: "Veinminer"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
 	]
 	title: "Tips n Tricks"
 }
