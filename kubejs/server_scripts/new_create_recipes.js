@@ -448,4 +448,29 @@ ServerEvents.recipes(event => {
       D: 'create:propeller'
     }
   );
+
+  event.shaped(
+    Item.of("vs_clockwork:incomplete_hose_spool"),
+    [
+      'DDD',
+      'D D',
+      'DDD'
+    ],
+    {
+      D: 'vs_clockwork:duct'
+    }
+  );
+
+  event.shaped(
+    Item.of("vs_clockwork:extendon_hose"),
+    [
+      'KKK',
+      'KIK',
+      'KKK'
+    ],
+    {
+      K: 'minecraft:dried_kelp_block',
+      I: 'vs_clockwork:incomplete_hose_spool'
+    }
+  );
 });

@@ -37,7 +37,6 @@
     'create:deployer',
     'create:mechanical_drill',
     'create:crushing_wheel',
-    'create:basin',
     'create:mechanical_press',
     'create:encased_fan',
     'create:nozzle',
