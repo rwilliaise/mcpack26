@@ -1,5 +1,0 @@
-#Enable debug rendering
-debugRender = false
-#Enable rendering particles for DuctBlock
-renderDuctParticles = true
-
