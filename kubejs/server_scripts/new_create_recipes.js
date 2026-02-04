@@ -184,10 +184,10 @@ ServerEvents.recipes(event => {
     { ingot: 'create:brass_ingot', plate: 'create:brass_sheet' },
     { ingot: 'create:zinc_ingot', plate: 'createaddition:zinc_sheet' },
     { ingot: 'createaddition:electrum_ingot', plate: 'createaddition:electrum_sheet' },
-    { ingot: 'create:copper_sheet', plate: 'createaddition:copper_wire' },
-    { ingot: 'create:golden_sheet', plate: 'createaddition:golden_wire' },
-    { ingot: 'createaddition:electrum_sheet', plate: 'createaddition:electrum_wire' },
-    { ingot: 'create:iron_sheet', plate: 'createaddition:iron_wire' },
+    { ingot: 'create:copper_sheet', plate: '2x createaddition:copper_wire' },
+    { ingot: 'create:golden_sheet', plate: '2x createaddition:golden_wire' },
+    { ingot: 'createaddition:electrum_sheet', plate: '2x createaddition:electrum_wire' },
+    { ingot: 'create:iron_sheet', plate: '2x createaddition:iron_wire' },
   ];
 
   plates.forEach(p => {
