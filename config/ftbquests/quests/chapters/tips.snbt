@@ -55,6 +55,12 @@
 		{
 			description: ["This guy lets you send items around more conveniently. Might be useful for the stamp mill, if you're into Crossroads things."]
 			id: "0D9C7786FC818025"
+			rewards: [{
+				count: 16
+				id: "6D0C56EA37032634"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "69B46652C0D6196C"

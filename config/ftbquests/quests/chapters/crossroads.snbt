@@ -650,7 +650,7 @@
 		}
 		{
 			dependencies: ["143C1CB46167EF5E"]
-			description: ["Need FE? Look to the dynamo! These work in tanden with tesla coils, which you can link with the linking tool to transmit energy. You may also put a Leyden jar inside of one to charge it. I wonder if you could power a car with that thing."]
+			description: ["Need FE? Look to the dynamo! These work in tanden with tesla coils, which you can link with the linking tool to transmit energy. You may also put a Leyden jar inside of one to charge it."]
 			icon: "crossroads:tesla_coil_top_normal"
 			id: "66716A08428B5998"
 			optional: true
@@ -1096,6 +1096,7 @@
 				"The beam splitter splits the beam based on a ratio. Signal 15 sends 100% out the front. Signal 7 sends approximately 50%."
 				"The beam siphon siphons a fixed amount of power out the front (equal to redstone signal), sending the rest out the back."
 			]
+			icon: "crossroads:beam_splitter"
 			id: "4C528BBB84B5283E"
 			optional: true
 			tasks: [
@@ -1307,8 +1308,6 @@
 				"Void effect breaks blocks and drops them as items."
 			]
 			id: "410B4E74CDF2979A"
-			invisible: true
-			optional: true
 			tasks: [{
 				advancement: "crossroads:progress/alignment/expansion"
 				criterion: ""
@@ -1472,11 +1471,12 @@
 				""
 				"The redsone cables (or fluid tubes) will disconnect upon receiving redstone power."
 			]
+			icon: "essentials:wire_circuit"
 			id: "29DA4817530BBDFB"
 			rewards: [{
-				count: 32
-				id: "4AA713843A692C8D"
-				item: "minecraft:redstone"
+				count: 12
+				id: "231A4913269DBD69"
+				item: "essentials:wire_circuit"
 				type: "item"
 			}]
 			tasks: [
@@ -1538,6 +1538,33 @@
 			]
 			title: "MY CABLES ARE MELTING!!!!"
 			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00A7C151C26ED4D6"]
+			description: ["This handy little block lets you split one fluid input into multiple outputs. You can use a wrench to configure the percentage of fluid that gets routed one way vs. the other. You can also craft a splitter where you control the splitting percentage with redstone. "]
+			id: "5E230C9CA135C035"
+			rewards: [{
+				count: 10
+				id: "52BD78B48C1D9DAA"
+				item: "crossroads:fluid_tube"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CB63BE605712EA5"
+					item: "essentials:basic_fluid_splitter"
+					type: "item"
+				}
+				{
+					id: "6BEEE8B8FEC1E183"
+					item: "essentials:fluid_splitter"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Put Your Fluids In Multiple Places"
+			x: -5.0d
 			y: -3.0d
 		}
 	]

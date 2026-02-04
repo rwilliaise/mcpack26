@@ -964,6 +964,11 @@ hash = "0e17f9758f6f67ef87aa6f8d5afc47901521a05904cd8470ef65063b48e69d73"
 metafile = true
 
 [[files]]
+file = "mods/clicker.pw.toml"
+hash = "c1b9cf4d1a29f09c6b44f08462c8c21376900abd9400ccac7ef9ee565d75bc25"
+metafile = true
+
+[[files]]
 file = "mods/client-tweaks.pw.toml"
 hash = "fa531ce1f4a691b784b0df60fc5b7a238d5ed9e5a69b8d547dd7eb19057e9790"
 metafile = true
