@@ -74,5 +74,16 @@ ServerEvents.recipes(event => {
       }
   );
 
-  
+  event.shaped(
+    Item.of('createaddition:electric_motor'),
+    [
+        ' A ',
+        'ABA',
+        ' A '
+    ],
+    {
+        A: 'createaddition:copper_wire',
+        B: 'crossroads:tesla_coil_top_normal'
+    }
+  );
 });
