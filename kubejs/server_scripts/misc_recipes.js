@@ -86,4 +86,17 @@ ServerEvents.recipes(event => {
         B: 'crossroads:tesla_coil_top_normal'
     }
   );
+
+  event.shaped(
+    Item.of('createaddition:electrum_ingot', 2),
+    [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    {
+        B: 'minecraft:gold_ingot',
+        A: 'minecraft:redstone'
+    }
+  );
 });
