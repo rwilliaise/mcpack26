@@ -122,6 +122,15 @@
   ],
   "structure_sets": [
     {
+      "name": "minecraft:strongholds",
+      "salt": 0,
+      "frequency": 0.5,
+      "override_global_spacing_and_separation_modifier": false,
+      "structure_weights": {
+        "minecraft:stronghold": 1
+      }
+    },
+    {
       "spacing": 30,
       "separation": 16,
       "name": "incendium:greater_structures",
