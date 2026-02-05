@@ -427,6 +427,7 @@
 			dependencies: ["0574B344DA8A5BC5"]
 			description: ["What a delightfully easy way to generate rotational energy! Not the greatest, but it'll do for now."]
 			id: "143C1CB46167EF5E"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "7E4F34311E2F4742"
@@ -439,8 +440,8 @@
 				type: "item"
 			}]
 			title: "The Windmill Conundrum"
-			x: -4.5d
-			y: 0.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4639BE115DDEC612"]
@@ -610,9 +611,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["143C1CB46167EF5E"]
+			dependencies: ["0574B344DA8A5BC5"]
 			description: ["Spin water so fast it separates into distilled water and salt!"]
 			id: "581FC5104D1AE8BF"
+			rewards: [{
+				count: 8
+				id: "38D80EA917F27324"
+				item: "crossroads:block_salt"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0751241FE9425749"
 				item: "crossroads:water_centrifuge"
@@ -649,7 +656,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["143C1CB46167EF5E"]
+			dependencies: ["0574B344DA8A5BC5"]
 			description: ["Need FE? Look to the dynamo! These work in tanden with tesla coils, which you can link with the linking tool to transmit energy. You may also put a Leyden jar inside of one to charge it."]
 			icon: "crossroads:tesla_coil_top_normal"
 			id: "66716A08428B5998"
@@ -687,7 +694,7 @@
 				}
 			]
 			title: "Iron? Nah."
-			x: -4.5d
+			x: -5.0d
 			y: 2.0d
 		}
 		{
@@ -749,8 +756,8 @@
 		}
 		{
 			dependencies: [
-				"581FC5104D1AE8BF"
 				"1B77B5FBD3727290"
+				"528AF342807E2B4A"
 			]
 			description: [
 				"Ore doubling? Get ready for ore tripling. The stamp mill lets you turn ore into grit which can be smelted directly for a not-quite 3x yield, OR you can run it through the industrial blast furnace to product 3x yield and slag."
@@ -1566,6 +1573,25 @@
 			title: "Put Your Fluids In Multiple Places"
 			x: -5.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["581FC5104D1AE8BF"]
+			description: ["The gear coupler allows you to convert Crossroads rotation into Create rotation! You simply input Crossroads energy on the Crossroads side (the side with the hole the width of a Crossroads shaft), and you may select a Create RPM to output. The number of Stress Units outputted will be equal to your input speed from Crossroads."]
+			id: "528AF342807E2B4A"
+			rewards: [{
+				count: 16
+				id: "2DDE4395C4BECD9B"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CCE704CBB284E16"
+				item: "crossroadscreatecompat:gear_coupler"
+				type: "item"
+			}]
+			title: "Creating RPM"
+			x: -1.5d
+			y: 0.5d
 		}
 	]
 	title: "The Main Road"

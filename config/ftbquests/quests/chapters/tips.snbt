@@ -134,6 +134,41 @@
 			x: 1.0d
 			y: 0.0d
 		}
+		{
+			can_repeat: true
+			description: ["Use this on a Create Stationary Contraption to convert it into a Valkyrien Skies ship. If you need to place blocks on, or use blocks in a stationary contraption, you want to convert it into a VS ship with this."]
+			icon: "create_interactive:interact_me"
+			id: "21B09DAFF41C46B6"
+			rewards: [{
+				id: "262DBDB9FDC60E79"
+				item: "create_interactive:interact_me"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AA0A0BF8A5CE4E5"
+				title: "Interact Me"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "create_interactive:interact_me_not"
+			id: "0F5FA75B9A5E02D2"
+			rewards: [{
+				id: "528EA77D8F7C55C2"
+				item: "create_interactive:interact_me_not"
+				type: "item"
+			}]
+			tasks: [{
+				id: "649CE12F7EFFD531"
+				title: "Interact Me Not"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
 	]
 	title: "Tips n Tricks"
 }
