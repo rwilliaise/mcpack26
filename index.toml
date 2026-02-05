@@ -33,6 +33,42 @@ file = "config/amendments-common.toml"
 hash = "bd98c35e394d4ae37e2385f719680d2365527df98894b337d6cf0f2089b15ee6"
 
 [[files]]
+file = "config/apotheosis/adventure.cfg"
+hash = "aadfa56f4e29021cc92e7dc110ab24a0e3a2c878a59ba033440caab07161ebe5"
+
+[[files]]
+file = "config/apotheosis/apotheosis.cfg"
+hash = "e7f16039cf57af62f5142fc4f017bb25993d407ee1c9aa559bd777f32a143724"
+
+[[files]]
+file = "config/apotheosis/ench.cfg"
+hash = "557cc1b6ba1369f5d2459054cc2b9e9f91c58b9cdecb0a3023a911b435b1a9c8"
+
+[[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "493c3e48d75e352bfdc33f052abb87d319e6f0417c0d8302bbb04639cbb24dda"
+
+[[files]]
+file = "config/apotheosis/garden.cfg"
+hash = "40921090df5150c9e161b0312f9d694deb60672760ef3a8cbfaf8acd9213aacc"
+
+[[files]]
+file = "config/apotheosis/names.cfg"
+hash = "b612d5b4b67ba2b02272ceb357c7ce0a02a35cc70004bf893c34f6c151b3d372"
+
+[[files]]
+file = "config/apotheosis/potion.cfg"
+hash = "41cbb8ec035cdefaf47ca7ca71187b41eb8ce67905f825cc05e3c8dd8ba2702e"
+
+[[files]]
+file = "config/apotheosis/spawner.cfg"
+hash = "40913dd340992cb232ed886157673decf3a02a0faa28bb05caf55906da4f7f79"
+
+[[files]]
+file = "config/apotheosis/village.cfg"
+hash = "9c06164bad9a22d779a4986dc231071e7a9d3bc8f1d7d67fa277999e510d2a78"
+
+[[files]]
 file = "config/artifacts/common.json5"
 hash = "6ea8ccbdf2e3c85683b2007bd31a0b267d118e8de67071cbe8c2956ecfc1f816"
 
@@ -306,7 +342,7 @@ hash = "2d21352df68bce180e20b185d0fdc95c11b3428cc5a72dcb22e5d8203cde5c11"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/crossroads.snbt"
-hash = "61ce34f6328943a84e0c4253806e38ceeb2dcdf4d94a59e1f7badb381d045ff2"
+hash = "a0f2f5dc99bf1fe5e0ca8ec723f6ccc8f8150b68fe3b9832534041177e10650d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/eureka.snbt"
@@ -318,7 +354,7 @@ hash = "153888da125534f2edacccd5d5a46f746aea0a5790cc31444e4ffcfdfb651d40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "358f3100e205c1cdd0bae70b8a221f5abbd8f51a1ea5b79e342ebd501aa7d1d4"
+hash = "99f1cb7804686d511657fed6b7b91edc734eecd6a18f5d9da1d314406d43408b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -370,11 +406,7 @@ hash = "c690c3b6386f7358615b93d0fc5e3e79f8bf7c3083d53e74e1541a6d7c6025dd"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "c8fe346c8aec7ddccd970f611d9e2588cb8cf6274ae283d027a9119c4480d415"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "55c51c3282f5af2a53f55ba835fed65f26138c379c9013d70be649e165a6ea54"
+hash = "fb88297f56b66fdda514bc48acf4ca604139cb301bc3925172cf58d567fd8a0c"
 
 [[files]]
 file = "config/kiwi-common.yaml"
@@ -415,6 +447,10 @@ hash = "f97fc5ae7dd7d312e86ecddf2e4491fee3e3a16b7a26cbb3aa078fdd3255c4df"
 [[files]]
 file = "config/neruina.json"
 hash = "29e73ae1075a5d9f61394a353e60ba84c5c801e511105f2400e0d4ba66a9bf76"
+
+[[files]]
+file = "config/packetfixer.properties"
+hash = "e6a1bc4f195bf7a04e0403f7f5ef8c6a763ccd8e7e8a9b31a1bb693ea2d0b885"
 
 [[files]]
 file = "config/palegardenbackport.common.conf"
@@ -581,16 +617,8 @@ file = "config/sodiumdynamiclights-client.toml"
 hash = "4f251cf210d798895f97ccc38607e3b0abe0e013faae54b78ba8e1bfdc6c0afb"
 
 [[files]]
-file = "config/spark/activity.json"
-hash = "7502efc14247982470b1309d00c2af53511e35cc36e24c56f25ee4ba002653da"
-
-[[files]]
-file = "config/spark/config.json"
-hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
-
-[[files]]
 file = "config/structurify.json"
-hash = "b6dcf26a2e96490158b8dc7e5f52ca28f8e1209f592651d2db79c4f7e371f4ff"
+hash = "f26f65c76909ff94727a118e90c424863fc2bcb52bee46fd2822882c7de91a85"
 
 [[files]]
 file = "config/supplementaries-client.toml"
@@ -622,63 +650,15 @@ hash = "bd22a678f68790f0cf276f04df8912c65c51842801ddcc431a266a9f9aabe73a"
 
 [[files]]
 file = "config/valkyrienskies/clockwork/client.toml"
-hash = "818beb753263a5627ae92fd1ca3dda848b79002d45e765ec6eae785e2869d132"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_client.schema.json"
-hash = "18ab8a80bb24a7a448e9689f6ec93921f47072b62271ae0c6d7fdf2da4a12078"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_common.schema.json"
-hash = "f5ba425afee7c543f9e010c34c451817bb9c745ffd45106fac5544e9eacadf96"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_core_server.schema.json"
-hash = "a09eb410f6b56c65904aaf5d75d74ebf67d8ed96f9d992f322e8e03fd86b1f6d"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_eureka_client.schema.json"
-hash = "1401463b94a0af5d1b62b6729690f96d6c5e01f6190830240124f8874812a90c"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_eureka_server.schema.json"
-hash = "fa23bcb0b989736422b0cf2dbc5d00f80539d3ef716a30e4176c58f9c69ba4d9"
-
-[[files]]
-file = "config/valkyrienskies/schemas/vs_server.schema.json"
-hash = "1f7986220d5a489e7eff73163a339b49e5d2ac772976e67523f2d33446754eea"
+hash = "5c63d372f446b3799081f81dde07377a95128a07cb048ae21800e55f57f6cab0"
 
 [[files]]
 file = "config/valkyrienskies/valkyrienskies-client.toml"
-hash = "cd1ad753eddec15948c5e5572b871b983f928ec421304dadfdd7250ffb4d40a3"
+hash = "f002bcce8d27856892757ab4b85fcc6180d198cc7da6304a26dae32effdd5a6a"
 
 [[files]]
 file = "config/valkyrienskies/valkyrienskies-common.toml"
 hash = "0b23797166d41ac0dfd91761a2a3390315ed699820aca833b174da67db92ee67"
-
-[[files]]
-file = "config/valkyrienskies/vs_client.json"
-hash = "4f62dae9ba6900ea469823e0439c6742687be425ec97c1091030439a83a5235a"
-
-[[files]]
-file = "config/valkyrienskies/vs_common.json"
-hash = "b79fd15ca7286dcfa731ca333f6cffe160a46225e41479cc968dd5d8e24df3a8"
-
-[[files]]
-file = "config/valkyrienskies/vs_core_server.json"
-hash = "1899019dceb57bf225586bb772ce70953803e62a9ed9a06d097ad7ca3e018bef"
-
-[[files]]
-file = "config/valkyrienskies/vs_eureka_client.json"
-hash = "8555234cb06a79bcea18b5258658c44be0caa24c3ed56248ab0d5cdb69777705"
-
-[[files]]
-file = "config/valkyrienskies/vs_eureka_server.json"
-hash = "214c820bb57c108ac8a7057504712d6f2e300c3c3f6f5e379631f710cb793b8e"
-
-[[files]]
-file = "config/valkyrienskies/vs_server.json"
-hash = "03314412a9e8e64ef4b2c692cdbed1923dbdfa36d6061bbee0a91f2fc2c7a17d"
 
 [[files]]
 file = "config/via_romana.json"
@@ -699,6 +679,10 @@ hash = "2bdc2299cfa9ae0644f58db649bb6a9631afa0740c2301db11e1055f4c4db915"
 [[files]]
 file = "config/xaerominimap-common.txt"
 hash = "b410746ddef0f7dd5f1d860ef3fcd6ad29c10988abbf6281181cb9c3acb628ca"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "b8ddf54611a9ab8c53177fc0d062321e9e731192b65b9e50d0fcb38a86a91696"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -778,11 +762,11 @@ hash = "a823abe889b3e4f8190a3d18fb061c65460009d8bed9b64d14236820291e9ed9"
 
 [[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
-hash = "6ccf002691f8cb87733587ff4683919f8336b079d1a70f3fa98af852efbafa15"
+hash = "27fadee41831d6c70c78924633fa4229218a8e6f16e8b6bfa731481a6e4b6f39"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "ceebeef948c7a87cdc2cc1562b32b43fb1bd4e72073565f0f4238adcb3db0138"
+hash = "6a5f6dda3a81e128950d2c74973096c3d91396185e9442ca5c705abfc8fad7c5"
 
 [[files]]
 file = "kubejs/startup_scripts/compressed_end_stone.js"
@@ -940,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "1d821e1ce86e9802a14723d2c6067fc9476a7b193e322593ee53279a252b8ff1"
+hash = "6f0d7cf1fd04e02bfa0cda4c1caf4cb5482fbbec007b560d5a2c28536e9e9e16"
 metafile = true
 
 [[files]]
@@ -970,7 +954,7 @@ metafile = true
 
 [[files]]
 file = "mods/clicker.pw.toml"
-hash = "c1b9cf4d1a29f09c6b44f08462c8c21376900abd9400ccac7ef9ee565d75bc25"
+hash = "856b5f6c9b62aa9318d5a32d7f76648e58e5c4cbd2c743874cbbc7ead92bfb14"
 metafile = true
 
 [[files]]
@@ -1084,8 +1068,8 @@ hash = "06105c83ebbe971970cde51f0670e5707705369c121eed968740d7c25a4cfe8e"
 metafile = true
 
 [[files]]
-file = "mods/crossroadscreatecompat-1.0.0.jar"
-hash = "17b20e7004ef66b333d51263d37bda777b0f56e5c1dc91ad7d6b35f72ccbf0b2"
+file = "mods/crossroadscreatecompat-1.0.2.jar"
+hash = "24777373bf5a2e12f67f6048b74ece798c1a1632892f28e57508657b7318de2f"
 
 [[files]]
 file = "mods/culinary-construct.pw.toml"
@@ -1189,7 +1173,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "2023ed56ff0d7566f898a1be5e542bcde94fbc252264dface9cd9dacc0883c38"
+hash = "e9b62e20a2aada975397f1cbd468e29591fc391c3d5a89df5b67c344ab3e5758"
 metafile = true
 
 [[files]]
