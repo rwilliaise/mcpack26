@@ -176,6 +176,12 @@ ServerEvents.recipes(event => {
 
   // Manufacturing
 
+  // Make shafts easier
+  event.remove({ id: 'create:crafting/kinetics/shaft' });
+  event.shapeless('2x create:shaft', ['#quark:posts', '#quark:posts']);
+  event.shapeless('16x create:shaft', ['create:andesite_alloy', 'create:andesite_alloy']);
+
+
   // Plates (Stonecutter & Stamp Mill)
   const plates = [
     { ingot: 'minecraft:iron_ingot', plate: 'create:iron_sheet' },
