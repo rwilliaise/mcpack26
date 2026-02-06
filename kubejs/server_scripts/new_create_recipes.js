@@ -176,11 +176,6 @@ ServerEvents.recipes(event => {
 
   // Manufacturing
 
-  // Make shafts easier
-  event.remove({ id: 'create:crafting/kinetics/shaft' });
-  event.shapeless('2x create:shaft', ['#quark:posts', '#quark:posts']);
-  event.shapeless('16x create:shaft', ['create:andesite_alloy', 'create:andesite_alloy']);
-
 
   // Plates (Stonecutter & Stamp Mill)
   const plates = [
@@ -335,6 +330,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: "crossroads:beam_transmute/fusion_stone" }); // Stone -> Stone bricks
   beamTransmute("fusion", 1, "#forge:stone", "minecraft:andesite", false);
   beamTransmute("fusion", 1, "minecraft:andesite", "minecraft:stone", true);
+
+  beamTransmute("fusion", 32, "minecraft:andesite", "create:andesite_alloy_block", false);
+  beamTransmute("fusion", 2, "create:andesite_alloy_block", "minecraft:andesite", true);
 
   beamTransmute("fusion", 16, '#minecraft:logs', 'create:andesite_casing', false);
   beamTransmute("fusion", 8, 'create:andesite_casing', 'minecraft:oak_log', true);
