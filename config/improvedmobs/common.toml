@@ -62,7 +62,7 @@
 	"Steal Block Blacklist" = []
 	"Breaking items" = ["minecraft:diamond_pickaxe;1", "minecraft:iron_axe;2"]
 	"Break BlockEntities" = false
-	"Neutral Aggressive Chance" = 0.05
+	"Neutral Aggressive Chance" = 0.0
 	"Auto Target List" = []
 	# Set to 20.0 so they don't break your house immediately on night 1 (after delay)
 	"Difficulty Break AI" = 20.0
@@ -89,32 +89,32 @@
 	"Armor Trim Chance" = 0.05
 	# Drastically reduced base weapon chance.
 	"Weapon Chance" = 0.05
-	"Weapon Chance Add" = 0.003
+	"Weapon Chance Add" = 0.004
 	"Enchanting Chance" = 0.1
-	"Enchanting Addition" = 0.2
+	"Enchanting Addition" = 0.25
 	"Enchanting Calc" = ["0.0-5-10", "25.0-5-15", "50.0-10-17", "100.0-15-25", "200.0-20-30", "250.0-30-35"]
 	"Enchanting Blacklist" = []
 	"Enchanting Whitelist" = false
 	# Lowered base offhand chance (shield/pearls/tnt).
 	"Item Equip Chance" = 0.02
-	"Item Chance add" = 0.002
+	"Item Chance add" = 0.003
 	"Should drop equipment" = false
 
 [attributes]
 	# Reduced multiplier to 0.01 to prevent 'one-shot' mobs too early
 	"Health Increase Multiplier" = 0.6
-	"Max Health Increase" = 4.0
+	"Max Health Increase" = 3.0
 	"Round HP" = 0.5
 	# Reduced damage scaling. 1.0 is very harsh early on.
 	"Damage Increase Multiplier" = 0.5
-	"Max Damage Increase" = 3.0
+	"Max Damage Increase" = 5.0
 	"Speed Increase" = 1.0
-	"Max Speed" = 0.1
+	"Max Speed" = 0.4
 	"Knockback Increase" = 1.0
-	"Max Knockback" = 0.5
+	"Max Knockback" = 0.8
 	"Magic Resistance Increase" = 1.0
 	"Max Magic Resistance" = 0.4
 	"Projectile Damage Increase" = 1.0
 	"Max Projectile Damage" = 2.0
-	"Explosion Damage Increase" = 1.0
-	"Max Explosion Damage" = 1.75
+	"Explosion Damage Increase" = 1.4
+	"Max Explosion Damage" = 2.75
