@@ -99,4 +99,18 @@ ServerEvents.recipes(event => {
         A: 'minecraft:redstone'
     }
   );
+
+  // Make item vault more expensive since we have Tom's Simple Storage which is crazy about stacked items with vaults
+  event.shaped(
+    Item.of('create:item_vault'),
+    [
+        'AAA',
+        'ABA',
+        'AAA'
+    ],
+    {
+        B: 'essentials:slotted_chest',
+        A: 'minecraft:iron_ingot'
+    }
+  );
 });
