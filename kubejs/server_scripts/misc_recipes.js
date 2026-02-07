@@ -101,6 +101,7 @@ ServerEvents.recipes(event => {
   );
 
   // Make item vault more expensive since we have Tom's Simple Storage which is crazy about stacked items with vaults
+  event.remove({ output: "create:item_vault" })
   event.shaped(
     Item.of('create:item_vault'),
     [
@@ -112,5 +113,13 @@ ServerEvents.recipes(event => {
         B: 'essentials:slotted_chest',
         A: 'minecraft:iron_ingot'
     }
+  );
+
+  event.shapeless(
+    Item.of('create:copper_casing'),
+    [
+        '#minecraft:logs',
+        'minecraft:copper_ingot'
+    ]
   );
 });
