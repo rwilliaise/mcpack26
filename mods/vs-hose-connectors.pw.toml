@@ -1,0 +1,13 @@
+name = "VS Hose Connectors"
+filename = "vsHoseConnectors-0.0.9-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YaZEkFmd/versions/18UO20FC/vsHoseConnectors-0.0.9-1.20.1.jar"
+hash-format = "sha512"
+hash = "b72a67b3a36ff96f11134930444fb3762df8a7dd9871702c102938804a37ff8ac87cfa96091f47b74a8b35cc836eb0818a819f1dd98e14e14d9c2a5b0362fbf3"
+
+[update]
+[update.modrinth]
+mod-id = "YaZEkFmd"
+version = "18UO20FC"

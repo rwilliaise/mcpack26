@@ -1019,6 +1019,11 @@ hash = "4d5ba0ec7ea7abf0ef76f3f08853bd7c886eec95b1795cbeacaba8bc608e2913"
 metafile = true
 
 [[files]]
+file = "mods/control-craft.pw.toml"
+hash = "32ead53779add1eebfa172721225e5c7bff0ccf5ad72bcd4dcda274e4292bead"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "4063abe583282834b2f78e3b3e6b9ee4d231a680f74c020e405a4ef196f21ee4"
 metafile = true
@@ -1065,7 +1070,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9d7971a7af2ff4a96a0e5aede76f9cf8dc978da601e2754f79d6ec8631125bb9"
+hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
@@ -1715,6 +1720,11 @@ metafile = true
 [[files]]
 file = "mods/vmod.pw.toml"
 hash = "16df875d4c8a6e2394556ab78ae8fa932078e32713d3d948861e7245adc98db7"
+metafile = true
+
+[[files]]
+file = "mods/vs-hose-connectors.pw.toml"
+hash = "d6917587f20b850793ce174147493a3ea91344e3c5d555195d213e4b10d58b21"
 metafile = true
 
 [[files]]
