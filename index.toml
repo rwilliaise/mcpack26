@@ -1288,11 +1288,6 @@ hash = "bc2190d04091e94f8821032472168c7574cec27e6f37c35c405528e522105300"
 metafile = true
 
 [[files]]
-file = "mods/in-control.pw.toml"
-hash = "e35b44f12d02a3bb79a520d5a7436a7ead8a8adf32ecbe7b0bcac542d4047943"
-metafile = true
-
-[[files]]
 file = "mods/incendium.pw.toml"
 hash = "0f83be0761e0014686517c20f2850242152dd7a26e87088d869028bc40a8a125"
 metafile = true
