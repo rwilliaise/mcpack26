@@ -1702,6 +1702,11 @@ hash = "a7e4a12322f3efd6207b36ae207a656ef1b78d4d61f1520ef185a4d0a4265c16"
 metafile = true
 
 [[files]]
+file = "mods/vs-ship-handler.pw.toml"
+hash = "7a4e399dddc8096227725d44aa0554419d908f99ce57712bb0c44b63fc451373"
+metafile = true
+
+[[files]]
 file = "mods/when-dungeons-arise.pw.toml"
 hash = "0cb70caa22009a495a64a4332480b5ae80cb7fc7ba34c0a48ab8aff7df20b4f7"
 metafile = true

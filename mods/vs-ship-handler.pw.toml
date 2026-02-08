@@ -1,0 +1,13 @@
+name = "VS: Ship Handler"
+filename = "shiphandler-1.20.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RkL7YByP/versions/Yar1F242/shiphandler-1.20.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "500e3ef261db244e0723ebd40d8c79eccbb14b00fe5fd4b5ab79f4400a681df0e8cc0849af119e2c7319891b27a76194964f37499283b34bb9f9ffa71fa3854e"
+
+[update]
+[update.modrinth]
+mod-id = "RkL7YByP"
+version = "Yar1F242"
