@@ -1,6 +1,6 @@
 name = "Tab List"
 filename = "tablist-1.0.2.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/veruP9P9/versions/WKmFT80f/tablist-1.0.2.jar"
