@@ -1648,8 +1648,8 @@ hash = "974af7bd8b20941d615aa6d37f522da34f62d81ddee97ccfad3c458b5db8ece5"
 metafile = true
 
 [[files]]
-file = "mods/tab-list.pw.toml"
-hash = "db53ce5510f40712325ea8413dca6f4e320b601f91a61d9e461c60ba04a4aca5"
+file = "mods/tab-was-taken.pw.toml"
+hash = "991a955c31119f851f6397dc489f536a4b4c963593485e05f3a5e6aa49c98d56"
 metafile = true
 
 [[files]]
