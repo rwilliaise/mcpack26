@@ -1,27 +1,69 @@
 header-footer:
   enabled: true
   header:
-    - "<#00c6ff>&m                                                </#0072ff>"
-    - "<#00c6ff>The GRC"
-    - ""
-    - "&7Players: &f%online% &8| &7TPS: %server_tps_1_colored%"
-    - ""
+  - '%animation:bar%'
+  - ''
+  - '%animation:title%'
+  - ''
+  - '&7Players: &f%online% &8| &7TPS: &f%tps%'
+  - ''
   footer:
-    - ""
-    - "&7Ping: &f%ping%ms &8| &7Playtime: &f%statistic_hours_played%h"
-    - "&7Local Time (LA): &f%time%"
-    - ""
-    - "<#00c6ff>&m                                                </#0072ff>"
+  - ''
+  - '&7Ping: &f%ping%ms'
+  - '&7Pacific Time: &f%time%'
+  - ''
+  - '%animation:bar%'
   disable-condition: '%world%=disabledworld'
-
 placeholders:
-  date-format: "dd.MM.yyyy"
-  time-format: "HH:mm"
-  # Los Angeles is UTC-8 (PST) in February.
+  date-format: MM.dd.yyyy
+  time-format: h:mm a
   time-offset: -8
   register-tab-expansion: false
-
 placeholder-refresh-intervals:
   default-refresh-interval: 500
-  "%server_tps_1_colored%": 1000
-  "%statistic_hours_played%": 60000
+  '%tps%': 1000
+prevent-spectator-effect:
+  enabled: false
+debug: false
+use-online-uuid-in-tablist: true
+permission-refresh-interval: 1000
+proxy-support:
+  enabled: true
+  type: PLUGIN
+  plugin:
+    name: RedisBungee
+compensate-for-packetevents-bug: false
+assign-groups-by-permissions: false
+primary-group-finding-list:
+- Owner
+- Admin
+- Helper
+- default
+belowname-objective:
+  fancy-value-default: NPC
+  fancy-value: '&c%health%'
+  enabled: false
+global-playerlist:
+  update-latency: false
+  enabled: false
+playerlist-objective:
+  title: TAB
+  value: ''
+  render-type: INTEGER
+  enabled: true
+bossbar:
+  enabled: false
+layout:
+  enabled: false
+mysql:
+  enabled: false
+per-world-playerlist:
+  enabled: false
+ping-spoof:
+  enabled: false
+scoreboard:
+  enabled: false
+scoreboard-teams:
+  enabled: true
+tablist-name-formatting:
+  enabled: false
