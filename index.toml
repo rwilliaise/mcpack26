@@ -1603,11 +1603,6 @@ hash = "b8c7497acbf4890b4609b6b20de7affdd3482fc99af975d9ff6b29c075e1d8a7"
 metafile = true
 
 [[files]]
-file = "mods/shut-up-gl-error.pw.toml"
-hash = "7e6cac705cbc5eb297f80770a1a9df83379ce1279887db028213a4b7000b6874"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "a061b4f98461fc38b4ff6495b5e3a9b8708e9d87333c2cbb29e6b265053a5abe"
 metafile = true

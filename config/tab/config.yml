@@ -1,0 +1,27 @@
+header-footer:
+  enabled: true
+  header:
+    - "<#00c6ff>&m                                                </#0072ff>"
+    - "<#00c6ff>The GRC"
+    - ""
+    - "&7Players: &f%online% &8| &7TPS: %server_tps_1_colored%"
+    - ""
+  footer:
+    - ""
+    - "&7Ping: &f%ping%ms &8| &7Playtime: &f%statistic_hours_played%h"
+    - "&7Local Time (LA): &f%time%"
+    - ""
+    - "<#00c6ff>&m                                                </#0072ff>"
+  disable-condition: '%world%=disabledworld'
+
+placeholders:
+  date-format: "dd.MM.yyyy"
+  time-format: "HH:mm"
+  # Los Angeles is UTC-8 (PST) in February.
+  time-offset: -8
+  register-tab-expansion: false
+
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  "%server_tps_1_colored%": 1000
+  "%statistic_hours_played%": 60000
