@@ -1,0 +1,13 @@
+name = "Zero Point Systems"
+filename = "zps-1.20.1-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/6sObdFxl/versions/prIbMuCD/zps-1.20.1-1.2.0.jar"
+hash-format = "sha512"
+hash = "7a9b1b60a3c8329446cc504aadd408412938e628b1e50091081bc0ba3e0d05e902c3b25a9ee40e309d60179dd382b16b7141002a8e00471b6b76bdbcd94b637b"
+
+[update]
+[update.modrinth]
+mod-id = "6sObdFxl"
+version = "prIbMuCD"

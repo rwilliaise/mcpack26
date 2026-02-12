@@ -113,6 +113,10 @@ file = "config/brandon3055/CSG/Config.json"
 hash = "fe132aa0150e801f8acaf4f8ce5cf7ebc8071d6d162d91b96464925ef7f2a3e5"
 
 [[files]]
+file = "config/c2me.toml"
+hash = "4e006415b9c3797437c3aa2e006a94e5644d7cfa3b6aeaac9b20bc95862837c5"
+
+[[files]]
 file = "config/carryon-common.toml"
 hash = "a56b928ea296002418edec13bedd741c0359070dfdb92ad748e757c1792137a9"
 
@@ -398,11 +402,11 @@ hash = "f2b7f219198f0a911d04b09f545f2c1256e8d114951443924878dc10963e16aa"
 
 [[files]]
 file = "config/improvedmobs/client.toml"
-hash = "4efb822630df68ed7d8b3364b5cc4fdd99cad59b345c0b0b061f147cc79287e8"
+hash = "89c3dc95d6b7ba19f26d2ecc72ecf331035b9a779d6028f2d9dd7aeff521b095"
 
 [[files]]
 file = "config/improvedmobs/common.toml"
-hash = "6b60b9e7d380c1405d7e6f63e797303322a37fe82010b4d77e671b6b1a97afef"
+hash = "0bb6973203f41fa12734f5f230e208db9d930e6d8dd49f01418c57955dfb99da"
 
 [[files]]
 file = "config/improvedmobs/equipment.json"
@@ -410,7 +414,7 @@ hash = "c690c3b6386f7358615b93d0fc5e3e79f8bf7c3083d53e74e1541a6d7c6025dd"
 
 [[files]]
 file = "config/item_obliterator.json5"
-hash = "fb88297f56b66fdda514bc48acf4ca604139cb301bc3925172cf58d567fd8a0c"
+hash = "b68f6052dc53dde9231cbfafa481becd30a28070f5861a0bcb50a0398ec53bf2"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
@@ -689,16 +693,8 @@ file = "config/vmod-CLIENT.toml"
 hash = "2bdc2299cfa9ae0644f58db649bb6a9631afa0740c2301db11e1055f4c4db915"
 
 [[files]]
-file = "config/xaerominimap-common.txt"
-hash = "b410746ddef0f7dd5f1d860ef3fcd6ad29c10988abbf6281181cb9c3acb628ca"
-
-[[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/xaeroworldmap-common.txt"
-hash = "ab09b6171d1f5f9c15d3ea653be739b53bca6f88db1ec38ae80575143c4c68cd"
 
 [[files]]
 file = "config/yacl.json5"
@@ -940,7 +936,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "6f0d7cf1fd04e02bfa0cda4c1caf4cb5482fbbec007b560d5a2c28536e9e9e16"
+hash = "1d821e1ce86e9802a14723d2c6067fc9476a7b193e322593ee53279a252b8ff1"
 metafile = true
 
 [[files]]
@@ -1006,16 +1002,6 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "d47260d085f9c59609bbc7582968e60f4c476d934c815142360bbcc4b5113a4d"
-metafile = true
-
-[[files]]
-file = "mods/colorwheel-patcher.pw.toml"
-hash = "ae8d380124a4c6e2c34d0d6d6fcd06f1ed4428fea1e74b95013b5155fdf7e623"
-metafile = true
-
-[[files]]
-file = "mods/colorwheel.pw.toml"
-hash = "ffaabe4fa9cff6931ec743ae36a053b4619f1ed30d2d80114c2efefd08ab13a4"
 metafile = true
 
 [[files]]
@@ -1278,6 +1264,10 @@ hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
 
 [[files]]
+file = "mods/genesis-1.20.1-0.4.0.jar"
+hash = "711607d54b602c68c92adc6c2a8ee491f321bdf1fa59b514dfc4019282adcbb9"
+
+[[files]]
 file = "mods/geophilic.pw.toml"
 hash = "cdc66a084161b07f0f07e8a445272862270f1f7be71a8ec94959365395eadc86"
 metafile = true
@@ -1384,7 +1374,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "873d23ad2ce05e3e92a05e011f3f9a375a745a4ca6ed4c9fffb0518fc8255bf7"
+hash = "b6ed220c9069f60704dbfe19fd55c976ca56ada35bcb6918c4ad226cd842b99c"
 metafile = true
 
 [[files]]
@@ -1488,11 +1478,6 @@ hash = "4ee6b38fbd604374f4703b852ebe2119c6493ae09b88f6398ab256e423bd5d4a"
 metafile = true
 
 [[files]]
-file = "mods/oculus.pw.toml"
-hash = "f83b253ca6a8e6f2f847952704da0e1fb00e65cbb10b7c9cb15d1a1780618da0"
-metafile = true
-
-[[files]]
 file = "mods/ok-zoomer.pw.toml"
 hash = "667dacb1193a887bc068a3c819839e06c82959d2ba61c85736296420ed334579"
 metafile = true
@@ -1530,6 +1515,11 @@ metafile = true
 [[files]]
 file = "mods/polylib.pw.toml"
 hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
+metafile = true
+
+[[files]]
+file = "mods/ponder.pw.toml"
+hash = "283faf9566f71aad6e8fdb646bb7b42678c05b102acc2ce9e75fe1ec665ad378"
 metafile = true
 
 [[files]]
@@ -1639,7 +1629,7 @@ metafile = true
 
 [[files]]
 file = "mods/tab-was-taken.pw.toml"
-hash = "991a955c31119f851f6397dc489f536a4b4c963593485e05f3a5e6aa49c98d56"
+hash = "102cbf932cc1ec824c9be8a368f1da6e2301c6595a7dbfefd214c66feab3cd7f"
 metafile = true
 
 [[files]]
@@ -1719,7 +1709,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "0848e3eeb6d87316ce67b487da8f3494c18932a4de054b29ccd9f861406d7a9c"
+hash = "24332be98ab9c9250af31714c85785b6790bddc2def491e1ba6d249defa714ae"
 metafile = true
 
 [[files]]
@@ -1785,6 +1775,15 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
+metafile = true
+
+[[files]]
+file = "mods/zpl-1.20.1-1.5.0.jar"
+hash = "364e75f82d4f00c6d55283d62f115767880536c8306dd34b8e1fa047fef18f6b"
+
+[[files]]
+file = "mods/zps.pw.toml"
+hash = "caa3eab8a6d8f0b5a565ba73c2a0520aa86be32b153d204717350fa6f22f7082"
 metafile = true
 
 [[files]]
