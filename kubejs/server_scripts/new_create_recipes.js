@@ -480,4 +480,16 @@ ServerEvents.recipes(event => {
       I: 'vs_clockwork:incomplete_hose_spool'
     }
   );
+
+  // CDG Pumpjack crank
+  event.shaped('createdieselgenerators:pumpjack_crank', [
+    'ASA',
+    'ZSZ',
+    'AZA'
+  ], {
+    A: 'create:andesite_alloy',
+    Z: '#forge:ingots/zinc',
+    I: '#forge:plates/iron',
+    S: 'create:shaft'
+  });
 });

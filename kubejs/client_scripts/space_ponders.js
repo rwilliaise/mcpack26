@@ -1,6 +1,5 @@
 Ponder.registry((event) => {
-
-  // Void Engine
+  // Void Engine!
   event.create([
     'genesis:void_core',
     'genesis:void_engine_frame',
@@ -13,60 +12,95 @@ Ponder.registry((event) => {
   ])
     .scene(
       'genesis_jump_drive_construction',
-      'The Void Engine: Tearing Space-Time',
-      'kubejs:void_engine_setup',
+      'The Void Engine',
       (scene, util) => {
         scene.showBasePlate();
         scene.idle(10);
 
-        scene.text(70, "To jump to space, you must make a (stable) wormhole around your ship.", [2.5, 3, 2.5])
-          .placeNearTarget();
+        // 3x3x3 engine centered at [2, 2, 2]
+        // Bottom Layer: y=1, Middle: y=2, Top: y=3
+        scene.text(70, "To travel between dimensions, you need to generate a stable wormhole field.", [2.5, 2.5, 2.5]);
         scene.idle(80);
 
-        // Void Core
-        scene.world.showSection(util.select.position(2, 2, 2), 10);
-        scene.text(60, "The Void Core is like the belly button of special relativity.", [2.5, 2.5, 2.5])
+        // Place Void Core in center
+        scene.world.setBlock([2, 2, 2], "genesis:void_core", false);
+        scene.world.showSection(util.select.position(2, 2, 2), "down");
+
+        scene.text(60, "The Void Core acts as the singularity. It must be the center.", [2.5, 2.5, 2.5])
           .colored(PonderPalette.RED)
           .placeNearTarget();
         scene.idle(70);
 
-        // The Containment Field (Frames)
-        scene.world.showSection(util.select.fromTo(1, 1, 1, 3, 3, 3).substract(util.select.position(2, 2, 2)), 10);
-        scene.text(80, "The surrounding 3x3x3 structure acts as a cage.", [2.5, 3, 0.5])
-          .placeNearTarget();
-        scene.idle(90);
+        // Bottom Layer
+        // 3x3 ring of frames at y=1
+        for (let x = 1; x <= 3; x++) {
+          for (let z = 1; z <= 3; z++) {
+            scene.world.setBlock([x, 1, z], "genesis:void_engine_frame", false);
+          }
+        }
+        scene.world.showSection(util.select.fromTo(1, 1, 1, 3, 1, 3), "up");
+        scene.idle(10);
 
-        // Components
-        scene.text(60, "The Interface bridges the gap between Redstone signals and the engine, which was written in a coding language so old my grandma hasn't heard of it.", [2.5, 2, 1])
-          .placeNearTarget();
-        scene.idle(50);
+        // Middle Layer (y=2) 
+        // Interface, Focus, Viewports
 
-        scene.text(60, "Void Focus lenses amplify the field. More focuses allow for cleaner, more efficient jumps.", [1, 2, 2.5])
+        // Front
+        scene.world.setBlock([2, 2, 1], "genesis:void_engine_interface", false);
+
+        // Back
+        scene.world.setBlock([2, 2, 3], "genesis:void_focus", false);
+
+        // Sides
+        scene.world.setBlock([1, 2, 1], "genesis:void_engine_frame", false);
+        scene.world.setBlock([3, 2, 1], "genesis:void_engine_frame", false);
+        scene.world.setBlock([1, 2, 2], "genesis:void_engine_viewport", false);
+        scene.world.setBlock([3, 2, 2], "genesis:void_engine_viewport", false);
+        scene.world.setBlock([1, 2, 3], "genesis:void_engine_frame", false);
+        scene.world.setBlock([3, 2, 3], "genesis:void_engine_frame", false);
+
+        // Show the ring around the core
+        scene.world.showSection(util.select.fromTo(1, 2, 1, 3, 2, 3).substract(util.select.position(2, 2, 2)), "down");
+
+        scene.text(60, "The middle layer requires at least one Interface and one Focus.", [2.5, 2.5, 1.5])
           .placeNearTarget();
         scene.idle(70);
 
-        // Power
-        scene.world.hideSection(util.select.fromTo(1, 1, 1, 3, 3, 3), 10);
-        scene.idle(10);
+        // Top Layer
+        for (let x = 1; x <= 3; x++) {
+          for (let z = 1; z <= 3; z++) {
+            scene.world.setBlock([x, 3, z], "genesis:void_engine_frame", false);
+          }
+        }
+        scene.world.showSection(util.select.fromTo(1, 3, 1, 3, 3, 3), "down");
 
-        scene.world.showSection(util.select.position(4, 1, 2), 10);
-        scene.text(70, "The Warpstone Catalyzer breaks down Warpstone into FE.", [4.5, 1.5, 2.5])
+        scene.text(60, "The 3x3x3 Void Engine Frame structure acts as a cage for the Void Core.", [2.5, 3.5, 2.5])
           .placeNearTarget();
-        scene.idle(80);
+        scene.idle(70);
 
-        // The Jump
-        scene.world.showSection(util.select.fromTo(1, 1, 1, 3, 3, 3), 10);
-        scene.world.showSection(util.select.position(2, 4, 2), 10); // Projector
+        // Peripherals
+        scene.world.setBlock([4, 1, 1], "genesis:warpstone_catalyzer", false);
+        scene.world.showSection(util.select.position(4, 1, 1), "down");
 
-        scene.text(80, "Once fueled and targeted via the Navigation Projector, a Redstone signal initiates the 12-second charge sequence.", [2.5, 4.5, 2.5])
+        scene.text(50, "The Warpstone Catalyzer generates power from warpstone.", [4.5, 1.5, 1.5])
+          .placeNearTarget();
+        scene.idle(60);
+
+        // Place Nav Projector on top
+        scene.world.setBlock([2, 4, 2], "genesis:nav_projector", false);
+        scene.world.showSection(util.select.position(2, 4, 2), "down");
+
+        scene.text(50, "The Nav Projector sets your dimension target.", [2.5, 4.5, 2.5])
+          .placeNearTarget();
+        scene.idle(60);
+
+        // Final Logic
+        scene.text(80, "Provide a Redstone Signal to the Interface to begin the 12-second charge.", [2.5, 2.5, 1.5])
           .colored(PonderPalette.GREEN);
         scene.idle(90);
       }
     );
 
-
-  // Propulsion w/ ZPL
-
+  // Zero Point Labs (for porpulsion)
   event.create([
     'zpl:ion_thruster_modulator',
     'zpl:ion_thruster_exhaust',
@@ -74,44 +108,56 @@ Ponder.registry((event) => {
   ])
     .scene(
       'zpl_propulsion_system',
-      'Propulsion Physics & Landing',
-      'kubejs:thruster_setup',
+      'Propulsion & Landing',
       (scene, util) => {
         scene.showBasePlate();
+
+        // Build a small ship hull
+        scene.world.setBlock([2, 1, 2], "zpl:space_plating", false);
+        scene.world.showSection(util.select.position(2, 1, 2), "down");
         scene.idle(10);
 
-        // Newtonian Physics
-        scene.text(60, "In the vacuum of space, there is no air drag so you must move solely by expelling mass.", [2.5, 2.5, 2.5]);
+        // Thrusters
+        scene.text(60, "In vacuum, you move by expelling mass (Newton's 3rd Law).", [2.5, 1.5, 2.5]);
         scene.idle(70);
 
-        // Show Thruster Assembly
-        scene.world.showSection(util.select.fromTo(2, 1, 2, 2, 1, 3), 10);
-        scene.text(70, "The Ion Modulator accelerates particles, and the Exhaust directs them. I SWEAR the particles are stored somewhere in there.", [2.5, 1.5, 3.5])
+        // Modulator
+        scene.world.setBlock([2, 2, 2], "zpl:ion_thruster_modulator", false);
+        scene.world.showSection(util.select.position(2, 2, 2), "down");
+        scene.text(50, "The Ion Modulator powers the engine.", [2.5, 2.5, 2.5])
           .placeNearTarget();
-        scene.idle(80);
+        scene.idle(60);
 
-        scene.text(80, "Newton's Third Law: firing backwards pushes the ship forwards. You need thrusters facing ALL directions to brake!", [2.5, 1.5, 3.5])
-          .colored(PonderPalette.BLUE);
-        scene.idle(90);
+        // Exhaust (Facing South)
+        scene.world.setBlock([2, 2, 3], "zpl:ion_thruster_exhaust[facing=south]", false);
+        scene.world.showSection(util.select.position(2, 2, 3), "north");
+        scene.text(60, "The Exhaust directs the thrust. This one pushes the ship NORTH.", [2.5, 2.5, 3.5])
+          .colored(PonderPalette.BLUE)
+          .placeNearTarget();
+        scene.idle(70);
 
-        // Landing Gear Physics
-        scene.world.hideSection(util.select.fromTo(0, 0, 0, 5, 5, 5), 10);
+        scene.text(60, "You need thrusters facing ALL directions to brake and stabilize!", [2.5, 2.5, 2.5]);
+        scene.idle(70);
+
+        // Landing gear
+        // Clear and show landing gear
+        scene.world.hideSection(util.select.fromTo(0, 0, 0, 5, 5, 5), "up");
         scene.idle(20);
 
-        scene.world.showSection(util.select.position(2, 1, 1), 10);
+        scene.world.setBlock([2, 1, 2], "zpl:mass_suspension_matrix", false);
+        scene.world.showSection(util.select.position(2, 1, 2), "down");
 
-        scene.text(70, "Planetary landings involve high kinetic energy. Hitting the ground usually breaks blocks.", [2.5, 1.5, 1.5]);
+        scene.text(70, "The Mass Suspension Matrix acts as a kinetic dampener.", [2.5, 1.5, 2.5])
+          .placeNearTarget();
         scene.idle(80);
 
-        scene.text(80, "The Mass Suspension Matrix creates a dampening field, absorbing the impact force and preventing hull fracture.", [2.5, 1.5, 1.5])
-          .colored(PonderPalette.GREEN)
-          .placeNearTarget();
-        scene.idle(90);
+        scene.text(60, "It prevents blocks from breaking when you slam into planetary surfaces.", [2.5, 1.5, 2.5])
+          .colored(PonderPalette.GREEN);
+        scene.idle(70);
       }
     );
 
-
-  // Controll Syetems (from ZPS)
+  // Zero Point Systems (for control)
   event.create([
     'zps:octo_controller',
     'zpl:gyroscope',
@@ -120,37 +166,51 @@ Ponder.registry((event) => {
   ])
     .scene(
       'zps_control_network',
-      'Flight Computers & Stability',
-      'kubejs:control_system',
+      'Flight Computers & Gyros',
       (scene, util) => {
         scene.showBasePlate();
-        scene.idle(10);
+        scene.idle(5);
 
-        scene.world.showSection(util.select.position(2, 2, 2), 10);
-        scene.world.showSection(util.select.position(1, 2, 2), 10); // Terminal
-        scene.world.showSection(util.select.fromTo(1, 2, 2, 2, 2, 2), 10); // Cable
-
-        scene.text(70, "The Script Terminal sends digital inputs to the Octo Controller.", [1.5, 2.5, 2.5])
+        // The Brain
+        scene.world.setBlock([2, 1, 2], "zps:octo_controller", false);
+        scene.world.showSection(util.select.position(2, 1, 2), "down");
+        scene.text(60, "The Octo Controller is the central flight computer.", [2.5, 1.5, 2.5])
           .placeNearTarget();
-        scene.idle(80);
+        scene.idle(70);
 
-        // The Gyroscope
-        scene.world.showSection(util.select.position(4, 2, 2), 10); // Gyro
-        scene.world.showSection(util.select.fromTo(2, 2, 2, 4, 2, 2), 10); // Cable
+        // The Terminal
+        scene.world.setBlock([1, 1, 2], "zps:script_terminal", false);
+        scene.world.showSection(util.select.position(1, 1, 2), "down");
+        scene.text(50, "The Terminal handles inputs (Keyboard/Scripting).", [1.5, 1.5, 2.5])
+          .placeNearTarget();
+        scene.idle(60);
 
-        scene.text(80, "Without the Gyroscope, your ship spins uncontrollably because of center of mass vs. thrust vector misalignment.", [4.5, 2.5, 2.5])
-          .colored(PonderPalette.RED)
+        // Connectivity
+        scene.world.setBlock([3, 1, 2], "zps:light_pipe_cable", false);
+        scene.world.showSection(util.select.position(3, 1, 2), "down");
+        scene.idle(5);
+
+        // The Gyro
+        scene.world.setBlock([4, 1, 2], "zpl:gyroscope", false);
+        scene.world.showSection(util.select.position(4, 1, 2), "down");
+
+        // Brief physics lesson
+        scene.text(80, "Why do you need a Gyroscope?", [4.5, 1.5, 2.5])
           .placeNearTarget();
         scene.idle(90);
 
-        scene.text(80, "Since it is nearly impossible to build perfectly balanced ships, the Gyroscope applies 'Artificial Torque' to counter-act the spin. That's BASICALLY how they work in real life too.", [4.5, 2.5, 2.5]);
+        scene.text(80, "Without it, the ship spins uncontrollably due to 'Center of Mass vs. Thrust Vector' misalignment.", [4.5, 1.5, 2.5])
+          .colored(PonderPalette.RED);
         scene.idle(90);
 
-        // The Network
+        scene.text(80, "It is impossible to build a perfectly balanced ship. The Gyro applies counter-torque to cancel out the spin.", [4.5, 1.5, 2.5]);
+        scene.idle(90);
+
+        //  Network 
         scene.overlay.showText(80)
-          .text("Light Pipes connect these components instantly. Your Octo Controller needs power too I think.")
+          .text("Connect all components (Thrusters, Gyros, Terminals) via Light Pipe Cables to the Octo Controller.")
           .placeNearTarget()
-          .pointAt([2.5, 2.5, 2.5]);
+          .pointAt([2.5, 1.5, 2.5]);
         scene.idle(90);
       }
     );

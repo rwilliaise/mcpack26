@@ -749,6 +749,10 @@ file = "kubejs/client_scripts/item_renamer.js"
 hash = "10bb82e6b550f21689766ea22b0259f34d88d7025b6858979bf5e0ac7df60e37"
 
 [[files]]
+file = "kubejs/client_scripts/space_ponders.js"
+hash = "7e6940f56226bdee23dc886a8d00c57c375fc3525edf1410ce958594a27d64b7"
+
+[[files]]
 file = "kubejs/config/client.properties"
 hash = "79b0837f32073fda11625cda496dcc3aa889f6aca3dbde777dc3cd40d62bfa23"
 
