@@ -1,0 +1,26 @@
+StartupEvents.registry('block', event => {
+  event.create('dense_graphite_block')
+    .displayName('Dense Graphite Block')
+    .soundType('stone')
+    .hardness(5.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+    .mapColor('black')
+
+  event.create('seeded_graphite_block')
+    .displayName('Seeded Graphite Block')
+    .soundType('stone')
+    .hardness(5.0)
+    .resistance(6.0)
+    .requiresTool(true)
+    .tagBlock('minecraft:mineable/pickaxe')
+    .tagBlock('minecraft:needs_iron_tool')
+    .mapColor('black')
+})
+
+StartupEvents.registry('item', event => {
+  event.create('graphite_pile')
+    .displayName('Graphite Pile')
+})

@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "tips"
+	group: ""
+	icon: "supplementaries:turn_table"
+	id: "5000000000000001"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In this pack, you're not being spoonfed pre-prepared meals. You gotta COOK. At least, if you want good food early game."
+				""
+				"Vanilla foods also work just fine, GUS."
+			]
+			id: "5000000000000002"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CBE331A2432A365"
+				table_id: 7913486459012886434L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "10A9695E49C09CFE"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
+			title: "ITS FUCKING RAW"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Use bedrolls to sleep the night wherever you are, &lWITHOUT&r setting a spawnpoint."]
+			id: "068DB628096F5383"
+			rewards: [{
+				command: "/time set night"
+				elevate_perms: true
+				icon: "minecraft:blackstone"
+				id: "5C1F0948443DF896"
+				silent: true
+				title: "Night Time"
+				type: "command"
+			}]
+			tasks: [{
+				disable_toast: true
+				id: "2A7BE477FFD87111"
+				item: "upgrade_aquatic:bedroll"
+				type: "item"
+			}]
+			title: "Bedrolls"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			description: ["This guy lets you send items around more conveniently. Might be useful for the stamp mill, if you're into Crossroads things."]
+			id: "0D9C7786FC818025"
+			tasks: [
+				{
+					id: "69B46652C0D6196C"
+					item: "essentials:item_shifter"
+					type: "item"
+				}
+				{
+					id: "5CB3177787222314"
+					item: "essentials:sorting_hopper"
+					type: "item"
+				}
+				{
+					id: "0DC992A9548FBFEB"
+					item: "essentials:speed_hopper"
+					type: "item"
+				}
+				{
+					id: "2CB154B7B9D5F22B"
+					item: "essentials:hopper_filter"
+					type: "item"
+				}
+			]
+			title: "Hoppers"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Tips n Tricks"
+}

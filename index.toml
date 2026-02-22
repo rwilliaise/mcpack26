@@ -725,8 +725,16 @@ file = "kubejs/assets/kubejs/textures/block/compressed_redstone.png"
 hash = "ce3d485dc27b1fc040e07e46ed2a8483751812ac15f4221a306e345fa962501f"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/dense_graphite_block.png"
+hash = "8ba51ba75ce0c22d1b7942419834babfc5131a8efa900edaac781648881799f3"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/fluorescent_redstone.png"
 hash = "393eca4e09764d578bbe621be99e0b1573438fe3b683602ecf8fd80bfd4a8301"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/seeded_graphite_block.png"
+hash = "934364801c16e7ece32e26523bf5fd8c57dc8dbde536b70b80a7598ebb9f4f8b"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/brass_dust.png"
@@ -741,8 +749,16 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_pile.png"
+hash = "6cea17d0cdcb1f2c2f8672b45f8f8a1b2e14d00e79466542108dc7996aea0c7c"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/petroleum_jelly.png"
 hash = "6ce612a95af854cd96ed977b08714b80646a9b7668935376d9eb895868ac7187"
+
+[[files]]
+file = "kubejs/client_scripts/graphite_tooltips.js"
+hash = "acd31110408a9483b7a2fcb36b43cc8ccc0143a5c7c6fcd64e152b90fe943c22"
 
 [[files]]
 file = "kubejs/client_scripts/item_renamer.js"
@@ -750,7 +766,7 @@ hash = "10bb82e6b550f21689766ea22b0259f34d88d7025b6858979bf5e0ac7df60e37"
 
 [[files]]
 file = "kubejs/client_scripts/space_ponders.js"
-hash = "7e6940f56226bdee23dc886a8d00c57c375fc3525edf1410ce958594a27d64b7"
+hash = "9a3dc066f99abe1b82dd76d8f2dcaa2321687b99d05bf864c1f182296bb079b2"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -769,12 +785,16 @@ file = "kubejs/server_scripts/crossroads_ore_replacement.js"
 hash = "a823abe889b3e4f8190a3d18fb061c65460009d8bed9b64d14236820291e9ed9"
 
 [[files]]
+file = "kubejs/server_scripts/graphite_recipes.js"
+hash = "1d44025912b1ccae047e5df5e6601793954c6b6a7075809accdb981744564aa4"
+
+[[files]]
 file = "kubejs/server_scripts/misc_recipes.js"
 hash = "6eedcbf8a028dd288059093191646724908382c55a095b83ce7bf57c3c6bd542"
 
 [[files]]
 file = "kubejs/server_scripts/new_create_recipes.js"
-hash = "bce3d486801d12a50c919324090ba2e597eea12407258b7e7858b8dc90c01333"
+hash = "aead3c1c4111bcd38e37013a6532c85733133e131a0a54064a817683d402630a"
 
 [[files]]
 file = "kubejs/server_scripts/patch_controller_hub.js"
@@ -787,6 +807,10 @@ hash = "a07014bf99224b81b4b34893de400c02db51020344a94f45dc1ba01e5d402452"
 [[files]]
 file = "kubejs/startup_scripts/create_compat.js"
 hash = "2172a890080ec679fc8774ff9d0f097604fa7a9720ba4f44e27fdcbdce66be1b"
+
+[[files]]
+file = "kubejs/startup_scripts/graphite_blocks.js"
+hash = "950a98e4f3f8577a11872c4051427ba294636c69c448647cf5116033cca1a20d"
 
 [[files]]
 file = "kubejs/startup_scripts/main.js"
@@ -1094,8 +1118,8 @@ hash = "06105c83ebbe971970cde51f0670e5707705369c121eed968740d7c25a4cfe8e"
 metafile = true
 
 [[files]]
-file = "mods/crossroadscreatecompat-1.0.2.jar"
-hash = "24777373bf5a2e12f67f6048b74ece798c1a1632892f28e57508657b7318de2f"
+file = "mods/crossroadscreatecompat-2.0.0.jar"
+hash = "d36fb0864618fd3c0453042c0fcdbce3249aae80d32b5ec0db4051c901cec8a4"
 
 [[files]]
 file = "mods/culinary-construct.pw.toml"
@@ -1268,7 +1292,7 @@ hash = "30fe947e95d8da536ea4ad3c959f07cc504dd739ea530f7f4187ac08f4afcbc0"
 metafile = true
 
 [[files]]
-file = "mods/genesis-1.20.1-0.4.0.jar"
+file = "mods/genesis-1.20.1-0.4.0.jar.disabled"
 hash = "711607d54b602c68c92adc6c2a8ee491f321bdf1fa59b514dfc4019282adcbb9"
 
 [[files]]
@@ -1782,13 +1806,12 @@ hash = "b43f507cffbcc7178b184fa63b2d74fc6b2b8103c4d299ec5633ccf1f5abdafb"
 metafile = true
 
 [[files]]
-file = "mods/zpl-1.20.1-1.5.0.jar"
+file = "mods/zpl-1.20.1-1.5.0.jar.disabled"
 hash = "364e75f82d4f00c6d55283d62f115767880536c8306dd34b8e1fa047fef18f6b"
 
 [[files]]
-file = "mods/zps.pw.toml"
+file = "mods/zps.pw.toml.disabled"
 hash = "caa3eab8a6d8f0b5a565ba73c2a0520aa86be32b153d204717350fa6f22f7082"
-metafile = true
 
 [[files]]
 file = "scripts/add_relic_multiplier.py"

@@ -1,0 +1,941 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "gear"
+	filename: "create"
+	group: ""
+	icon: "create:cogwheel"
+	id: "32AC83D00BF982B4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Machinery from Create begins and ends with Andesite Alloy."]
+			id: "4B10CFD7BFDC465E"
+			subtitle: "Andesite-tier machinery"
+			tasks: [{
+				id: "195528C7D4B3F282"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "A Humble Beginning"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B10CFD7BFDC465E"]
+			description: [
+				"The first tier of Create machinery can be crafted by making Andesite Machines."
+				""
+				"Andesite Machines are crafting components that can be further crafted into actual machinery."
+			]
+			id: "4B169B5A9D5A514C"
+			size: 1.5d
+			tasks: [{
+				id: "54C142DD33DABAC1"
+				item: "kubejs:andesite_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "269FF8824BBF4E14"
+			tasks: [{
+				count: 3L
+				id: "1ADF7B1B60C4E79D"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "1957510B01628A47"
+			tasks: [{
+				count: 3L
+				id: "5F7FE1061FE24281"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "57A0F04CDBE14355"
+			tasks: [{
+				id: "1ECBCD3D6559DA9F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "3FF8110A47655001"
+			tasks: [{
+				id: "2A5BE5A7326D309C"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			hide_dependent_lines: true
+			id: "16BA99CA5A238F6C"
+			tasks: [{
+				id: "0BB494197C018380"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "6AA245B4A2FFA3D5"
+			tasks: [{
+				id: "4E52578A03EC3AA8"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "5BB684890F4BDF20"
+			tasks: [{
+				id: "31AA7A6235417024"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "7D03F3498A8D5D65"
+			tasks: [{
+				id: "2248F9059EF692C7"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B169B5A9D5A514C"]
+			id: "5D7ECB23FB1F6DA5"
+			tasks: [{
+				id: "5BAF24C0744B273E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3FF8110A47655001"
+				"4B10CFD7BFDC465E"
+				"3D59A8E73D02AEE4"
+			]
+			description: ["The next tier of machinery requires Brass Ingots, which can be made by mixing Copper and Zinc over a heated Blaze Burner."]
+			id: "0DDCC75DE74222AC"
+			subtitle: "Brass-tier machinery"
+			tasks: [{
+				id: "5A66F78B4A06109D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0DDCC75DE74222AC"]
+			description: ["The brass tier of machinery can be created with Brass Machines."]
+			id: "0F8A0D9F1B750705"
+			size: 1.5d
+			tasks: [{
+				id: "6E3717D3139F8333"
+				item: "kubejs:brass_machine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["16BA99CA5A238F6C"]
+			description: [
+				"To capture a Blaze for use in a Blaze Burner, right click a Blaze with an Empty Blaze Burner in hand."
+				""
+				"Blaze Burners can be given fuel (interact while holding fuel in your hand) to heat them."
+			]
+			icon: "create:blaze_burner"
+			id: "3D59A8E73D02AEE4"
+			tasks: [
+				{
+					id: "20EC37F0488FB2EE"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "266404EE3BAE16FC"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Capturing a Blaze"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "4F848643B5284EAA"
+			tasks: [{
+				id: "6E8D0056FDAC1D30"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "14427A5BC8F5D1D2"
+			tasks: [{
+				id: "3F19CF6141DA793F"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "7D7A5DC79F29F7C8"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "613BD4722B884636"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "26754CDC4CDBB6FC"
+			size: 1.0d
+			tasks: [{
+				count: 2L
+				id: "5DF872234E1FF2A5"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "4ACCAE5DEC3123D7"
+			tasks: [{
+				id: "2FBA68D74392DE69"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "328EE16C7922CCCC"
+			tasks: [{
+				id: "7F7EB6DEF856391D"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			hide_dependent_lines: true
+			id: "56EEA3E85CB3BF7C"
+			tasks: [{
+				count: 3L
+				id: "07B55E1B78148407"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			description: ["Automate crafting in storage networks with Factory Gauges."]
+			id: "50207C8E3AD9C752"
+			tasks: [{
+				id: "705CCE216B8ADCDE"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F8A0D9F1B750705"]
+			id: "512F435975B6596A"
+			tasks: [{
+				id: "6E02E124F1353174"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0DDCC75DE74222AC"]
+			id: "68C9780D74EEF426"
+			tasks: [{
+				id: "27D491FA8498E6FF"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["68C9780D74EEF426"]
+			description: [
+				"Train casings are the gateway into playing with Create Trains."
+				""
+				"Trains are a powerful mechanic that allow you to not only automatically transfer resources long distances, but players and mobs."
+			]
+			id: "7E19E688049F0DAE"
+			size: 1.5d
+			subtitle: "Running the world on trains"
+			tasks: [{
+				id: "0BD935BBE5A19DE4"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"16BA99CA5A238F6C"
+				"4B10CFD7BFDC465E"
+			]
+			id: "2956888D22B15E43"
+			tasks: [{
+				id: "4AD074E179BF304E"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2956888D22B15E43"]
+			id: "076A817AE9F3F436"
+			size: 1.5d
+			tasks: [{
+				id: "4A2E2B519F0C5166"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Use Train Stations to build new Trains and delineate where Trains will end up."]
+			id: "59E955A33B209576"
+			tasks: [{
+				id: "49264BF3A033CA16"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Train Tracks are the backbone of any Train Network. Automate these quickly if you are going to be a Train Engineer."]
+			id: "28EB4ACC6BC2FB3D"
+			tasks: [{
+				id: "1035011CE55A2B21"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Every Train needs a Train Controls block."]
+			id: "2250EA145451D3BA"
+			tasks: [{
+				id: "6070F9DA5F29F99B"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7D03F3498A8D5D65"
+				"269FF8824BBF4E14"
+			]
+			icon: "minecraft:kelp"
+			id: "5A0D8B8C22F3762F"
+			tasks: [
+				{
+					id: "4DC10AC20597818B"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "0AAF8A2D311939D5"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					id: "57913B46106C9014"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Kelp"
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5A0D8B8C22F3762F"]
+			id: "22117AB08A8BD83F"
+			tasks: [{
+				id: "43A3430AC33ED6FC"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D03F3498A8D5D65"
+				"269FF8824BBF4E14"
+				"57A0F04CDBE14355"
+			]
+			icon: "minecraft:bread"
+			id: "24DEFE79A45CA9ED"
+			tasks: [
+				{
+					id: "614A53CA37DC3676"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+				{
+					id: "1C7B1450306B1952"
+					item: "create:dough"
+					type: "item"
+				}
+				{
+					id: "4EA3CC51029A5335"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "386167BEDEF67BDF"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Bread"
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5D7ECB23FB1F6DA5"
+				"6AA245B4A2FFA3D5"
+			]
+			icon: "minecraft:oak_log"
+			id: "1390444AB6B2F616"
+			tasks: [
+				{
+					id: "7D26B842013DEDCD"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "7A15BD793239B52A"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "517B702F1D48A04F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Wood"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BB684890F4BDF20"]
+			icon: "minecraft:cobblestone"
+			id: "162FDF66DE19CB6F"
+			tasks: [
+				{
+					id: "747658EC2AEF0D16"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "4C5EFA2C127BFA79"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Cobblestone"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Use Schedules to automate when, why and where Trains end up at Train Stations."]
+			id: "5D1D344AC437C803"
+			tasks: [{
+				id: "04BE4DBCD2AA0DD0"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["The conductor needs a throne upon his locomotive. Mobs can also sit on seats in Trains."]
+			id: "6FDDE28B73F7C9F2"
+			tasks: [{
+				id: "72A7018735EF5291"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			title: "Seats"
+			x: -5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Trains can deliever Packages to Postboxes."]
+			id: "681A45752A280C82"
+			tasks: [{
+				id: "70E5A51CB42CCD9C"
+				item: "create:white_postbox"
+				type: "item"
+			}]
+			title: "Postboxes"
+			x: -4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Stop Trains from colliding with each other by delineating portions of track that should only have one Train on it at a time, using Train Signals."]
+			id: "5B9DA341385140F0"
+			tasks: [{
+				id: "67A4D74F4A4A0DBC"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Display Train schedules to your riders. Requires a Display Link to be connected to a Train Station."]
+			id: "06EF5B4DA47ADD22"
+			tasks: [{
+				id: "38BE3EDDC80130BA"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E19E688049F0DAE"]
+			description: ["Train Doors automatically slide open at Train Stations."]
+			id: "65A906335FAD0FE2"
+			tasks: [{
+				id: "00D779C34AC06AE7"
+				item: "create:train_door"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["16BA99CA5A238F6C"]
+			description: ["The lifeblood of any large-scale storage system."]
+			id: "06E667A3CF37600D"
+			tasks: [{
+				id: "55BEA10DAA8AAE94"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"06E667A3CF37600D"
+				"5784912EE7283F60"
+			]
+			description: ["Package Frogports can use Chain Conveyors as a delivery mechanism for a storage network."]
+			id: "2C60F3986E0A2A28"
+			tasks: [{
+				id: "1C8292CA3CAF462D"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FF8110A47655001"]
+			description: ["Cardboard is used to create packages and Packagers. Automate this quickly if you want to build a large-scale storage network."]
+			id: "11DBF84DFF853EC4"
+			tasks: [
+				{
+					id: "339DF277121FB7EB"
+					item: "create:pulp"
+					type: "item"
+				}
+				{
+					id: "43412EB4A49EB394"
+					item: "create:cardboard"
+					type: "item"
+				}
+			]
+			title: "Automating Cardboard"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["11DBF84DFF853EC4"]
+			id: "4058D2178508C66A"
+			tasks: [{
+				id: "7240826258837C42"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B10CFD7BFDC465E"]
+			hide_dependency_lines: true
+			id: "5784912EE7283F60"
+			tasks: [{
+				id: "5167E8422808AE5A"
+				item: "create:chain_conveyor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5784912EE7283F60"
+				"11DBF84DFF853EC4"
+				"2C60F3986E0A2A28"
+				"4058D2178508C66A"
+				"06E667A3CF37600D"
+				"4C814DA78A9321D4"
+				"351750B4196ED159"
+				"5B728CDCDCC8E098"
+			]
+			dependency_requirement: "one_started"
+			description: ["One of the more powerful features of Create is the ability to make storage networks."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "create:cardboard_package_12x12"
+				tag: { }
+			}
+			id: "21B6476519EACE77"
+			subtitle: "Storage networking"
+			tasks: [{
+				id: "5774037969C13129"
+				title: "Moving items around"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4058D2178508C66A"]
+			id: "351750B4196ED159"
+			tasks: [{
+				id: "6BE11807F4752381"
+				item: "create:repackager"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5B728CDCDCC8E098"]
+			description: ["[ \"When a mob sits in front of the Stock Ticker (see \", { \"text\": \"Seats\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6FDDE28B73F7C9F2\" } }, \"), it gains the ability to request any item to any destination on a whim.\" ]"]
+			id: "4C814DA78A9321D4"
+			tasks: [{
+				id: "7A48CC4C5B030C7C"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06E667A3CF37600D"]
+			description: ["A network is assembled by connected Stock Links on Packagers."]
+			hide_dependency_lines: true
+			id: "5B728CDCDCC8E098"
+			tasks: [{
+				id: "4B1D759CD67F7137"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"5D7ECB23FB1F6DA5"
+				"1390444AB6B2F616"
+				"16BA99CA5A238F6C"
+			]
+			icon: "create:precision_mechanism"
+			id: "14FAFF02E9EA2FAB"
+			tasks: [
+				{
+					id: "6753750B849CA53E"
+					item: "create:golden_sheet"
+					type: "item"
+				}
+				{
+					id: "00628903746AB068"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1CE12C9442FD5CF8"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "6B2C0F66EC291DD4"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "6DD6DA003D4ED5B7"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "5D049B0FE1D1B3B0"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Precision Mechanisms"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7D03F3498A8D5D65"
+				"162FDF66DE19CB6F"
+				"16BA99CA5A238F6C"
+				"046F2DD5B52B0EE7"
+			]
+			description: ["Iron can be automated by washing gravel."]
+			id: "5018E94961AB8131"
+			min_required_dependencies: 3
+			tasks: [
+				{
+					id: "1559AF49A038AEBF"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+				{
+					id: "4045E7A83E40E0A0"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2FAF2C074880D036"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Iron"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56EEA3E85CB3BF7C"]
+			description: ["Speed up your crushing needs with crushing wheels."]
+			id: "046F2DD5B52B0EE7"
+			tasks: [{
+				id: "4D3024079A1F4DB8"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "59845DE84DDCCFDD"
+			tasks: [{
+				id: "543DBAFC278ACB17"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "46196D4BE51F9473"
+			tasks: [{
+				id: "1A4B16AF9FB93B40"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "0C37AC79B5B15A87"
+			tasks: [{
+				id: "5E23BA8FCA53F96A"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "714C813AE2C628C3"
+			tasks: [{
+				id: "112A2D1BC1710F68"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "6A81D1DADF22ADA9"
+			tasks: [{
+				id: "6307C8F70A0497CA"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "38A88EA46DCC1EF6"
+			tasks: [{
+				id: "3B05DDAA38077FC8"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "34C8E1F0A17D5E6E"
+			tasks: [{
+				id: "4E62814E117B2229"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "29AEBB55E02DDA75"
+			tasks: [{
+				id: "593DFB16BDB6CC09"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29AEBB55E02DDA75"]
+			description: ["You can use a Hose Pulley to pump infinite lava from the massive lava lakes of the Nether."]
+			icon: "minecraft:lava_bucket"
+			id: "794E95AA1CAEDBA5"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "1BA381F1BA80A519"
+					type: "dimension"
+				}
+				{
+					id: "794E638CD503E99D"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "30C3EF6A72A521F2"
+					title: "automated"
+					type: "checkmark"
+				}
+			]
+			title: "Automating Lava"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["076A817AE9F3F436"]
+			id: "1B588A94F76ACEE3"
+			tasks: [{
+				id: "1E7AACEB6B84F8C0"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["A brief tutorial"]
+	tags: ["mod"]
+	title: "Create"
+}
