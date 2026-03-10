@@ -1,13 +1,13 @@
 name = "Jade VS"
-filename = "Jade-VS-forge-1.20.1-1.2.3.jar"
+filename = "Jade-VS-forge-1.20.1-1.3.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/zNKzjsZM/versions/u49aZqK9/Jade-VS-forge-1.20.1-1.2.3.jar"
+url = "https://cdn.modrinth.com/data/zNKzjsZM/versions/FZMNv0M5/Jade-VS-forge-1.20.1-1.3.0.jar"
 hash-format = "sha512"
-hash = "00f09eefeeda4f6c3e855bb1fd74ddefb992c3d85304f3ece90edd39d853bdd8d6682d473c0b66062a18e03a1b70e7924841e5a5e2f8ef13430a640c2cf7a45f"
+hash = "60237e7586a0f0cab6805f5fd24a26971ad8191e73f5b0430b9970d13a2509d985f691fd20e2c44a9b4a2882700d4b58819ac34298973a65298724216f787f5d"
 
 [update]
 [update.modrinth]
 mod-id = "zNKzjsZM"
-version = "u49aZqK9"
+version = "FZMNv0M5"
